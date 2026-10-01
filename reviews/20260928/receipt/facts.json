@@ -1,0 +1,27 @@
+{
+  "run": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin",
+  "result": {
+    "verified": false,
+    "reason": "no_new_loot_messages"
+  },
+  "event_counts": {
+    "legacy_event": 28
+  },
+  "failures": [],
+  "evidence_clips": [],
+  "files": [
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/result.json",
+      "sha256": "04bb7e3220ec19c8a3ea30c7f207a19085c08560156765a6c412c6a06897405d"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/before.jpg",
+      "sha256": "a5c37c4534e8ec765e944ce456d2f7a4377f6eb417c48457fcf4297b67ed2458"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/unconfirmed.jpg",
+      "sha256": "238556be8e841232335d19c7e7b720eefec49e82fadf7e8bc27ba9f0deb991fc"
+    }
+  ],
+  "history_may_be_rotated": false
+}

@@ -1,0 +1,66 @@
+{
+  "run": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin",
+  "result": {
+    "verified": false,
+    "reason": "no_new_loot_messages"
+  },
+  "event_counts": {
+    "legacy_event": 28
+  },
+  "failures": [
+    {
+      "kind": "terminal_result",
+      "result": {
+        "verified": false,
+        "reason": "no_new_loot_messages"
+      },
+      "source_file": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/result.json"
+    }
+  ],
+  "evidence_clips": [],
+  "files": [
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/before.jpg",
+      "relative_path": "before.jpg",
+      "sha256": "a5c37c4534e8ec765e944ce456d2f7a4377f6eb417c48457fcf4297b67ed2458",
+      "size": 497968
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/events.jsonl",
+      "relative_path": "events.jsonl",
+      "sha256": "a126f258a08fe2ec25a2efdffa8ba0f30e462364c4117767f31016d42c62931a",
+      "size": 4629
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/result.json",
+      "relative_path": "result.json",
+      "sha256": "04bb7e3220ec19c8a3ea30c7f207a19085c08560156765a6c412c6a06897405d",
+      "size": 59
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/unconfirmed.jpg",
+      "relative_path": "unconfirmed.jpg",
+      "sha256": "238556be8e841232335d19c7e7b720eefec49e82fadf7e8bc27ba9f0deb991fc",
+      "size": 493757
+    }
+  ],
+  "history_may_be_rotated": false,
+  "recording": null,
+  "evidence_gaps": [
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/recording.json",
+      "reason": "missing"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/config.json",
+      "reason": "missing"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/hunt-skin-07/cycle-2/skin/run.json",
+      "reason": "missing"
+    }
+  ],
+  "complete": false,
+  "timeline": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/reviews/20260928-audit/receipt/timeline.jsonl",
+  "source_storage": "referenced_originals_with_hashes"
+}

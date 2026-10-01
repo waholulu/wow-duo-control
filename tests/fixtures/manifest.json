@@ -1,0 +1,1760 @@
+[
+  {
+    "path": "bag-0928-02/pointer-unrecognized.jpg",
+    "source": "runs/bag-0928-02/pointer-unrecognized.jpg",
+    "sha256": "d4416e93c13f2551c58459a5ec23d20b395190332e776ab5d6e1baed18cfc863",
+    "bytes": 284170
+  },
+  {
+    "path": "bag-after-loot-live-01/backpack.jpg",
+    "source": "runs/bag-after-loot-live-01/backpack.jpg",
+    "sha256": "868426acb24454e7769303884bc2f8e3770ac6f61715075ae4d8cdbfb0282e57",
+    "bytes": 501326
+  },
+  {
+    "path": "bag-calibration.png",
+    "source": "runs/bag-calibration.png",
+    "sha256": "d9f41cf4c94660a03ba27a2647c9c032770e9f36bd0a82ac561dd0be29bd8626",
+    "bytes": 2234303
+  },
+  {
+    "path": "calibration-combat-exception.jpg",
+    "source": "runs/calibration-combat-exception.jpg",
+    "sha256": "0f267b53545dae6f5a33b33e44b81542a156ae1ba67ba953a1111a7fa46a0c4a",
+    "bytes": 337575
+  },
+  {
+    "path": "healer-dialog-2.jpg",
+    "source": "runs/healer-dialog-2.jpg",
+    "sha256": "6774185b42b52ac69d78086cefe3e27d16e96d2681ef6df4714f859f4c333a03",
+    "bytes": 576521
+  },
+  {
+    "path": "healer-dialog-3.jpg",
+    "source": "runs/healer-dialog-3.jpg",
+    "sha256": "bea4e9f385106f81cd99f240152a7b27d074207fcf9650ad61e04a57b2798958",
+    "bytes": 577573
+  },
+  {
+    "path": "healer-dialog.jpg",
+    "source": "runs/healer-dialog.jpg",
+    "sha256": "4ebda367355a4f9b7e238efe45226ae5a0d984d84fa399f3adbc73e230f877b5",
+    "bytes": 616528
+  },
+  {
+    "path": "hunt-loot-01/loot-1/cursor-missing.jpg",
+    "source": "runs/hunt-loot-01/loot-1/cursor-missing.jpg",
+    "sha256": "390a124e04a5c69372556c04451a20990d685534ecf51bde66969531638de52a",
+    "bytes": 510341
+  },
+  {
+    "path": "hunt-skin-02/cycle-2/backpack/backpack.jpg",
+    "source": "runs/hunt-skin-02/cycle-2/backpack/backpack.jpg",
+    "sha256": "7d4b7155593819ef54dca848a1ed5f24e04219d49c2dbffcd277f74f1e666547",
+    "bytes": 475415
+  },
+  {
+    "path": "hunt-skin-03/cycle-1/loot/cursor-missing.jpg",
+    "source": "runs/hunt-skin-03/cycle-1/loot/cursor-missing.jpg",
+    "sha256": "1a9d0d02bc8808670438e30635c9d5c20333d87ff00d847ef6df4bc794f71be2",
+    "bytes": 508634
+  },
+  {
+    "path": "hunt-skin-05/cycle-1/backpack/backpack.jpg",
+    "source": "runs/hunt-skin-05/cycle-1/backpack/backpack.jpg",
+    "sha256": "7815a175f886da3786b489b3da46ca9ae94e6b99fadb7c3d7de6eb351afab9f0",
+    "bytes": 523404
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/before.jpg",
+    "source": "runs/hunt-skin-11/cycle-1/skin/before.jpg",
+    "sha256": "d50124097c2a6e91987eeb8ec86882f4088bf003e6514eeec6cdefdf244b2f59",
+    "bytes": 497634
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/events.jsonl",
+    "source": "runs/hunt-skin-11/cycle-1/skin/events.jsonl",
+    "sha256": "6f74ba971b0da54e4c51121e44d270ae2ca8bb1c5da56238663e271a9a0e4b9a",
+    "bytes": 2226
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/result.json",
+    "source": "runs/hunt-skin-11/cycle-1/skin/result.json",
+    "sha256": "04bb7e3220ec19c8a3ea30c7f207a19085c08560156765a6c412c6a06897405d",
+    "bytes": 59
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/skin-after-ocr-0.json",
+    "source": "runs/hunt-skin-11/cycle-1/skin/skin-after-ocr-0.json",
+    "sha256": "5a05d25d8c6c0bf08abbbc779288f70cba5045b2d89ed4302452c4da53bbc3d8",
+    "bytes": 384
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/skin-after-ocr-0.png",
+    "source": "runs/hunt-skin-11/cycle-1/skin/skin-after-ocr-0.png",
+    "sha256": "bd15212cd76e71d43248a104d53bb0336f746cca3398da7183e8ad7556b69b03",
+    "bytes": 532394
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/skin-after-ocr-1.json",
+    "source": "runs/hunt-skin-11/cycle-1/skin/skin-after-ocr-1.json",
+    "sha256": "2350b83264035246ea36b504335b0026ca3cdca71568e3759e32d0b9cf0a81cf",
+    "bytes": 355
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/skin-after-ocr-1.png",
+    "source": "runs/hunt-skin-11/cycle-1/skin/skin-after-ocr-1.png",
+    "sha256": "ccb3f9955fa1b2fb328f1b12376bfc194576996c5072ced85be40c999da7cba9",
+    "bytes": 532092
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/skin-before-ocr.json",
+    "source": "runs/hunt-skin-11/cycle-1/skin/skin-before-ocr.json",
+    "sha256": "4101f8a9dbce04c8f7876f479ae91cd502a29d59396e6e22ae9e3ab1d885c659",
+    "bytes": 226
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/skin-before-ocr.png",
+    "source": "runs/hunt-skin-11/cycle-1/skin/skin-before-ocr.png",
+    "sha256": "728c6c49f916d5bfb3f47485da97ddc1fb0174de0801ef050cc689f04a72031a",
+    "bytes": 466709
+  },
+  {
+    "path": "hunt-skin-11/cycle-1/skin/unconfirmed.jpg",
+    "source": "runs/hunt-skin-11/cycle-1/skin/unconfirmed.jpg",
+    "sha256": "588b14922cdc5aeb340e7841c3197083f79fa89cbf1fa3571cab801edbf70267",
+    "bytes": 493624
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000001.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000001.jpg",
+    "sha256": "cef673c231c0cc5596d5c67e075cd3531e5199529f279489c91ee09c9a23725f",
+    "bytes": 451311
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000007.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000007.jpg",
+    "sha256": "c6ea4f45171893f885e2ac8d25f34006782d32298b84a51279f6edd9175669e9",
+    "bytes": 451391
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000013.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000013.jpg",
+    "sha256": "2b8dfd4fd17f43bf4b4d0629c7c31674fda37ac65e6868436d99da51fc0f3328",
+    "bytes": 445648
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000019.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000019.jpg",
+    "sha256": "700aac0951684f582bed970e64a8628c66aa1ef05a53088908075ea502fa83cd",
+    "bytes": 445466
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000025.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000025.jpg",
+    "sha256": "c4fbc0ee93041653aa632b45bc201191598b6619ba043ae8505683d47b297144",
+    "bytes": 432595
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000031.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000031.jpg",
+    "sha256": "7845217d5d6d35d82d8a327b8b517c684358e50961109a6ae0f2eb1bc3fca6bb",
+    "bytes": 436646
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000058.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000058.jpg",
+    "sha256": "c0cd3c39c5ba031932c5f371666e097b3daf6de215549d1e3457c2abf593fc69",
+    "bytes": 436809
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000064.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000064.jpg",
+    "sha256": "678ef55c2e70e7c6a2737bcb3602b0cdbc1e19a3c8a3e70aa0c99ba61dc62310",
+    "bytes": 433470
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000089.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000089.jpg",
+    "sha256": "ae76a652d3a7935d42811569f42bd158183f757ea6768c9ac029e2f276ab2219",
+    "bytes": 433047
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000092.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000092.jpg",
+    "sha256": "53820184e4b96d75687f967db8e7e951eccebda0619a0b09684e1212162db65c",
+    "bytes": 424274
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000096.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000096.jpg",
+    "sha256": "f5d9a76a2f80bd28dcb81ea41ef58404e0e9adc664b75e869086104e01174e85",
+    "bytes": 420400
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000102.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000102.jpg",
+    "sha256": "21be0755362b1071d3dd4ff6936be97128acbcb780b6fe5df6d4063c1b6f823d",
+    "bytes": 502532
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000108.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000108.jpg",
+    "sha256": "74d9b94e29e60b60e124cad7cfcc506239d87a65d59740302797d31aec6c3349",
+    "bytes": 506587
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000128.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000128.jpg",
+    "sha256": "5ad9cc8f8bb97b8da5339ae3fc4dcfa3de2044d5d4ae4b853207ce7f68e79c14",
+    "bytes": 510958
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000148.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000148.jpg",
+    "sha256": "6409cf33833f06672f3f06dab4203c68181c47cd529b0274ff58a4b2ff201345",
+    "bytes": 519143
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000167.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000167.jpg",
+    "sha256": "4cb7403c3cf6eaf9ad0ccb3dd87193fa6a6c4147a94f094cd97dc8ed479851bb",
+    "bytes": 520230
+  },
+  {
+    "path": "hunt-skin-12/cycle-1/kill/000177.jpg",
+    "source": "runs/hunt-skin-12/cycle-1/kill/000177.jpg",
+    "sha256": "3ec911ad0a27cff8aac53fb4b00eaa3470dcab3baafe0d5fe6d46ec522acefc8",
+    "bytes": 514500
+  },
+  {
+    "path": "loot-interact.png",
+    "source": "runs/loot-interact.png",
+    "sha256": "21796c1fca59ac253a67b0fff5c6220212f8497bc5ffb2335d98315ff0524b2a",
+    "bytes": 2290750
+  },
+  {
+    "path": "loot-mouse-01.png",
+    "source": "runs/loot-mouse-01.png",
+    "sha256": "85a08eff9939d338b2a05e6d77191f7cf7fe3c4ca7af79af313ded2a574e2c07",
+    "bytes": 2247648
+  },
+  {
+    "path": "loot-mouse-02.png",
+    "source": "runs/loot-mouse-02.png",
+    "sha256": "dd15a42b529774dfb2bc16abee90e6a450569423f09fa6d65bc1b227174eb0f3",
+    "bytes": 2246426
+  },
+  {
+    "path": "loot-mouse-03.png",
+    "source": "runs/loot-mouse-03.png",
+    "sha256": "3aabdda056122d54a6fd74dd56a72e1ad4d802d3593e91c84edcfb365f8453e4",
+    "bytes": 2288331
+  },
+  {
+    "path": "loot-new2.png",
+    "source": "runs/loot-new2.png",
+    "sha256": "085940ca31ea45beda44ed33d774c0612fa90e25329b18f15c6df8e4679d0fd9",
+    "bytes": 2200048
+  },
+  {
+    "path": "mana-test-end.png",
+    "source": "runs/mana-test-end.png",
+    "sha256": "6c4c19482f76da1d03e06ce6cde68b79974a78d712cfff7cfad9f21696bc79d4",
+    "bytes": 2287534
+  },
+  {
+    "path": "patrol-0928-01/cycle-1/kill/000073.jpg",
+    "source": "runs/patrol-0928-01/cycle-1/kill/000073.jpg",
+    "sha256": "dc940d25cfbecbf9ef952a0577395a53686abd4101fc2035c84b20bfb528e2f7",
+    "bytes": 316777
+  },
+  {
+    "path": "patrol-hunt-02/cycle-4/hunt/cycle-1/loot/cursor-missing.jpg",
+    "source": "runs/patrol-hunt-02/cycle-4/hunt/cycle-1/loot/cursor-missing.jpg",
+    "sha256": "f7311456df871d2bf4275c968b01e4aca0c7f304590e2cbf3bb39d5d5a41eb32",
+    "bytes": 486377
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000001.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000001.jpg",
+    "sha256": "a3952a18ec5e6f53785fe47ee178cf9c4b9a8e0c2cecac376c0d12efcde710ec",
+    "bytes": 498150
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000007.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000007.jpg",
+    "sha256": "ed91bf7cf451c196a43c014194f1c1bb645b6c46a96d77f7c973536f60daefc4",
+    "bytes": 503652
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000011.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000011.jpg",
+    "sha256": "4aefdecba186abfb37228569b371300220f835e3132618709183eae05d00850c",
+    "bytes": 498950
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000014.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000014.jpg",
+    "sha256": "0f4c41c46ec08c670042c71741f73f48061fa27615f5259f55778a071e13c838",
+    "bytes": 497320
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000043.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000043.jpg",
+    "sha256": "3f8155bc3468db61eb26085d3d3a1d907f4e68a25046cc0a6280afd5a89660e3",
+    "bytes": 497462
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000049.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000049.jpg",
+    "sha256": "341d7f2c16a7d888c04a9118432b8e3e1c19297e344591d960cb7eaa5327d100",
+    "bytes": 490653
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000069.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000069.jpg",
+    "sha256": "b3e9ec921d243c994799a50c98342b469a0456a5076c95d60979511e0c47aeba",
+    "bytes": 490579
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000075.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000075.jpg",
+    "sha256": "8c3b5514b691a5a72448c28205ee97f95ba5833c97ec82ec12ffad2f59bf8fb8",
+    "bytes": 488115
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000095.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000095.jpg",
+    "sha256": "fcc675f45e29ed3434aa747fbc1f4cfed1ca1edd550034626b160ec67f21e936",
+    "bytes": 489923
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000115.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000115.jpg",
+    "sha256": "9cdb1378c854493cf29bb99a3817f7017444f7bfe5a5df711eb79de2efe904ca",
+    "bytes": 492637
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000135.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000135.jpg",
+    "sha256": "9551076ccfc8b8ef370ebfb9ff0a2ddfc42729a147d433c7ac85b3909e0773de",
+    "bytes": 490818
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000155.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000155.jpg",
+    "sha256": "a589b1368f44714629757a69aa718a22a643d1fc01c5cf60e1ec7ff2251fa493",
+    "bytes": 492641
+  },
+  {
+    "path": "patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000163.jpg",
+    "source": "runs/patrol-hunt-04/cycle-1/hunt/cycle-1/kill/000163.jpg",
+    "sha256": "811cc1fad4573afbc92b6f9065e85b6ae86ca3b530e80bed443f9b17182f709c",
+    "bytes": 489631
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000001.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000001.jpg",
+    "sha256": "0ea34a1828724763d78ce78aaa3a47afe0a40f02f68ef1fe6b31d19171cb0464",
+    "bytes": 470052
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000007.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000007.jpg",
+    "sha256": "9493288ac2adc007f948e7e64ede270104c33ab1deff3bb13248635eb345224e",
+    "bytes": 470280
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000013.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000013.jpg",
+    "sha256": "3482fea03c449929481eff81411581772622df0989f2e70bb817411ac1dec5d0",
+    "bytes": 463098
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000019.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000019.jpg",
+    "sha256": "cb808b75b1946b38a4edd4f6a50d7763ba3524be1245a594075a3afc3646c0c8",
+    "bytes": 467234
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000022.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000022.jpg",
+    "sha256": "bb0807faf922f8c935211d48b790009748df0cb75fa06baf32c3a83bb5c0c601",
+    "bytes": 468982
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000025.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000025.jpg",
+    "sha256": "d3ae53268663bb979547deb25a7a7873a5517bdac8d7df85653e26b3007dfef3",
+    "bytes": 477951
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000045.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000045.jpg",
+    "sha256": "9a0106f7c0c1a03c28a6a4b341704b02ca5fe0596d859d6cb575aa5bd6f0c9f4",
+    "bytes": 478178
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000051.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000051.jpg",
+    "sha256": "8b4ecb8f03a76a87d35da602936e999b3498c6a0b6230efa59869d85e73bd405",
+    "bytes": 480685
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000071.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000071.jpg",
+    "sha256": "5d9456b2d95c665070c518e84b0f63181e7b0f7dda307c840fcb3f712f1ccfa6",
+    "bytes": 481741
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000091.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000091.jpg",
+    "sha256": "52f55c5bfeb17ecf62070374ce8a430fc069cf10548b380837398622f76992cf",
+    "bytes": 484180
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000111.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000111.jpg",
+    "sha256": "ff3f48e043752d81cbc8ba283756a1da5978048004bdecb4a8e5951d810e1948",
+    "bytes": 484274
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000129.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000129.jpg",
+    "sha256": "09702767b586704d64d7406f8d9b7866fa15475894ee48bbb55422f6a5f34254",
+    "bytes": 480962
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000131.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000131.jpg",
+    "sha256": "29ea07a41e99413bca7c3768dbb655c9be72c5b9fbb83f088633d850e7dce1b7",
+    "bytes": 479199
+  },
+  {
+    "path": "patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000133.jpg",
+    "source": "runs/patrol-hunt-04/cycle-2/hunt/cycle-1/kill/000133.jpg",
+    "sha256": "bf77f0ab53f84c502da6415a32bbe864701de7b0f5d8ba9e69092141334c4ffc",
+    "bytes": 479773
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000001.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000001.jpg",
+    "sha256": "8530e7f4355978d15c3ef7f27f18681a4510f413fa0d175fe014576ead72c3d3",
+    "bytes": 456219
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000007.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000007.jpg",
+    "sha256": "80976033203089e5da8b83aaa264f3dadf1320a7a993a6e960b491da72baee3b",
+    "bytes": 461299
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000011.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000011.jpg",
+    "sha256": "390286ff8d8a05b6a489e9c99cadb12b6c22f2bb34b4e81d8547cc76429569aa",
+    "bytes": 455962
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000040.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000040.jpg",
+    "sha256": "406e809fb8d87d025775dd4a39b1f53062e52239d910e3d896710a4305c5f9cd",
+    "bytes": 456893
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000046.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000046.jpg",
+    "sha256": "1c7a0cf1406e5edb7fcc70f5e1f799a62251057915020dd177bffa12cb6e9087",
+    "bytes": 454226
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000073.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000073.jpg",
+    "sha256": "7ba4368b27b6e6f052b2b6db0906b2ea472e4a0aeb9a37940d3b4e7f08f162db",
+    "bytes": 454146
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000077.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000077.jpg",
+    "sha256": "639bbd12d45d63c15a6d958f91580d3d057ece71bbe9f34ef40af1cd57610e40",
+    "bytes": 449614
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000083.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000083.jpg",
+    "sha256": "3c23226818a8d564b28a9c26503370e0c11672e34150d6b10c899325a0498a6a",
+    "bytes": 480204
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000089.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000089.jpg",
+    "sha256": "4e3f10a41cb528bf42251b2fbccdd95d062bdeb9c4aca0433e7e5e9f8ab22509",
+    "bytes": 480259
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000095.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000095.jpg",
+    "sha256": "be7bd260102a926c0f37733bef7d63526df785be09b2c6dab9c14d7854e3abb4",
+    "bytes": 481649
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000101.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000101.jpg",
+    "sha256": "6bcafaa05524083710e3531cc0caf6dbc613f189fa2d7bf6e8ef8af94e31ff84",
+    "bytes": 481272
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000107.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000107.jpg",
+    "sha256": "185ef0663916ef992a394a193afea227b616db9e7e6d09876a397be0018ee71f",
+    "bytes": 479736
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000113.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000113.jpg",
+    "sha256": "6ed98dfb8cff00370cab12333db86159d612dbddf8b83b5e29fe67c3b4d38ef5",
+    "bytes": 484189
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000137.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000137.jpg",
+    "sha256": "20f7bac2c9263f4d93640424ec6eb82c0d4fc582728fdd49ddee7ee30166cd75",
+    "bytes": 483304
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000157.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000157.jpg",
+    "sha256": "c0d6293c236d2769f37503a17a02b486a9a1064423f2b2060e05a2566257dfc7",
+    "bytes": 483760
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000177.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000177.jpg",
+    "sha256": "b1fba5f0e78d16421a6baefa36d7904e88efac68fe70f0e0c99a0a6c18e6666f",
+    "bytes": 486772
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000194.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000194.jpg",
+    "sha256": "b1ab65d42f02c5062f59ff3cf33b36a970a82ba7ffb410d8b7751293cfefc0be",
+    "bytes": 483112
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000197.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000197.jpg",
+    "sha256": "fd0475500fe55fe940d73a3cb079363cee1ad0a800aef03bef38f3a1bbc1df8b",
+    "bytes": 483039
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000203.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000203.jpg",
+    "sha256": "d8182750ec49f1c916c29db10b1cadc51fa102da99fd40541882db9872e2898c",
+    "bytes": 483073
+  },
+  {
+    "path": "patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000205.jpg",
+    "source": "runs/patrol-hunt-04/cycle-3/hunt/cycle-1/kill/000205.jpg",
+    "sha256": "628580887f0f1b783e77e171562761f044c0c13db9b736aeb13fe47fcb2dec0c",
+    "bytes": 480511
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000001.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000001.jpg",
+    "sha256": "dd8b7602dcbdb2f150ba6ea22cdf9279ba3bf73771b2b8deea921a670fc46acb",
+    "bytes": 487077
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000007.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000007.jpg",
+    "sha256": "c1db45f76546eee589ace56804a2233ced6943308bfc210e36cdc89c991b3dd4",
+    "bytes": 491391
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000034.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000034.jpg",
+    "sha256": "560379f3e0c55e78afd31e69e2ec915b020b663aac4abf1d7d206fdc8eaa478a",
+    "bytes": 491198
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000040.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000040.jpg",
+    "sha256": "b50f9a67ed8d146b7a821e968fa536d1eb4409bffca1fd01c0537e029b098a86",
+    "bytes": 497676
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000067.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000067.jpg",
+    "sha256": "65f8d30787385d0091e46ba240e753f52102a940e85aa902a94fb694a2db7c91",
+    "bytes": 498511
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000073.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000073.jpg",
+    "sha256": "8ad2ec7537a7af5a6df9438126a21ca4590d024b8602cdf0e32e14e2aaeae305",
+    "bytes": 501294
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000100.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000100.jpg",
+    "sha256": "791477b36a0c09240e16c9a4f814b3835af292ebf21ca5278cc8ca113da215d6",
+    "bytes": 500824
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000106.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000106.jpg",
+    "sha256": "a96ba27c7c46be505c2c5ae1428e918a6e5dea09606b16f05c5be1c7ba6b0ff9",
+    "bytes": 500880
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000126.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000126.jpg",
+    "sha256": "4582a04b8b5b617ff17c8be204de3937f5ee48ff89d6511bbf78dafe44857c70",
+    "bytes": 500804
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000133.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000133.jpg",
+    "sha256": "0a257496803c777474ab1e5fc2abb65d18709cc93a01263d375364c64586e7d4",
+    "bytes": 498207
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000136.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000136.jpg",
+    "sha256": "6ed7b6b22e0887647e3334499955eb305a4cd6956c2f6b35485b506b5f19535c",
+    "bytes": 503175
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000142.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000142.jpg",
+    "sha256": "271a0571da4c309c0a93303cf4a7bc54fc9bee5e07169e4047323546667f2d1b",
+    "bytes": 503830
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000169.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000169.jpg",
+    "sha256": "9184ece1da77ae2202526d2cde960c567d84880e8fc377c504f9394e1536e5eb",
+    "bytes": 502805
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000189.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000189.jpg",
+    "sha256": "88abfa227b1a5cfe8a32070475c247a66c848f52b5518351e279c3b07665e7e0",
+    "bytes": 503896
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000209.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000209.jpg",
+    "sha256": "50c91e404b1aa7656ce8b0d56b819b02261209f2c7313a1fb6720b64e4634b10",
+    "bytes": 507085
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000229.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000229.jpg",
+    "sha256": "5f5345215a4c6538c1b7ff8a9f28f610d59d7e0dad5cd7c0dda2781d3aa3d4a9",
+    "bytes": 506289
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000234.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000234.jpg",
+    "sha256": "e94373c489a01f2ac7aa69612471e72cc85666e302ca4e270d41069626278567",
+    "bytes": 504288
+  },
+  {
+    "path": "patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000235.jpg",
+    "source": "runs/patrol-hunt-04/cycle-4/hunt/cycle-1/kill/000235.jpg",
+    "sha256": "eecc8f831c1ec2c9dfcf559eda2c44794309dc6b3adbf036b45a91a041832f0a",
+    "bytes": 504886
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000001.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000001.jpg",
+    "sha256": "82cc5f6ebeca1f6925be53891a53953491a05fd7cfa8f0f710f4cc19bf2a57cd",
+    "bytes": 492459
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000007.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000007.jpg",
+    "sha256": "47328f40638118d18b0aa134f57d648ef7a24e8e8ac890ed18ad27393434619a",
+    "bytes": 496948
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000011.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000011.jpg",
+    "sha256": "f2f2e21bd602f411163bf9a8dd22d569231b23b6f64deb50eab54e0f1425471f",
+    "bytes": 490738
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000031.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000031.jpg",
+    "sha256": "4fe866f315160ebdaf5c4aa89fd46d895b6f5479a63e91a775ba58f31a32ac16",
+    "bytes": 490726
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000038.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000038.jpg",
+    "sha256": "61ce11c992c6fed6f307a9366716b6e01d8e7c6a481897812d32957e3085ae5a",
+    "bytes": 486076
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000044.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000044.jpg",
+    "sha256": "42fbff85fbf600c6aa0094d320fe4efeacdf1f001453e27a9a25f08220240dbf",
+    "bytes": 483539
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000071.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000071.jpg",
+    "sha256": "e2b0ccfe23173bc4a1bf95d8d5cb6c5603922630cfe8c39291fb9d3945ea1fa2",
+    "bytes": 483326
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000077.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000077.jpg",
+    "sha256": "cfea80b00708dee3c58750d71e3bb6c3217e17d1a4d2dc1c8699c6501b0db6dc",
+    "bytes": 481896
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000104.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000104.jpg",
+    "sha256": "2ac46000392acda9b2546e37ff70fd94c0967f2a96847ae75103f2f9fe44288e",
+    "bytes": 481852
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000108.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000108.jpg",
+    "sha256": "583dcb685ae94d842328431caa2d7acca55a9a2b949bfb517ed2438a5a6c6923",
+    "bytes": 477112
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000114.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000114.jpg",
+    "sha256": "b1ffa7ad6e53ab88f9a8fb53b1e66932617a973079830696f44fd98d6d70a698",
+    "bytes": 488580
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000120.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000120.jpg",
+    "sha256": "056945dc6557e9f1c5dff609bab2fbac209740e61bf58bf5152c8a3bedd7bcd1",
+    "bytes": 493053
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000123.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000123.jpg",
+    "sha256": "04db610af112e23d59ab519199d6fe4462bc598c768833a2ca2fa6e963f43d24",
+    "bytes": 494334
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000127.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000127.jpg",
+    "sha256": "a13abeb5db8a0bb0decfac0e0092bad7c23ff8e4dff3746b3ca4e0e5a7cb5c1a",
+    "bytes": 491851
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000151.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000151.jpg",
+    "sha256": "e0afa1c63d561c4f00bf68e8bc2d2f823b0c36be11847038ead7c643cf794e1e",
+    "bytes": 491160
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000155.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000155.jpg",
+    "sha256": "cd7f4f78752fd6c8ec9e078bcf6f069cf6551537103076931e16605ccc844536",
+    "bytes": 486555
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000175.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000175.jpg",
+    "sha256": "2dc9be4c3a07b4606337fdf275225d630d2f271d8fa136ea1e9c13dcd9ffbb98",
+    "bytes": 489642
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000195.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000195.jpg",
+    "sha256": "9876bd7b08a31c64eefccbfd32e75cdeac1f692e808731ea0135caff445c1258",
+    "bytes": 490182
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000215.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000215.jpg",
+    "sha256": "9f39a0106494266bc372db6f8a7f1190be94bec9795837b8eaf634f25e0c6802",
+    "bytes": 487603
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000235.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000235.jpg",
+    "sha256": "529faad449f98fa5db4b56409e230b6a2bb8f08deccd1ee0f8b0272f10ce1c0d",
+    "bytes": 490307
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000246.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/kill/000246.jpg",
+    "sha256": "eb4d359b1c735aaeeeb1fa851248e85fedf37ca490477017c7c5e3bda7a4a22b",
+    "bytes": 485683
+  },
+  {
+    "path": "patrol-hunt-04/cycle-5/hunt/cycle-1/loot/success.jpg",
+    "source": "runs/patrol-hunt-04/cycle-5/hunt/cycle-1/loot/success.jpg",
+    "sha256": "c072849c417361e1fba457d1d503d951167e3b66722dfd8eadfe9ff36d7e873e",
+    "bytes": 489101
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000001.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000001.jpg",
+    "sha256": "3b4d25bb75b6f8cc58dcb86328ad9dbe774a6a0a369e330cde85be34de847c25",
+    "bytes": 491631
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000007.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000007.jpg",
+    "sha256": "06180becdddd4831607181fae85b0c4b7e9fd6453f04859dfc5dc6dac7469227",
+    "bytes": 491867
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000013.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000013.jpg",
+    "sha256": "89689453ae7e128c63d6254e29fe639f1bedcab5f246afdae100a061bef88e7d",
+    "bytes": 495047
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000019.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000019.jpg",
+    "sha256": "8c45a4053260750af8f792de029aa82cc93633057747445d903021535961cd46",
+    "bytes": 500031
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000023.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000023.jpg",
+    "sha256": "136fdbb015b7721a5aa32c53c62636b1c4208a295b767ac75e8ae3e065f7466d",
+    "bytes": 499944
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000050.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000050.jpg",
+    "sha256": "5f7803083c212fa614f918a641c8b9332b25f43d1a37ea7005388e58edfe458b",
+    "bytes": 498498
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000056.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000056.jpg",
+    "sha256": "7779e47ec818c96d39d8998378d0348695ec1bfa3c4251eea8e035d48b976abe",
+    "bytes": 501306
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000083.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000083.jpg",
+    "sha256": "b264d80050d947646fd4aa2a87b11f1c2d8f06644d52bb0954ad1e354aa5a8ba",
+    "bytes": 494848
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000089.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000089.jpg",
+    "sha256": "f89df51e481b5af79ba1b7240b91137b0a2ffc4862f6d84fca0dac469d2bb09c",
+    "bytes": 502121
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000112.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000112.jpg",
+    "sha256": "480246fef9c5c7fa618fd2846ed82094b6a37d3789e9fe39da330d060aa611d1",
+    "bytes": 502294
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000116.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000116.jpg",
+    "sha256": "a6dba2abfe0126d26fef34e6367ab98e4797896e53c3fae87ce5d3dfabd1af74",
+    "bytes": 504537
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000120.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000120.jpg",
+    "sha256": "9cf9dafe79247da274c97b8cad624ec345ca85ec70507907b62357dfd131916d",
+    "bytes": 500013
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000126.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000126.jpg",
+    "sha256": "adbee323e2251e1227d0fb3ef38ecf263d364b31a4a1c87242bcf7ae5dbf862a",
+    "bytes": 499671
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000132.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000132.jpg",
+    "sha256": "0e674196f417100415e23fe1113166692060af32df2652549ba87253796ee811",
+    "bytes": 499856
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000138.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000138.jpg",
+    "sha256": "0441217d0ecafeecc3e5104059f081601f5bb085191e8a4d226669ba29bfb8aa",
+    "bytes": 496992
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000144.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000144.jpg",
+    "sha256": "6fdb57c2c175b15689da6422b4d23ecde2bae9a4142a6a50443cd4d286dc8816",
+    "bytes": 501535
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000167.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000167.jpg",
+    "sha256": "97fbc9c8f434864eb23a5ae61dd244265f5d4039201ea563b77668c04d314267",
+    "bytes": 498227
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000171.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000171.jpg",
+    "sha256": "185a09440fbbea003f89365ca12064e0ef6d237ade3c5c0d493c1e4116c4c3e7",
+    "bytes": 497224
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000175.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000175.jpg",
+    "sha256": "94df81a9b98a830cf101a436c01160fa1010934b8fb469ca8bdbc5f8d8e01d5a",
+    "bytes": 499030
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000181.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000181.jpg",
+    "sha256": "db7957eabc88b5f670674db8d50086f6272f8cd060ab064b2f9f1ff2ee0bec0a",
+    "bytes": 513695
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000202.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000202.jpg",
+    "sha256": "3c9a056462f1917a380fb9a44e8b29d232d895b798d48b8c770264afa77d3c72",
+    "bytes": 510319
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000206.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000206.jpg",
+    "sha256": "7e86af710c9ee817f3de39dc0295ab2278fed77f65992b023f572f742f40106b",
+    "bytes": 505053
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000212.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000212.jpg",
+    "sha256": "0ccfc7376942f307c88608daeed0337261acf9e8f83d0f04d251728ef3494f39",
+    "bytes": 505391
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000218.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000218.jpg",
+    "sha256": "0ab90c9c40a538b69d0d9bec77f2c7a17fd45d6f2054db5195f065310748527d",
+    "bytes": 500109
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000222.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000222.jpg",
+    "sha256": "c62073d35a8fff43df2d94c5fa6aaf1d11be4e9bba63580c342fe47835699711",
+    "bytes": 499433
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000226.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000226.jpg",
+    "sha256": "740f9be847da626cf9d9317f5df99aba9b66adeed7d77c408441d57b543392fc",
+    "bytes": 501341
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000232.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000232.jpg",
+    "sha256": "33098fa0d8f809ba54a5911a1a9165d40018c7356ba33ade88f3c987c4193e0a",
+    "bytes": 500753
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000238.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000238.jpg",
+    "sha256": "30ce6aa80aaf6ee72610f07cb320d23347643bc8aea819fa3fe507ae9b7276ab",
+    "bytes": 487591
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000244.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000244.jpg",
+    "sha256": "7d0d8212e337ece92c9183ed941af89a3d346acb5d41543d45e0bff8318d47fc",
+    "bytes": 488255
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000250.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000250.jpg",
+    "sha256": "92ce3a28c4a631592f05248a7ddea745b85500ea48bd587d6f515ee5d40884d8",
+    "bytes": 476676
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000256.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000256.jpg",
+    "sha256": "0018fdd83ffb3c422a546b703b8ff5042ea4dec56bdfafe5ca1c09b4989d8aac",
+    "bytes": 477066
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000262.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000262.jpg",
+    "sha256": "63f8baf34ef72645666fc462eab3d521403b49b19c746f173798e499074123bb",
+    "bytes": 470436
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000323.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000323.jpg",
+    "sha256": "0817b1b936cc0ae16d0d839c411460d46d3e9e3f7a42cb42e5eec82dbdec7451",
+    "bytes": 470417
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000327.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000327.jpg",
+    "sha256": "0caf185f9e42e14d33fc611bb83d37840c2d4625ec2d3bd00123126e43671bd1",
+    "bytes": 466625
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000333.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000333.jpg",
+    "sha256": "d2fa31758d83df266e3b1c4782d30110183acbca3f58310c2c37c08840334f59",
+    "bytes": 462338
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000339.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000339.jpg",
+    "sha256": "3fd83297068fcc4dcd93f86e40b759e9f5ea0217c6adb322b996d328ed9ed8c0",
+    "bytes": 462393
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000345.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000345.jpg",
+    "sha256": "c229ea2c429bef52b68f7447d6d4c17a40b1c0ecaacb63e5df529ac5878c4f1c",
+    "bytes": 464378
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000351.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000351.jpg",
+    "sha256": "3efd34c29d1ada4f7e3a36d049faf67369784e33c0e2f46f15e2378373dbedfc",
+    "bytes": 464112
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000357.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000357.jpg",
+    "sha256": "9939cc4d4c4bbf37d17fa8574e1159ede8c12a2c3b1011ab67a12795b631f1f0",
+    "bytes": 456822
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000363.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000363.jpg",
+    "sha256": "db534bf167366ee806e8c8a3de3459ad08551fa4c1981e59c1dad7285a6961c1",
+    "bytes": 456047
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000369.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000369.jpg",
+    "sha256": "9a2fd1bc7a3967f521559290f5542fbfded3327e13857431043b0033c1c78f03",
+    "bytes": 476454
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000375.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000375.jpg",
+    "sha256": "3436129ce77e0a09fa4c87080cf0e08a7a6ab2ade23b3aba70db5faf3c77c7b8",
+    "bytes": 476580
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000381.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000381.jpg",
+    "sha256": "96b19ca44697c621ec076c0cabba631002724f9aaccf27e2a5a639f97f2a452b",
+    "bytes": 474802
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000387.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000387.jpg",
+    "sha256": "a7d8d91a5cedf753c1ff2f0fa67ba28c57e888baeb2a4b367d0702b8b0920958",
+    "bytes": 474785
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000468.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000468.jpg",
+    "sha256": "461d1f63b85ee36cea96d5bc3ff628e319c3d6686dcb19d653b887ec3638e072",
+    "bytes": 482068
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000474.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000474.jpg",
+    "sha256": "e4233d36b832204055b756a72461439d7a909c5301791818774fedce7ce2b818",
+    "bytes": 486768
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000494.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000494.jpg",
+    "sha256": "ce7b9a81d044289e407df2b640248e98d816032ea95323d5eeda271d700e91f2",
+    "bytes": 486786
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000501.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000501.jpg",
+    "sha256": "a1f7d74bf871c0133b8ced3d69f568da52a0ae998e670099bffcbd49ec51e506",
+    "bytes": 489556
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000507.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000507.jpg",
+    "sha256": "df7bfbfdd396eb5bcacd6417751c0758444f5ce6fd88a0d0d20ba387fce09dae",
+    "bytes": 500198
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000534.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000534.jpg",
+    "sha256": "709655cca8c7a8587ec82ea5e5d8069b506eedee77f70362bfa6820ba1bf8358",
+    "bytes": 499537
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000540.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000540.jpg",
+    "sha256": "713f0d1a27502c6ce2c96ce571e7e3d2dd3bacd04d9e9c41caa67d300032f048",
+    "bytes": 507183
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000567.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000567.jpg",
+    "sha256": "a2953a49d31380da829971b44fd19771d1706ea858ec2fff777150b03578c26a",
+    "bytes": 506757
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000573.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000573.jpg",
+    "sha256": "fde037cf3bbea7d54ad3a5aa72d2a37e593605f04251c122bb42222a715546a5",
+    "bytes": 501386
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000600.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000600.jpg",
+    "sha256": "3716a6e321fa080c5ab00181d591b09848b9b56da6c3759ea57725ed59b07db3",
+    "bytes": 500485
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000620.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000620.jpg",
+    "sha256": "c805298306e9d0e2445b1936f61bd89fddd9c7755c54251a180bce8a16e75f5a",
+    "bytes": 500447
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000640.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000640.jpg",
+    "sha256": "c18c91b90ec95860258337eacc730a336af1e19ed44a3b4c40a3d7694f3d5817",
+    "bytes": 504552
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000660.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000660.jpg",
+    "sha256": "15d6f00bd8d5ed7770e004d632f4fada709dc12c869be4c02c3b7d2fd879c57e",
+    "bytes": 504709
+  },
+  {
+    "path": "patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000679.jpg",
+    "source": "runs/patrol-hunt-04/cycle-6/hunt/cycle-1/kill/000679.jpg",
+    "sha256": "1d17c7c4db5e575e78ffe125a6430a6f2f0374e3ea72590bcce06e3a81ca76ff",
+    "bytes": 499788
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000001.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000001.jpg",
+    "sha256": "fc09ae30393b0545b90df9c378819bcae4f0ad5913100dbbcfa988a5a50df8ac",
+    "bytes": 503221
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000007.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000007.jpg",
+    "sha256": "709846bdbc4c39e04af20c6aec1c906203f4ac0f15e2c44b45e2544fb6e0c982",
+    "bytes": 503051
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000013.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000013.jpg",
+    "sha256": "aebec4bfe1cd7fb846d302ff19eb426304265dd2f5175d1a72a158ff01e9009c",
+    "bytes": 497140
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000019.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000019.jpg",
+    "sha256": "f16f1bd0c8400a4f018edd7f99102acd467dbe5ded541240b02d63dc044914c0",
+    "bytes": 497095
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000025.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000025.jpg",
+    "sha256": "8fa7db8544bcdea6347586fb46dc0087ff19c1b49fd334a710399b3162ef6f47",
+    "bytes": 496882
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000031.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000031.jpg",
+    "sha256": "a69b76c85a64bb2347035ea8acad45e42bbb1937b376bdeff0d2d381d64b69f1",
+    "bytes": 496086
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000037.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000037.jpg",
+    "sha256": "1d8a5ce878fb3ed85eac55cec25b8a26cbb7c52a26f37e151c61bb3a645ee7cd",
+    "bytes": 492961
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000043.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000043.jpg",
+    "sha256": "b973a817d2ad18f7712ce6e67b78ebbf631af38da30345bf566ce8785f8c9e5a",
+    "bytes": 493646
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000049.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000049.jpg",
+    "sha256": "333984d68af1eb80f096d6ed24e38b0811a0558e24345972d84bb58e38c319e9",
+    "bytes": 483445
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000055.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000055.jpg",
+    "sha256": "f9d30b5e2ee20e7c5c775902043fc5804974b9000c27c5111d3ed0892422ad47",
+    "bytes": 483183
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000061.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000061.jpg",
+    "sha256": "225bc4b37a03a25c3f3b7a465358a19b41413c08be8d4dfc776b83cb87ca448b",
+    "bytes": 491109
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000067.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000067.jpg",
+    "sha256": "473d5573a804f3e934928f2dd109036a34edf3948bb46e31ba3efae1a79c16e3",
+    "bytes": 495498
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000071.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000071.jpg",
+    "sha256": "5f47c16033f615b55e8ea55554dabd5ff5f01088eae29105fda8864df00ef7c0",
+    "bytes": 491123
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000074.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000074.jpg",
+    "sha256": "2c676042bafae20fe9fda2199f79a287766cc4c7144f04ba854e5a3df89b361a",
+    "bytes": 482720
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000078.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000078.jpg",
+    "sha256": "efdf264aa120b1706762e64bfcd499d5c492e83379449f554452c966544587ae",
+    "bytes": 478240
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000082.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000082.jpg",
+    "sha256": "f5e1dc6d9151f7669b516db4c6932e80eab82815bd0504075c7563bd1a119acd",
+    "bytes": 476419
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000085.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000085.jpg",
+    "sha256": "27b8b197c5d7347ce1a06cb68ce0cd5a4b8f442079a74b69dc551b01bd37a273",
+    "bytes": 473861
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000105.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000105.jpg",
+    "sha256": "28cf5ac23b00f4a06ba027e9ed54bd9ac9a4e1da9b6e717ff86333e89e87fc1f",
+    "bytes": 474471
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000125.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000125.jpg",
+    "sha256": "eb5a3173fc86cb9b171acf52625e66ff4a5f4702023e3622c45f4c3868ba8bcb",
+    "bytes": 474435
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000145.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000145.jpg",
+    "sha256": "394344cec2d1c6aabde82c37250d9135735707f441c148a69c99fa25fee332aa",
+    "bytes": 475048
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000165.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000165.jpg",
+    "sha256": "b1a0808e192dd1bedd31fe28d1bf70b88d0bcd350c33e2d8fc30abff44a04a52",
+    "bytes": 475581
+  },
+  {
+    "path": "patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000169.jpg",
+    "source": "runs/patrol-hunt-04/cycle-7/hunt/cycle-1/kill/000169.jpg",
+    "sha256": "5a5673f56438e4d7996c9764c51c5c140ff684d10cb230e44bdbc371f79eb754",
+    "bytes": 470328
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000001.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000001.jpg",
+    "sha256": "95be45dea7bf3004f0d2207ea127785fa6f2102907cad97029f67858d6a7266c",
+    "bytes": 488940
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000007.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000007.jpg",
+    "sha256": "87a729848b1d64ad061b587e8ca1db01f1ec9028a34e157e72167bba59ac43e0",
+    "bytes": 488660
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000013.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000013.jpg",
+    "sha256": "26e6b021f3fa28b9e8e1e8c5ffbfdd9840f6b3a1e051e39a10bf2e327cb052e1",
+    "bytes": 481948
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000019.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000019.jpg",
+    "sha256": "0dea23858d5e4d5d6f597b062a450130f401f91280bd8a20ff62c6c776caaa77",
+    "bytes": 482661
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000025.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000025.jpg",
+    "sha256": "30faae52f24b095e33776dcfa1cf973d27a7c13f74e7dff893a38f37a8f35b7c",
+    "bytes": 494962
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000031.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000031.jpg",
+    "sha256": "f9642690d71b543c91df06997a6abdd465e771d6e0f58513f050d4c2587446f9",
+    "bytes": 494696
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000037.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000037.jpg",
+    "sha256": "432d81090051d42536f9368fac3d5c6ce586af2cbec509e4863e51d54b5da56d",
+    "bytes": 496030
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000043.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000043.jpg",
+    "sha256": "f8a8fe16cf1fd0bc4826947ace1e6c492205b7d58760a75ebcd40ae4ccf06466",
+    "bytes": 496392
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000049.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000049.jpg",
+    "sha256": "e7672bd79562ba88d8e35384720239648b2568f429263b5741cd84e32efbdd2d",
+    "bytes": 502026
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000055.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000055.jpg",
+    "sha256": "523ed53b685bdd10f71e9e5bf1ec0b83a51d99569e0008f7afdf82075002b28f",
+    "bytes": 502147
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000061.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000061.jpg",
+    "sha256": "626fbb57d856f3202c78c335deab3b45026d3b628f5b0afcb1d671c97cdd61ef",
+    "bytes": 493614
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000067.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000067.jpg",
+    "sha256": "1256379960680ae7f8f8049372e6e0f5751bded585513b82a50871d1291d9c9e",
+    "bytes": 493690
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000148.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000148.jpg",
+    "sha256": "8fb4fe185c6bac5f7def9f914aaea507b6de37f04841c45cccae5bf243972aa1",
+    "bytes": 504535
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000154.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000154.jpg",
+    "sha256": "7d13efd62c2fd96ddd81daf15787c878b88711cc3602485602ce9310f570d775",
+    "bytes": 504604
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000160.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000160.jpg",
+    "sha256": "2a5295460557ee65a0eb2ab0208cf681cec1a7921e738aaddce3c0c2728e1752",
+    "bytes": 502505
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000166.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000166.jpg",
+    "sha256": "787453723d2466ff59138ed6aaaeb17f6e3f14a554409385ad3f86ba3a21a31d",
+    "bytes": 506387
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000227.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000227.jpg",
+    "sha256": "a54afeabc5b04df058d2ca0f5ce6a84b4663ec35e30382383cbc35c6d58f2065",
+    "bytes": 506961
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000231.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000231.jpg",
+    "sha256": "e9dbc3496d28b9ed1e019d07ec647a6f8f652f0f114319fea16f292cb5a9c2b2",
+    "bytes": 503211
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000237.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000237.jpg",
+    "sha256": "a1cf86eefe4b82cf18a32fc9d0538c66c2dcfdc9e9b7045d92ea9011af27f355",
+    "bytes": 509196
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000243.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000243.jpg",
+    "sha256": "8ca0fdcddf03cc773a9f54cf1f026e057142e7245c6ff97b20f1c128f9bfc5ef",
+    "bytes": 512849
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000249.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000249.jpg",
+    "sha256": "3d756167ef167c6d7decdf086cefead5f10b0edda60562e7c0519cafdb846c69",
+    "bytes": 512534
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000255.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000255.jpg",
+    "sha256": "9288a3c43d5e35dc9b63fab436c4020b4198de8b03b628dd932995172874f936",
+    "bytes": 512295
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000261.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000261.jpg",
+    "sha256": "c8542d36e414eb70b58a9fe1b64e59385d183dd426e057c51d3798ba048257d1",
+    "bytes": 507656
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000322.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000322.jpg",
+    "sha256": "e24c977a9a9472ec2ffb3704ab9445d45d2b9fe666879accb351d9e96b9869bd",
+    "bytes": 508868
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000326.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000326.jpg",
+    "sha256": "b82891b39c0cd77a016c7f94193bf48849cadfd79a1dd9ca9814a172d92e9faa",
+    "bytes": 505348
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000332.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000332.jpg",
+    "sha256": "a614aab9e54d3c1fd8b5fdd07b3e8891059d0cb041e481e6b636747c6bfdb4eb",
+    "bytes": 491507
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000338.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000338.jpg",
+    "sha256": "095cf629e77a4b6498f765ae8adeb54178a5dd228675d4e06914aa311e816ced",
+    "bytes": 495131
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000374.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000374.jpg",
+    "sha256": "01f2c285e9795b97da8a42739ae1711edbd148d13d45706f15da352e40ba85a2",
+    "bytes": 494880
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000378.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000378.jpg",
+    "sha256": "59c8a20c256e50ef54586cfc0b9354b07cfcd12f4cb5d2f25674f7b26aabdd1c",
+    "bytes": 496928
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000384.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000384.jpg",
+    "sha256": "a0b3a19eed75ed48b6120e0349d74f07e3d4ea5cb3114025297ba888d9710c7b",
+    "bytes": 507250
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000411.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000411.jpg",
+    "sha256": "62c66d1cb281b1e2c05c2d081678f3845e4015919eb9d7406c1ac01ed29dc07e",
+    "bytes": 506643
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000417.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000417.jpg",
+    "sha256": "bdcba61512c96ac9d3a4c4824f00eace918bf43fe1dde0540701c210e4d62612",
+    "bytes": 514808
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000444.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000444.jpg",
+    "sha256": "fd5d6aba20558670969093158dd9e2c37a4066ded59816140f17dfd1f26699b4",
+    "bytes": 514114
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000464.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000464.jpg",
+    "sha256": "ea4b88963b5d685e0d50ba45857e74fc01a3b82c725d817c0124a64aaef3e8c1",
+    "bytes": 514711
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000484.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000484.jpg",
+    "sha256": "3cacb8fcf7a5240e6681255839218538b5f6f5b2a0734055e3776d262488bc67",
+    "bytes": 515727
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000504.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000504.jpg",
+    "sha256": "863d465aeee66a4355f5f909f72eec87746c53c8a26be00668412cc69c1dacdb",
+    "bytes": 518606
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000524.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000524.jpg",
+    "sha256": "1d0e040a7f219f5f86dcf2ec0cbe01956b67efc07818283e0c17d3385b1d5eff",
+    "bytes": 518326
+  },
+  {
+    "path": "patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000538.jpg",
+    "source": "runs/patrol-hunt-04/cycle-8/hunt/cycle-1/kill/000538.jpg",
+    "sha256": "0d1906e6154dc81850f812dfe2243c921377ee5547bca78c7073ce478cb54299",
+    "bytes": 514507
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000001.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000001.jpg",
+    "sha256": "654921c8e29ccfba5d4bf42a0ed97f356158a1543ef5d41858fcf98fe05502c5",
+    "bytes": 485006
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000007.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000007.jpg",
+    "sha256": "d063296a36d4ea3560e419b68ac8831f76b12eb04f95800f9fc22f22ceae4fdb",
+    "bytes": 484896
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000013.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000013.jpg",
+    "sha256": "486bc934207813fcd60f3d93f0b41b9d7e0a7d50fdf2a9f09f2a2e29b772f35f",
+    "bytes": 488637
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000019.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000019.jpg",
+    "sha256": "44ed2b9f1ed8464906d8702102a52e5ac0202d43361031b5434060fd20112cf0",
+    "bytes": 488536
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000025.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000025.jpg",
+    "sha256": "dffe2d21c89a16274b364670021daa66851b4a43e42198a8be7c8a4846fffc66",
+    "bytes": 475136
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000031.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000031.jpg",
+    "sha256": "46c6fe6feacf3277513ebeac3ad046baebe62a548a9bcf08d57a45efc9f99fb6",
+    "bytes": 475001
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000037.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000037.jpg",
+    "sha256": "6ca272995ccd4fa40058a5384f4d22d821ae6edfe0bd4c48696c7dbb6af7e79f",
+    "bytes": 475417
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000043.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000043.jpg",
+    "sha256": "b41ec8e4587a67257afa988a1195ef033bd173bc8dd28d1d2baffb7a8defdd42",
+    "bytes": 475419
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000049.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000049.jpg",
+    "sha256": "686cebfce4d9eb7bf5712c02b874b07bfc7ab95376c8a2ae6e07fc5502caaf90",
+    "bytes": 480267
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000055.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000055.jpg",
+    "sha256": "98acf6b273f9fbdf5501dff45aa1505d10edf9a845cd525793c493b226f8225c",
+    "bytes": 478287
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000061.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000061.jpg",
+    "sha256": "bf6b7393bcd378773d262f4c2059315fd7be899a6f25f08cd09b821d3f3b64fa",
+    "bytes": 466436
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000067.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000067.jpg",
+    "sha256": "fb662568cd5b7b6bda165839797e5d8736e7463cd26fd81c0448eeaf8707e9e0",
+    "bytes": 465803
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000148.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000148.jpg",
+    "sha256": "af33f7c38dd8973869068c20a4fd41edb5c5e00ef947510eb6ce6abb5933abcb",
+    "bytes": 469995
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000154.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000154.jpg",
+    "sha256": "f7097f78363bb83b9484227011cb3c0479a79df7d00ab1bdc4c9b6c1e2a997e4",
+    "bytes": 474053
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000158.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000158.jpg",
+    "sha256": "6b1e060846e3ba71cda4bc0f9698c671d2925b9bcda8e15e6b1e82cedc68923f",
+    "bytes": 472825
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000162.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000162.jpg",
+    "sha256": "36d271286547ae8f46f895221e0045a33c576d378c3c9ba916043d45a7d36047",
+    "bytes": 469313
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000189.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000189.jpg",
+    "sha256": "c144a4994d0c764560234a13207b733ff6d4d98ae6aebdd258dfec89b38b0881",
+    "bytes": 470087
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000195.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000195.jpg",
+    "sha256": "b4105b61421e7d4dba6fb300fb47c8240d4dcf2635236bcd72104ef9ce7dbf63",
+    "bytes": 464354
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000222.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000222.jpg",
+    "sha256": "f38662a31ddad75683e3e7c7c50ee8c275d134dd5c17428c110de8f16a699b05",
+    "bytes": 463540
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000228.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000228.jpg",
+    "sha256": "6697f7c31ed066a441ebdfdf44dbecc273e44b886549fdbecbfdc8ab72b14dc7",
+    "bytes": 474329
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000254.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000254.jpg",
+    "sha256": "f89a5d73617f39ee0261700d9f99f8d48673fabe45d4212098972b0470b18e1a",
+    "bytes": 472414
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000274.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000274.jpg",
+    "sha256": "8af9536ae603b3c91e981728b9bf1b9ab89bb19ca004df5a626342c28de65e6c",
+    "bytes": 473013
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000294.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000294.jpg",
+    "sha256": "eb0523b3dd1407fedfbf4819b8e83d71fcc01216412ede9d6a20d0e4ed686ab8",
+    "bytes": 474889
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000314.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000314.jpg",
+    "sha256": "265705707de5d94cf0781985385d05f7805188cb629880fdb0ec98bbcaf2f413",
+    "bytes": 474305
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000334.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000334.jpg",
+    "sha256": "a09947c3eb1fbdb2b6809b31c6f96f639348bc31c8002b2216c2e3bf8a947939",
+    "bytes": 476251
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000354.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000354.jpg",
+    "sha256": "c89d018adf857c500a197d9f747fa47abb94f27f575e2a2597dd0812cf8348c5",
+    "bytes": 471198
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000360.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000360.jpg",
+    "sha256": "c33115b42bc61b3f3e16883835ece84882345e20faf6f3916b4847839db7d2a4",
+    "bytes": 473286
+  },
+  {
+    "path": "patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000363.jpg",
+    "source": "runs/patrol-hunt-04/cycle-9/hunt/cycle-1/kill/000363.jpg",
+    "sha256": "91e5286d460e1d2b58cf08d8d4bd83e1c77d3852ee9c9478c879f195fc35d743",
+    "bytes": 474618
+  },
+  {
+    "path": "resume-0928.jpg",
+    "source": "runs/resume-0928.jpg",
+    "sha256": "dbff24ca293e3707e83eb55100b1307e292169c71d203352ecf39fd48fdc3552",
+    "bytes": 475949
+  },
+  {
+    "path": "vendor-combat-recovery-01/000260.jpg",
+    "source": "runs/vendor-combat-recovery-01/000260.jpg",
+    "sha256": "78ecd20139ae2b9c4a6543b11aeec46bd1b74c425ffaa9d17ba65fbc546d0cf3",
+    "bytes": 476169
+  },
+  {
+    "path": "vendor-cycle-hunt-02/no-target-exception.jpg",
+    "source": "runs/vendor-cycle-hunt-02/no-target-exception.jpg",
+    "sha256": "861896ed942ba21bf08c238495a58227736a9cbb26ffb70c16abe71d4927d2a1",
+    "bytes": 513003
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/before.jpg",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/before.jpg",
+    "sha256": "f867d9495817e9b628216c2ff305e6c3ff129db80ae2ebab4acb87fa1c830784",
+    "bytes": 530995
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/coin-after-ocr-0.json",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/coin-after-ocr-0.json",
+    "sha256": "0b786a4053d0eb3b1fef37dac377cc9debb7b0a361ac152d61f08d100d6c08c7",
+    "bytes": 2564
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/coin-after-ocr-0.png",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/coin-after-ocr-0.png",
+    "sha256": "58a24b020c31ad97dd73c7837191d6e35fba363f64d20bceceff248dbfcf3c5d",
+    "bytes": 762449
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/coin-after-ocr-1.json",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/coin-after-ocr-1.json",
+    "sha256": "7dccfbc077637644d66ab682dc132aadbeec70972db07d7b87e7acad4fdc1bea",
+    "bytes": 2783
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/coin-after-ocr-1.png",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/coin-after-ocr-1.png",
+    "sha256": "138e0817f749be76a5e97483cc8a8bf7aba3c62c2f4c7cd6ca8d0c6aaa67f478",
+    "bytes": 785901
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/coin-before-ocr.json",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/coin-before-ocr.json",
+    "sha256": "2a87f0e89243870accfb4298ef0fa3e0c1fc687701aabe6e4598f13e59e5f3fa",
+    "bytes": 2788
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/coin-before-ocr.png",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/coin-before-ocr.png",
+    "sha256": "099baa238f9555fbc6ecb7a803b94fbbfa10a9d5865f9e12f9a7b09e972e4ada",
+    "bytes": 766454
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/events.jsonl",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/events.jsonl",
+    "sha256": "95469d4b79cf9220b828d11f8b66ab62490f4853429e24ed58a8581ed4a0258f",
+    "bytes": 2270
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/result.json",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/result.json",
+    "sha256": "04bb7e3220ec19c8a3ea30c7f207a19085c08560156765a6c412c6a06897405d",
+    "bytes": 59
+  },
+  {
+    "path": "vendor-until-full-07/cycle-5/loot/unconfirmed.jpg",
+    "source": "runs/vendor-until-full-07/cycle-5/loot/unconfirmed.jpg",
+    "sha256": "61e2be897ccbed24c2df3fd30b864b72b9b5eb33b3e7ad94478c4320fd4f3813",
+    "bytes": 532655
+  },
+  {
+    "path": "wake-check-latest.jpg",
+    "source": "runs/wake-check-latest.jpg",
+    "sha256": "0a124760745deed451bd861b80f57a2d9653685ae90eb37da1a19bdedfb791a5",
+    "bytes": 389829
+  }
+]

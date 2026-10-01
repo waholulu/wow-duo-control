@@ -1,0 +1,219 @@
+{
+  "frame_size": [
+    1920,
+    1080
+  ],
+  "templates": {
+    "game_anchor": {
+      "file": "game_anchor.png",
+      "roi": [
+        403,
+        191,
+        31,
+        28
+      ],
+      "threshold": 0.9
+    },
+    "target_anchor": {
+      "file": "target_anchor.png",
+      "roi": [
+        1397,
+        665,
+        31,
+        30
+      ],
+      "threshold": 0.8
+    },
+    "xp": {
+      "file": "xp.png",
+      "roi": [
+        880,
+        390,
+        270,
+        170
+      ],
+      "threshold": 0.73
+    },
+    "target_frame_edge": {
+      "file": "target_frame_edge.png",
+      "roi": [
+        1282,
+        676,
+        6,
+        24
+      ],
+      "threshold": 0.75
+    },
+    "target_frame_edge_night": {
+      "file": "target_frame_edge_night.png",
+      "roi": [
+        1288,
+        678,
+        6,
+        24
+      ],
+      "threshold": 0.85
+    },
+    "allowed_name": {
+      "file": "allowed_name_current_wolf.png",
+      "roi": [
+        1289,
+        660,
+        72,
+        17
+      ],
+      "threshold": 0.88
+    },
+    "allowed_name_young_wolf": {
+      "file": "allowed_name_young_wolf.png",
+      "roi": [
+        1289,
+        660,
+        72,
+        17
+      ],
+      "threshold": 0.88
+    },
+    "game_menu": {
+      "file": "game_menu.png",
+      "roi": [
+        956,
+        367,
+        102,
+        31
+      ],
+      "threshold": 0.9
+    }
+  },
+  "bars": {
+    "player_hp": {
+      "roi": [
+        617,
+        680,
+        104,
+        10
+      ],
+      "hsv_low": [
+        30,
+        120,
+        45
+      ],
+      "hsv_high": [
+        90,
+        255,
+        255
+      ]
+    },
+    "target_hp": {
+      "roi": [
+        1287,
+        680,
+        103,
+        10
+      ],
+      "hsv_low": [
+        30,
+        120,
+        45
+      ],
+      "hsv_high": [
+        90,
+        255,
+        255
+      ],
+      "variants": [
+        {
+          "anchor": "target_frame_edge_night",
+          "roi": [
+            1292,
+            682,
+            105,
+            10
+          ]
+        }
+      ]
+    },
+    "player_mana": {
+      "roi": [
+        617,
+        698,
+        104,
+        5
+      ],
+      "hsv_low": [
+        90,
+        100,
+        40
+      ],
+      "hsv_high": [
+        125,
+        255,
+        255
+      ]
+    },
+    "experience": {
+      "roi": [
+        486,
+        889,
+        1089,
+        3
+      ],
+      "hsv_low": [
+        130,
+        60,
+        30
+      ],
+      "hsv_high": [
+        179,
+        255,
+        255
+      ],
+      "column_fraction": 0.33
+    }
+  },
+  "blocking_templates": [
+    "game_menu"
+  ],
+  "notes": "Paladin current player frame and level-2 wolf target calibrated from paladin-selected-target.jpg; trial only. Chat overlay may conservatively stop health reading.",
+  "world_roi": [
+    440,
+    224,
+    940,
+    425
+  ],
+  "player_center_x": 1004,
+  "coordinate_roi": [
+    1492,
+    367,
+    95,
+    22
+  ],
+  "combat_roi": [
+    550,
+    680,
+    28,
+    37
+  ],
+  "bearing_mode": "nameplate",
+  "backpack": {
+    "header": "classes/paladin/vision/bag_header.png",
+    "header_roi": [
+      1418,
+      720,
+      67,
+      18
+    ],
+    "empty": "classes/paladin/vision/bag_empty.png",
+    "origin": [
+      1269,
+      784
+    ],
+    "step": [
+      36.7,
+      36.5
+    ],
+    "rows": 2,
+    "cols": 10,
+    "size": 27
+  }
+}

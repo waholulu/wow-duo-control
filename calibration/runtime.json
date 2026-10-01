@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "threat": {
+    "damage_window_seconds": 2.0,
+    "damage_drop": 0.02
+  },
+  "core": {
+    "calibrated": true
+  },
+  "map_id": "unconfirmed",
+  "audio": {
+    "device_name": "USB Audio",
+    "device_uid": "AppleUSBAudioEngine:MACROSILICON:USB3.0 capture:20210623:3",
+    "templates": {},
+    "offset_seconds": null
+  },
+  "navigation": {
+    "calibrated": false,
+    "arrival_tolerance": 0.2
+  },
+  "mining": {
+    "calibrated": false,
+    "skill_confirmed": false,
+    "tool_confirmed": false,
+    "names": [
+      "铜矿",
+      "铜矿脉",
+      "劣质铜矿"
+    ],
+    "receipt_items": [],
+    "cursor_template": null,
+    "node_templates": []
+  },
+  "stationary_gather": {
+    "calibrated": false,
+    "stationary_interaction_verified": false,
+    "settings": {
+      "minimum_health": 0.95,
+      "minimum_empty_slots": 1,
+      "candidate_observations": 2,
+      "candidate_stability_px": 6,
+      "candidate_separation_px": 16,
+      "tooltip_confidence": 0.8,
+      "receipt_confidence": 0.8,
+      "receipt_wait_seconds": 12
+    },
+    "resources": {
+      "mining": {"calibrated": false, "cursor_kind": "mine", "requires_tool": true,
+        "names": [], "receipt_items": [], "cursor_template": null,
+        "world_roi": null, "tooltip_roi": null, "receipt_roi": null, "node_templates": []},
+      "herbalism": {"calibrated": false, "cursor_kind": "herb", "requires_tool": false,
+        "names": [], "receipt_items": [], "cursor_template": null,
+        "world_roi": null, "tooltip_roi": null, "receipt_roi": null, "node_templates": []}
+    },
+    "characters": {
+      "paladin": {
+        "mining": {"skill_confirmed": false, "tool_confirmed": false},
+        "herbalism": {"skill_confirmed": false}
+      },
+      "warlock": {
+        "mining": {"skill_confirmed": false, "tool_confirmed": false},
+        "herbalism": {"skill_confirmed": false}
+      }
+    }
+  },
+  "vendor": {
+    "calibrated": false,
+    "name": "杂货商",
+    "window_template": null,
+    "window_roi": null,
+    "money_roi": null,
+    "item_tooltip_roi": null,
+    "allowed_junk": [],
+    "slots": []
+  },
+  "fishing": {
+    "calibrated": false,
+    "skill_confirmed": false,
+    "tool_confirmed": false,
+    "cast_key": null,
+    "world_roi": null,
+    "bobber_template": null,
+    "receipt_items": [],
+    "wait_seconds": 30,
+    "visual_verified": false,
+    "visual_bite_template": null
+  },
+  "safety": {
+    "death_review_required": true,
+    "death_review_policy": "Stop combat on death or unreadable/zero health; preserve evidence and require written investigation before resuming combat. Suspected death must be distinguished from visual occlusion."
+  }
+}

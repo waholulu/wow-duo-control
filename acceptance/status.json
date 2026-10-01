@@ -1,0 +1,272 @@
+{
+  "schema_version": 2,
+  "offline_baseline_passed": true,
+  "invalid_evidence": [],
+  "unmeasured_violations": [
+    "review-navigation:protected_item_sold:unmeasured",
+    "review-navigation:cancelled_input_sent:unmeasured",
+    "review-navigation:concurrent_input:unmeasured",
+    "review-navigation:unsupported_success:unmeasured",
+    "review-navigation:duplicate_reel:unmeasured",
+    "review-mineral-recognition:protected_item_sold:unmeasured",
+    "review-mineral-recognition:cancelled_input_sent:unmeasured",
+    "review-mineral-recognition:concurrent_input:unmeasured",
+    "review-mineral-recognition:unsupported_success:unmeasured",
+    "review-mineral-recognition:duplicate_reel:unmeasured",
+    "review-receipt:protected_item_sold:unmeasured",
+    "review-receipt:cancelled_input_sent:unmeasured",
+    "review-receipt:concurrent_input:unmeasured",
+    "review-receipt:unsupported_success:unmeasured",
+    "review-receipt:duplicate_reel:unmeasured"
+  ],
+  "violations": {
+    "protected_item_sold": 0,
+    "cancelled_input_sent": 0,
+    "concurrent_input": 0,
+    "unsupported_success": 0,
+    "duplicate_reel": 0
+  },
+  "stages": {
+    "core": {
+      "counts": {
+        "hunt_loot_round": 0,
+        "skin_round": 0,
+        "mana_recovery": 0
+      },
+      "required": {
+        "hunt_loot_round": 5,
+        "skin_round": 3,
+        "mana_recovery": 1
+      },
+      "blockers": [
+        "acceptance_scope_missing",
+        "complete_attempt_inventory_missing_or_mismatched",
+        "zero_tolerance_measurements_missing_or_invalid",
+        "common:baseline_assertions_preserved",
+        "common:cancelled_queue_not_replayed",
+        "common:exclusive_input",
+        "common:success_evidence_chain",
+        "common:missing_recording_explicit",
+        "common:atomic_terminal_state",
+        "common:revocation_seconds",
+        "common:device_pulse_ms",
+        "common:sent_frame_age_seconds",
+        "count:hunt_loot_round",
+        "count:skin_round",
+        "count:mana_recovery",
+        "scenario:old_frame",
+        "scenario:window_relocation",
+        "scenario:duplicate_events",
+        "scenario:ocr_delay",
+        "scenario:serial_exception",
+        "scenario:phase_exception",
+        "scenario:stop_file",
+        "scenario:process_termination",
+        "scenario:explicit_terminal_states",
+        "scenario:mana_recovery_resume",
+        "five_consecutive_hunt_loot_rounds_required",
+        "three_confirmed_skins_in_consecutive_rounds_required"
+      ],
+      "passed": false
+    },
+    "navigation": {
+      "counts": {
+        "round_trip": 0,
+        "defend_resume_live": 0,
+        "escape_resume_live": 0,
+        "defend_resume_replay": 0,
+        "escape_resume_replay": 0
+      },
+      "required": {
+        "round_trip": 3,
+        "defend_resume_live": 1,
+        "escape_resume_live": 1,
+        "defend_resume_replay": 3,
+        "escape_resume_replay": 3
+      },
+      "blockers": [
+        "acceptance_scope_missing",
+        "complete_attempt_inventory_missing_or_mismatched",
+        "zero_tolerance_measurements_missing_or_invalid",
+        "common:baseline_assertions_preserved",
+        "common:cancelled_queue_not_replayed",
+        "common:exclusive_input",
+        "common:success_evidence_chain",
+        "common:missing_recording_explicit",
+        "common:atomic_terminal_state",
+        "common:revocation_seconds",
+        "common:device_pulse_ms",
+        "common:sent_frame_age_seconds",
+        "count:round_trip",
+        "count:defend_resume_live",
+        "count:escape_resume_live",
+        "count:defend_resume_replay",
+        "count:escape_resume_replay",
+        "scenario:coordinate_anomaly",
+        "scenario:no_displacement",
+        "scenario:oscillation",
+        "scenario:route_obstructed",
+        "scenario:unknown_attacker",
+        "scenario:low_health",
+        "scenario:invalid_video",
+        "scenario:resume_current_position",
+        "scenario:preserve_goal",
+        "three_consecutive_round_trips_required"
+      ],
+      "passed": false
+    },
+    "mining": {
+      "counts": {
+        "mineral_attempt": 0,
+        "mineral_received": 0,
+        "detour_resume": 0
+      },
+      "required": {
+        "mineral_attempt": 5,
+        "mineral_received": 4,
+        "detour_resume": 3
+      },
+      "blockers": [
+        "acceptance_scope_missing",
+        "complete_attempt_inventory_missing_or_mismatched",
+        "zero_tolerance_measurements_missing_or_invalid",
+        "common:baseline_assertions_preserved",
+        "common:cancelled_queue_not_replayed",
+        "common:exclusive_input",
+        "common:success_evidence_chain",
+        "common:missing_recording_explicit",
+        "common:atomic_terminal_state",
+        "common:revocation_seconds",
+        "common:device_pulse_ms",
+        "common:sent_frame_age_seconds",
+        "count:mineral_attempt",
+        "count:mineral_received",
+        "count:detour_resume",
+        "scenario:mineral_disappeared",
+        "scenario:unreachable",
+        "scenario:no_tool",
+        "scenario:insufficient_skill",
+        "scenario:bag_full",
+        "scenario:under_attack",
+        "scenario:failed_candidate_not_retried",
+        "scenario:return_failure_stops",
+        "scenario:no_forbidden_detour",
+        "independent_mineral_detection_benchmark_required"
+      ],
+      "passed": false
+    },
+    "vendor": {
+      "counts": {
+        "vendor_round_trip": 0
+      },
+      "required": {
+        "vendor_round_trip": 3
+      },
+      "blockers": [
+        "acceptance_scope_missing",
+        "complete_attempt_inventory_missing_or_mismatched",
+        "zero_tolerance_measurements_missing_or_invalid",
+        "common:baseline_assertions_preserved",
+        "common:cancelled_queue_not_replayed",
+        "common:exclusive_input",
+        "common:success_evidence_chain",
+        "common:missing_recording_explicit",
+        "common:atomic_terminal_state",
+        "common:revocation_seconds",
+        "common:device_pulse_ms",
+        "common:sent_frame_age_seconds",
+        "count:vendor_round_trip",
+        "scenario:protected_categories",
+        "scenario:unknown_item",
+        "scenario:wrong_merchant",
+        "scenario:window_closed",
+        "scenario:rescan_after_sale",
+        "scenario:failed_sale_kill_only",
+        "scenario:unreliable_return_stops",
+        "three_consecutive_vendor_round_trips_required"
+      ],
+      "passed": false
+    },
+    "fishing": {
+      "counts": {
+        "cast": 0,
+        "fishing_interruption": 0
+      },
+      "required": {
+        "cast": 30,
+        "fishing_interruption": 1
+      },
+      "blockers": [
+        "acceptance_scope_missing",
+        "complete_attempt_inventory_missing_or_mismatched",
+        "zero_tolerance_measurements_missing_or_invalid",
+        "common:baseline_assertions_preserved",
+        "common:cancelled_queue_not_replayed",
+        "common:exclusive_input",
+        "common:success_evidence_chain",
+        "common:missing_recording_explicit",
+        "common:atomic_terminal_state",
+        "common:revocation_seconds",
+        "common:device_pulse_ms",
+        "common:sent_frame_age_seconds",
+        "count:cast",
+        "count:fishing_interruption",
+        "scenario:game_audio_source",
+        "scenario:unplug_no_microphone_fallback",
+        "scenario:reconnect_requires_sync",
+        "scenario:visual_fallback_requires_acceptance",
+        "scenario:bobber_lost",
+        "scenario:wait_timeout",
+        "scenario:other_water_sounds",
+        "scenario:audio_disconnect",
+        "independent_audio_benchmark_required",
+        "thirty_continuous_casts_and_measured_timely_rate_required"
+      ],
+      "passed": false,
+      "measured_timely_reel_rate": 0
+    },
+    "review": {
+      "counts": {
+        "failure_review": 3,
+        "improvement_cycle": 0,
+        "combined_run": 0,
+        "fishing_run": 0
+      },
+      "required": {
+        "failure_review": 3,
+        "improvement_cycle": 1,
+        "combined_run": 1,
+        "fishing_run": 1
+      },
+      "blockers": [
+        "acceptance_scope_missing",
+        "complete_attempt_inventory_missing_or_mismatched",
+        "zero_tolerance_measurements_missing_or_invalid",
+        "common:baseline_assertions_preserved",
+        "common:cancelled_queue_not_replayed",
+        "common:exclusive_input",
+        "common:success_evidence_chain",
+        "common:missing_recording_explicit",
+        "common:atomic_terminal_state",
+        "common:revocation_seconds",
+        "common:device_pulse_ms",
+        "common:sent_frame_age_seconds",
+        "trial:review-navigation:version_configuration_or_starting_conditions_missing",
+        "trial:review-mineral-recognition:version_configuration_or_starting_conditions_missing",
+        "trial:review-receipt:version_configuration_or_starting_conditions_missing",
+        "count:improvement_cycle",
+        "count:combined_run",
+        "count:fishing_run",
+        "scenario:failure_evidence_locatable",
+        "scenario:facts_separate_from_hypotheses",
+        "scenario:all_attempts_retained",
+        "bounded_live_coverage:combined_run",
+        "bounded_live_coverage:fishing_run",
+        "complete_improvement_evidence_chain_required"
+      ],
+      "passed": false
+    }
+  },
+  "all_passed": false,
+  "note": "Counts alone do not establish acceptance. Source truth requires review; activation remains a reviewed change."
+}

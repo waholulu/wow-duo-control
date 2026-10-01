@@ -1,0 +1,23 @@
+[
+  {
+    "case": "navigation",
+    "output": "reviews/20260928-audit/navigation",
+    "source_files": 502,
+    "source_changes": [],
+    "evidence_gaps": 3
+  },
+  {
+    "case": "mineral-recognition",
+    "output": "reviews/20260928-audit/mineral-recognition",
+    "source_files": 39,
+    "source_changes": [],
+    "evidence_gaps": 4
+  },
+  {
+    "case": "receipt",
+    "output": "reviews/20260928-audit/receipt",
+    "source_files": 4,
+    "source_changes": [],
+    "evidence_gaps": 3
+  }
+]

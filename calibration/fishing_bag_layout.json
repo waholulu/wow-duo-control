@@ -1,0 +1,47 @@
+{
+  "header": "calibration/fishing_bag_header.png",
+  "empty": "calibration/fishing_bag_empty.png",
+  "header_roi": [
+    1460,
+    648,
+    105,
+    36
+  ],
+  "rows": 4,
+  "cols": 10,
+  "origin": [
+    1279,
+    733
+  ],
+  "step": [
+    45,
+    45
+  ],
+  "size": 39,
+  "excluded_slots": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ]
+  ]
+}

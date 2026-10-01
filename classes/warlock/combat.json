@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "attack_key": 31,
+    "attack_interval": 2.6,
+    "attack_effect_timeout": 6.0,
+    "mana_rest_at": 0.5,
+    "mana_resume_at": 0.85
+  },
+  "class": "warlock",
+  "label": "术士",
+  "bindings_verified": true,
+  "vision_verified": true,
+  "status": "historical_bounded_trials",
+  "notes": "保留2键与最短2.6秒间隔；新增6秒有界施法效果检查，未见法力与目标变化不重复攻击。施法条未标定时明确未知，不声称看见施法完成。新逻辑仅离线验证；历史人物/UI成功不代表长期挂机通过。",
+  "vision_profile": "classes/warlock/vision/profile.json"
+}

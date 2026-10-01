@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+runs/
+*.local.json
+.DS_Store
+audio_capture
+coordinate_ocr
+ui_ocr
+optional_gather_enabled

@@ -1,0 +1,7 @@
+{
+  "mode": "read_only_version_query",
+  "samples": 30,
+  "median_ms": 12.044166999999987,
+  "max_ms": 12.091125000000009,
+  "p95_ms": 12.090042000000023
+}

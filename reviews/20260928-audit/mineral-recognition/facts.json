@@ -1,0 +1,295 @@
+{
+  "run": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01",
+  "result": {
+    "state": "STOPPED",
+    "steps": 0,
+    "origin": [
+      23.7,
+      73.3
+    ],
+    "reason": "Mineral marker missing or ambiguous",
+    "end_coordinate": [
+      23.7,
+      73.3
+    ]
+  },
+  "event_counts": {},
+  "failures": [
+    {
+      "kind": "terminal_result",
+      "result": {
+        "state": "STOPPED",
+        "steps": 0,
+        "origin": [
+          23.7,
+          73.3
+        ],
+        "reason": "Mineral marker missing or ambiguous",
+        "end_coordinate": [
+          23.7,
+          73.3
+        ]
+      },
+      "source_file": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/result.json"
+    }
+  ],
+  "evidence_clips": [],
+  "files": [
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-end-0.png",
+      "relative_path": "coord-end-0.png",
+      "sha256": "bc64afe8a9719974d62c449a87978d5582849da005f9cd31f509bcbbbda552ae",
+      "size": 66236
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-end-1.png",
+      "relative_path": "coord-end-1.png",
+      "sha256": "dda2a4c87487bd0e268d25a05e84e939b02dce943a0f97f93c211b485ea0f34d",
+      "size": 25812
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-end-2.png",
+      "relative_path": "coord-end-2.png",
+      "sha256": "d3696e5586afa1dd3da0fbd3e253f71c17411b742146a3c9594d569aa919f3fb",
+      "size": 25822
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-end-3.png",
+      "relative_path": "coord-end-3.png",
+      "sha256": "ec29997481c83bf7504c894dd76c46ed235ce8af72198287b891b2be005d63be",
+      "size": 23257
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-end.json",
+      "relative_path": "coord-end.json",
+      "sha256": "e720a1d3e3c884511adfc186846e2e84796056eedd99a2f54fb3b7ffefcb0d65",
+      "size": 363
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-origin-0.png",
+      "relative_path": "coord-origin-0.png",
+      "sha256": "b436d99885ce8bf29db307746d01b662ec92b1291d50263f003045779d18271a",
+      "size": 66822
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-origin-1.png",
+      "relative_path": "coord-origin-1.png",
+      "sha256": "aaf31beb4b7cc469017b4a37b6e502a6437f4f2316872201ce17e9e57d15b87f",
+      "size": 26022
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-origin-2.png",
+      "relative_path": "coord-origin-2.png",
+      "sha256": "363aa1568ca511844553304cca4a2b1f4bf081cdf6021311a38477cf9fec48c7",
+      "size": 25950
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-origin-3.png",
+      "relative_path": "coord-origin-3.png",
+      "sha256": "e61a2a32a32cec86950ce63c973ffd6cfe2deb7905c38c30f4d5b1b07a4ee57f",
+      "size": 23267
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/coord-origin.json",
+      "relative_path": "coord-origin.json",
+      "sha256": "c787ddf9f250368d9eaae4e1dfe812af9d7d35fce3d334394945fbc0bb9a7da7",
+      "size": 336
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/end.jpg",
+      "relative_path": "end.jpg",
+      "sha256": "c70b3f2f2b4159484a6428eae3ed2ffb79bb04130042d1fbb1a0f285a33ee66b",
+      "size": 493444
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/events.jsonl",
+      "relative_path": "events.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/result.json",
+      "relative_path": "result.json",
+      "sha256": "43140ffc9740d7ac6bd467b062f73b07c8a098217b485702137a9c4ce372fc43",
+      "size": 173
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-0-33-150.png",
+      "relative_path": "split-end-0-33-150.png",
+      "sha256": "ca1a6dc5b78f10ddaf0f9ba5e100e9840ffac8e7c2b72cd67cffbf060c766a7c",
+      "size": 846
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-0-33-170.png",
+      "relative_path": "split-end-0-33-170.png",
+      "sha256": "2752e1c9a5ad7b4d53bb713ffd7030a665c9b85a85159c2e31dffc03196ea674",
+      "size": 789
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-0-34-150.png",
+      "relative_path": "split-end-0-34-150.png",
+      "sha256": "389c120fb3f0770fc33a4e145a671a188996de30962713baf8d25b2334195c04",
+      "size": 851
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-0-34-170.png",
+      "relative_path": "split-end-0-34-170.png",
+      "sha256": "8956a2d4fa65911a7b9e2443e4c434a7ed6b8cd04e5cef02c688183d4fbaa60c",
+      "size": 794
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-0-35-150.png",
+      "relative_path": "split-end-0-35-150.png",
+      "sha256": "e1ac3d62d29d0bf4d60eaeb13d96830ffea08e96aac9e386f3d518775df3eb61",
+      "size": 853
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-0-35-170.png",
+      "relative_path": "split-end-0-35-170.png",
+      "sha256": "f82854d216311bad72bec60254177206c0174d8faefcf2622e3007a4dfecbcd7",
+      "size": 795
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-1-28-150.png",
+      "relative_path": "split-end-1-28-150.png",
+      "sha256": "d7b61278c6044fb78b11f55c3f5c739c75c79c7db5651a967a032ebc56891fe3",
+      "size": 862
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-1-28-170.png",
+      "relative_path": "split-end-1-28-170.png",
+      "sha256": "75514a6cf3e3ea3379099b1c3a3d9e26ecb1895c391e143f5125cc2a7d9506d5",
+      "size": 793
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-1-29-150.png",
+      "relative_path": "split-end-1-29-150.png",
+      "sha256": "5dc5a2553f213ac03a832ee5c3890264c24fcfcb3a1a5ea16393aa6cdc015c0a",
+      "size": 868
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-1-29-170.png",
+      "relative_path": "split-end-1-29-170.png",
+      "sha256": "1baf786c7b0a96d626e3b4ec4ccedbd8aead721952c1722c3b60453729ac1b52",
+      "size": 799
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-1-30-150.png",
+      "relative_path": "split-end-1-30-150.png",
+      "sha256": "fc85390af7211fac606adccb78912d4318a4c0f8a9f964f864b331cb9632a776",
+      "size": 868
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end-1-30-170.png",
+      "relative_path": "split-end-1-30-170.png",
+      "sha256": "e55b61d1ebbd864d9fc304c76e8430085e4f701ef3514d32d21181fbe9f2a781",
+      "size": 799
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-end.json",
+      "relative_path": "split-end.json",
+      "sha256": "9a8f6666d425ce01a6ab8995270ee43c9176586ac60504a8dc9a96079e81b802",
+      "size": 854
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-0-33-150.png",
+      "relative_path": "split-origin-0-33-150.png",
+      "sha256": "ca0377b6e5b1168903e92ea7290cb47b06593659b183a29705a633b10417bb91",
+      "size": 851
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-0-33-170.png",
+      "relative_path": "split-origin-0-33-170.png",
+      "sha256": "313c929d818bc06996b1da606935b29a97b0cb55296300688f0b9fe92f1443ec",
+      "size": 785
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-0-34-150.png",
+      "relative_path": "split-origin-0-34-150.png",
+      "sha256": "7358bc2f6d4daa9fb0a0c3c2982762345e33fdaa1bf4f2eded454a1d769b2c4e",
+      "size": 855
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-0-34-170.png",
+      "relative_path": "split-origin-0-34-170.png",
+      "sha256": "fb869e3db46a4b46c6bfe28b804ad892ab2963038e9b7627df8c3998e3ddffb0",
+      "size": 790
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-0-35-150.png",
+      "relative_path": "split-origin-0-35-150.png",
+      "sha256": "f5a756e5869aadad3d72c7c95f515f19df38cdf93736296f0df000ec0ae0fa0f",
+      "size": 859
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-0-35-170.png",
+      "relative_path": "split-origin-0-35-170.png",
+      "sha256": "16ce8aa379b122faf9835574a1b6f27b080f3f1ca608f03ad5e5ab57b3cca76a",
+      "size": 792
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-1-28-150.png",
+      "relative_path": "split-origin-1-28-150.png",
+      "sha256": "d6dc6d4e72b97e8353804d49d204d0d523a8da46aa4c5b94d4d86e641656e4d3",
+      "size": 862
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-1-28-170.png",
+      "relative_path": "split-origin-1-28-170.png",
+      "sha256": "b22df7a0acd7d252ae7f07657225e8a8c46c8307b6cb4a99a812ce57c394aee5",
+      "size": 797
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-1-29-150.png",
+      "relative_path": "split-origin-1-29-150.png",
+      "sha256": "768482d7bc80580135264825238a40ee50d364339febd6c9222a0b5399c5405d",
+      "size": 873
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-1-29-170.png",
+      "relative_path": "split-origin-1-29-170.png",
+      "sha256": "9da238e2038e8a1fe9b080ca34bfe5ce600cea32a69fe3ab21a40555fb8e7b67",
+      "size": 802
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-1-30-150.png",
+      "relative_path": "split-origin-1-30-150.png",
+      "sha256": "f7a2b52d02a2218c5621b54952ec8e5f2bd6c9ba51bdef21779d4cda1d624704",
+      "size": 880
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin-1-30-170.png",
+      "relative_path": "split-origin-1-30-170.png",
+      "sha256": "02821df41a162234a29da63754d51dd92e73e4b24968f8619d20669befc3792b",
+      "size": 803
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/split-origin.json",
+      "relative_path": "split-origin.json",
+      "sha256": "e56311b3865bb7a8deacec8a2d21a6160083c7d1860e4fa6b6250589010dd0de",
+      "size": 826
+    }
+  ],
+  "history_may_be_rotated": false,
+  "recording": null,
+  "evidence_gaps": [
+    {
+      "reason": "event_timeline_missing"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/recording.json",
+      "reason": "missing"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/config.json",
+      "reason": "missing"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/mineral-approach-01/run.json",
+      "reason": "missing"
+    }
+  ],
+  "complete": false,
+  "timeline": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/reviews/20260928-audit/mineral-recognition/timeline.jsonl",
+  "source_storage": "referenced_originals_with_hashes"
+}

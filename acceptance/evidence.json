@@ -1,0 +1,62 @@
+{
+  "schema_version": 2,
+  "offline_tests": {
+    "run": 226,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 11.97733525,
+    "evidence": "tests.txt"
+  },
+  "trials": [
+    {
+      "id": "review-navigation",
+      "kind": "failure_review",
+      "passed": true,
+      "human_intervention": false,
+      "failure_kind": "navigation",
+      "evidence": [
+        "../reviews/20260928-audit/navigation/facts.json",
+        "../reviews/20260928-audit/navigation/proposal.json"
+      ],
+      "mode": "review",
+      "synthetic": false,
+      "source_mode": "historical_live"
+    },
+    {
+      "id": "review-mineral-recognition",
+      "kind": "failure_review",
+      "passed": true,
+      "human_intervention": false,
+      "failure_kind": "recognition",
+      "evidence": [
+        "../reviews/20260928-audit/mineral-recognition/facts.json",
+        "../reviews/20260928-audit/mineral-recognition/proposal.json"
+      ],
+      "mode": "review",
+      "synthetic": false,
+      "source_mode": "historical_live"
+    },
+    {
+      "id": "review-receipt",
+      "kind": "failure_review",
+      "passed": true,
+      "human_intervention": false,
+      "failure_kind": "unconfirmed_effect",
+      "evidence": [
+        "../reviews/20260928-audit/receipt/facts.json",
+        "../reviews/20260928-audit/receipt/proposal.json"
+      ],
+      "mode": "review",
+      "synthetic": false,
+      "source_mode": "historical_live"
+    }
+  ],
+  "holdout": {},
+  "limitations": [
+    "No physical input was sent during implementation validation.",
+    "Video portrait landmark occluded; controlled live trials blocked.",
+    "USB Audio PCM captured but silent; sound-event validation unavailable.",
+    "Synthetic and historical replay data are not counted as new live trials."
+  ]
+}

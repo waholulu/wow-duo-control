@@ -1,0 +1,12 @@
+{"time": 1.764521458, "stage": "corpse_candidates", "points": [{"x": 994, "y": 526, "score": 0.64}, {"x": 1005, "y": 530, "score": 0}, {"x": 955, "y": 530, "score": 0}, {"x": 1055, "y": 530, "score": 0}, {"x": 895, "y": 530, "score": 0}, {"x": 1115, "y": 530, "score": 0}, {"x": 1005, "y": 620, "score": 0}, {"x": 955, "y": 620, "score": 0}, {"x": 1055, "y": 620, "score": 0}, {"x": 895, "y": 620, "score": 0}, {"x": 1115, "y": 620, "score": 0}, {"x": 1005, "y": 710, "score": 0}, {"x": 955, "y": 710, "score": 0}, {"x": 1055, "y": 710, "score": 0}, {"x": 895, "y": 710, "score": 0}, {"x": 1115, "y": 710, "score": 0}, {"x": 1005, "y": 800, "score": 0}, {"x": 955, "y": 800, "score": 0}, {"x": 1055, "y": 800, "score": 0}, {"x": 895, "y": 800, "score": 0}, {"x": 1115, "y": 800, "score": 0}, {"x": 1005, "y": 850, "score": 0}, {"x": 955, "y": 850, "score": 0}, {"x": 1055, "y": 850, "score": 0}, {"x": 895, "y": 850, "score": 0}, {"x": 1115, "y": 850, "score": 0}]}
+{"time": 2.269913, "stage": "position", "cursor": {"kind": "hand", "score": 0.9766584802418947, "x": 798, "y": 254}}
+{"time": 2.9052805, "stage": "position", "cursor": {"kind": "hand", "score": 0.9941051923669875, "x": 945, "y": 401}}
+{"time": 3.529567375, "stage": "position", "cursor": {"kind": "hand", "score": 0.9924449059180915, "x": 1002, "y": 544}}
+{"time": 4.153128916, "stage": "position", "cursor": {"kind": "loot", "score": 0.9685644544661045, "x": 998, "y": 535}}
+{"time": 4.7683195, "stage": "position", "cursor": {"kind": "loot", "score": 0.9716912135481834, "x": 996, "y": 532}}
+{"time": 5.611084, "stage": "right_click", "x": 994, "y": 526}
+{"time": 6.272248916, "stage": "verify", "cursor": {"kind": "loot", "score": 0.9697890430688858, "x": 996, "y": 532}, "loot_messages": 1}
+{"time": 6.922627458, "stage": "verify", "cursor": {"kind": "hand", "score": 0.965312659740448, "x": 997, "y": 532}, "loot_messages": 1}
+{"time": 7.565923666, "stage": "verify", "cursor": {"kind": "hand", "score": 0.9913003584370017, "x": 997, "y": 532}, "loot_messages": 1}
+{"time": 8.203316916, "stage": "verify", "cursor": {"kind": "hand", "score": 0.9930798583664, "x": 997, "y": 532}, "loot_messages": 0}
+{"time": 8.203372166, "stage": "early_receipt_ocr", "reason": "capture_receipt_before_chat_fades"}

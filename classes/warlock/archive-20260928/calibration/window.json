@@ -1,0 +1,61 @@
+{
+  "canonical_size": [
+    1920,
+    1080
+  ],
+  "viewport": [
+    368,
+    146,
+    1278,
+    798
+  ],
+  "anchors": [
+    {
+      "name": "portrait",
+      "rect": [
+        399,
+        187,
+        43,
+        42
+      ],
+      "file": "window_portrait.png"
+    },
+    {
+      "name": "minimap",
+      "rect": [
+        1569,
+        190,
+        29,
+        31
+      ],
+      "file": "window_minimap.png",
+      "alternatives": [
+        "window_minimap_night.png"
+      ]
+    },
+    {
+      "name": "actionbar",
+      "rect": [
+        1525,
+        895,
+        53,
+        45
+      ],
+      "file": "window_actionbar.png",
+      "alternatives": [
+        "window_actionbar_0928.png"
+      ]
+    }
+  ],
+  "verified_layouts": [
+    {
+      "name": "0928-1564x993",
+      "transform": [
+        1.2237871674491392,
+        1.244360902255639,
+        -272.3536776212833,
+        -150.6766917293233
+      ]
+    }
+  ]
+}

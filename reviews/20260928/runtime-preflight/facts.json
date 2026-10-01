@@ -1,0 +1,78 @@
+{
+  "run": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/runtime-observe-20260928",
+  "result": {
+    "schema_version": 1,
+    "status": "failed",
+    "reason": "capture_failed: Window calibration unavailable: black, occluded or unsupported layout",
+    "facts": {},
+    "evidence": []
+  },
+  "event_counts": {
+    "evidence_request": 2,
+    "skill_started": 1,
+    "skill_finished": 1
+  },
+  "failures": [
+    {
+      "schema_version": 1,
+      "at": 9.058698958,
+      "kind": "skill_finished",
+      "task": "0001-observe",
+      "result": {
+        "status": "failed",
+        "reason": "capture_failed: Window calibration unavailable: black, occluded or unsupported layout",
+        "facts": {},
+        "evidence": []
+      }
+    }
+  ],
+  "evidence_clips": [
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/runtime-observe-20260928/evidence/1790601755829266000/manifest.json",
+      "manifest": {
+        "id": "1790601755829266000",
+        "reason": "session_start",
+        "at": 0.351008291,
+        "until": 10.351008291,
+        "frame_times": [],
+        "pre_window_complete": false,
+        "audio_available": true,
+        "post_window_complete": false,
+        "dropped_records": 0
+      }
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/runtime-observe-20260928/evidence/1790601764536800000/manifest.json",
+      "manifest": {
+        "id": "1790601764536800000",
+        "reason": "capture_failed: Window calibration unavailable: black, occluded or unsupported layout",
+        "at": 9.058708125,
+        "until": 19.058708125000003,
+        "frame_times": [],
+        "pre_window_complete": false,
+        "audio_available": true,
+        "post_window_complete": false,
+        "dropped_records": 0
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/runtime-observe-20260928/config.json",
+      "sha256": "73d653f52a3e019e88792838f3d3daf98b20dc78bee0d1c606e5e573bbe2e8c9"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/runtime-observe-20260928/result.json",
+      "sha256": "a1a6f1f948c9d1e7f59101288bf76918c4bf17751374a4ed3d7bb001966cadaf"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/runtime-observe-20260928/recording.json",
+      "sha256": "5ffa89e41f68a85e0933c29a74cf741fb3c358ddd2a8971804fce1338d542ede"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/runtime-observe-20260928/preflight.json",
+      "sha256": "16e0cb991164c7c060d7b05e7f708eee780bd75853c9478192ae048de75968dc"
+    }
+  ],
+  "history_may_be_rotated": false
+}

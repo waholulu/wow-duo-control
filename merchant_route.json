@@ -1,0 +1,10 @@
+{
+  "vendor_coordinate": [30.1, 71.6],
+  "return_coordinate": [24.2, 73.6],
+  "sale_policy": "gray_junk_only",
+  "preserve": ["equipment", "gathering_materials", "quest_items", "unidentified_items"],
+  "navigation_verified": false,
+  "merchant_ui_verified": false,
+  "sale_verified": false,
+  "return_verified": false
+}

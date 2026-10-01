@@ -1,0 +1,108 @@
+{
+  "patrol": {
+    "exit_code": 0,
+    "ready": false,
+    "issues": [
+      "core: acceptance_required (use bounded --trial for validation)"
+    ],
+    "capabilities": {
+      "schema_version": 1,
+      "core": {
+        "offline_passed": false,
+        "live_passed": false
+      },
+      "navigation": {
+        "offline_passed": false,
+        "live_passed": false
+      },
+      "mining": {
+        "offline_passed": false,
+        "live_passed": false
+      },
+      "vendor": {
+        "offline_passed": false,
+        "live_passed": false
+      },
+      "fishing": {
+        "offline_passed": false,
+        "live_passed": false
+      }
+    },
+    "checked_task": "patrol",
+    "readiness_scope": "requested_task_only",
+    "hardware_opened": false,
+    "trial": false
+  },
+  "fish": {
+    "exit_code": 0,
+    "ready": false,
+    "issues": [
+      "core: acceptance_required (use bounded --trial for validation)",
+      "fishing: calibration_required",
+      "Audio/video offset calibration is required",
+      "Fishing requires measured audio offset and a calibrated bite template"
+    ],
+    "capabilities": {
+      "schema_version": 1,
+      "core": {
+        "offline_passed": false,
+        "live_passed": false
+      },
+      "navigation": {
+        "offline_passed": false,
+        "live_passed": false
+      },
+      "mining": {
+        "offline_passed": false,
+        "live_passed": false
+      },
+      "vendor": {
+        "offline_passed": false,
+        "live_passed": false
+      },
+      "fishing": {
+        "offline_passed": false,
+        "live_passed": false
+      }
+    },
+    "checked_task": "fish",
+    "readiness_scope": "requested_task_only",
+    "hardware_opened": false,
+    "trial": false
+  },
+  "replay-stale": {
+    "result": {
+      "status": "failed",
+      "reason": "invalid_or_stale_perception",
+      "facts": {},
+      "evidence": []
+    },
+    "actions": [],
+    "expectations_passed": true,
+    "hardware_opened": false,
+    "dataset": "synthetic-fault-regression"
+  },
+  "replay-escape-clear": {
+    "result": {
+      "status": "completed",
+      "reason": "ESCAPED",
+      "facts": {
+        "out_of_combat": true,
+        "hp": 0.6
+      },
+      "evidence": [
+        3
+      ]
+    },
+    "actions": [],
+    "expectations_passed": true,
+    "hardware_opened": false,
+    "dataset": "synthetic-state-regression"
+  },
+  "swift_build": {
+    "passed": true,
+    "source_sha256": "4a34ea0a15d69eb7c3663057e210abde4ab38430fb13f292ae7cbdfab7577d71",
+    "binary_sha256": "d2bf1eef9c78a4e75f058eef49abbef767086173c5a6b201255d46dd8c7c04bd",
+    "hardware_opened": false
+  }
+}

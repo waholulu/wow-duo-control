@@ -1,0 +1,16 @@
+{
+  "status": "awaiting_review",
+  "hypotheses": [
+    "动作结果缺乏新增回执证据；需区分未取得物品与聊天滚动／识别漏检。"
+  ],
+  "changes": [
+    {
+      "type": "receipt_candidate",
+      "proposal": "将点击前后连续帧加入回放，检查消息顺序与 OCR 回退；不得将点击成功改写为收获成功。",
+      "activation": "review_required"
+    }
+  ],
+  "regression_results": [],
+  "live_validation": [],
+  "activate": false
+}

@@ -1,0 +1,60 @@
+{
+  "header": "calibration/fishing_crowded_bag_header.png",
+  "empty": "calibration/fishing_crowded_bag_empty.png",
+  "header_roi": [
+    1498,
+    604,
+    52,
+    29
+  ],
+  "rows": 5,
+  "cols": 10,
+  "origin": [
+    1279,
+    688
+  ],
+  "step": [
+    45,
+    45
+  ],
+  "size": 39,
+  "excluded_slots": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "empty_variants": [
+    "calibration/fishing_crowded_empty_3.png",
+    "calibration/fishing_crowded_empty_5.png",
+    "calibration/fishing_crowded_empty_7.png"
+  ]
+}

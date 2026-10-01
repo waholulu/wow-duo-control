@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "attack_key": 30,
+    "attack_interval": 1.6,
+    "mana_rest_at": 0.5,
+    "mana_resume_at": 0.7,
+    "attack_once": true,
+    "precombat_key": 31,
+    "precombat_wait": 1.6,
+    "interact_key": 65,
+    "maintain_precombat_buff": true,
+    "buff_refresh_seconds": 24,
+    "opener_key": 33,
+    "opener_cooldown": 10.2,
+    "opener_min_mana": 0.35,
+    "opener_effect_timeout": 3.0,
+    "opener_log_names": ["正义审判"]
+  },
+  "class": "paladin",
+  "run_permission_required": true,
+  "label": "圣骑士",
+  "bindings_verified": true,
+  "vision_verified": true,
+  "status": "bounded_twenty_kill_iteration_completed",
+  "notes": "2开战前圣印，F8硬目标交互自动接近/普攻，1备用。3圣光术用于战后恢复；点击移动开启、辅助交互关闭。二十只迭代试验累计完成，包含故障停止和修复后续跑，非单进程无故障20只验收。共享patrol保留拾取确认；复杂绕障、战斗状态识别和跨级经验计数仍有限制。",
+  "vision_profile": "classes/paladin/vision/profile.json",
+  "recovery": {
+    "verified": true,
+    "self_key": 58,
+    "heal_key": 32,
+    "cast_seconds": 2.5,
+    "note": "现场确认3为圣光术、2.5秒，F1选自己；twenty-06实测HP约79%至满血且法力下降。仅恢复阶段；非战中治疗。",
+    "resource_threshold_source": "policy.mana_resume_at"
+  },
+  "seal_maintenance": {
+    "runtime_options": "policy.maintain_precombat_buff / policy.precombat_key / policy.precombat_wait / policy.buff_refresh_seconds",
+    "source": "monotonic_input_acknowledged_timer",
+    "duration_observed_seconds": 30,
+    "visual_confirmation_required": false,
+    "routine_icon_matching": false,
+    "note": "Timer begins after acknowledged input. Reuse within the current controller session; initialize by casting after restart. Inspect video only on casting anomalies."
+  },
+  "self_buff": {
+    "verified": true,
+    "key": 34,
+    "self_key": 58,
+    "duration_seconds": 3600,
+    "refresh_seconds": 3450
+  },
+  "judgement": {
+    "binding_verified": true,
+    "runtime_options": "policy.opener_key / policy.opener_cooldown",
+    "observed_cooldown_seconds": 10,
+    "range_yards": 10,
+    "mana_cost": 5,
+    "consumes_seal": false,
+    "evidence": "runs/judgement-tooltip-text.png",
+    "status": "bounded_trial_completed_see_ROTATION_V2_PLAN_and_START_HERE"
+  },
+  "workflow": {
+    "roam_after_kill": false,
+    "inventory_cache_seconds": 180
+  }
+}

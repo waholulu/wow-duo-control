@@ -1,0 +1,18 @@
+{
+  "raw_frame": "runs/runtime-raw-20260928.jpg",
+  "known_layout_anchor_scores": {
+    "portrait": 0.12657959759235382,
+    "minimap": 0.8542495369911194,
+    "actionbar": 0.9207395315170288
+  },
+  "required_score": 0.78,
+  "video_input_sent": false,
+  "audio_device": "USB Audio",
+  "audio_pcm_seconds": 5.812625,
+  "audio_rms": 0,
+  "blockers": [
+    "Current window landmarks do not match calibration; no physical-input trial performed.",
+    "USB PCM received but silent; no bite/hurt templates or measured audio/video offset.",
+    "Validated routes and mining/vendor/fishing interaction calibration still required."
+  ]
+}

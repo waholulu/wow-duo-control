@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "places": {
+    "vendor": {"map": "unconfirmed", "coordinate": [30.1, 71.6], "source": "user", "confirmed_at": null},
+    "hunt": {"map": "unconfirmed", "coordinate": [24.2, 73.6], "source": "user", "confirmed_at": null}
+  },
+  "routes": {}
+}

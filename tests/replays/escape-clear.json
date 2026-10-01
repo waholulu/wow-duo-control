@@ -1,0 +1,54 @@
+{
+  "dataset": "synthetic-state-regression",
+  "frames": [
+    {
+      "at": 0,
+      "observation": {
+        "valid": true,
+        "player_hp": 0.6,
+        "player_mana": 0.7
+      },
+      "combat_known": true
+    },
+    {
+      "at": 0.15,
+      "observation": {
+        "valid": true,
+        "player_hp": 0.6,
+        "player_mana": 0.7
+      },
+      "combat_known": true
+    },
+    {
+      "at": 0.3,
+      "observation": {
+        "valid": true,
+        "player_hp": 0.6,
+        "player_mana": 0.7
+      },
+      "combat_known": true
+    },
+    {
+      "at": 0.45,
+      "observation": {
+        "valid": true,
+        "player_hp": 0.6,
+        "player_mana": 0.7
+      },
+      "combat_known": true
+    },
+    {
+      "at": 0.6,
+      "observation": {
+        "valid": true,
+        "player_hp": 0.6,
+        "player_mana": 0.7
+      },
+      "combat_known": true
+    }
+  ],
+  "expected": {
+    "reason": "ESCAPED",
+    "actions": []
+  }
+}

@@ -1,0 +1,3072 @@
+{
+  "run": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01",
+  "result": {
+    "state": "STOPPED",
+    "target": [
+      24.2,
+      73.6
+    ],
+    "steps": 48,
+    "position": [
+      25.0,
+      73.2
+    ],
+    "reason": "No progress toward destination"
+  },
+  "event_counts": {
+    "legacy_event": 166
+  },
+  "failures": [
+    {
+      "kind": "terminal_result",
+      "result": {
+        "state": "STOPPED",
+        "target": [
+          24.2,
+          73.6
+        ],
+        "steps": 48,
+        "position": [
+          25.0,
+          73.2
+        ],
+        "reason": "No progress toward destination"
+      },
+      "source_file": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/result.json"
+    }
+  ],
+  "evidence_clips": [],
+  "files": [
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-0-0.png",
+      "relative_path": "coord-0-0.png",
+      "sha256": "469b64be83d8385c145b0770c9c3a7083b05b20d432db9ec22eafd2e78c43033",
+      "size": 69774
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-0-1.png",
+      "relative_path": "coord-0-1.png",
+      "sha256": "46a1cc25c458815a38bdb759439593146a92ca5e49c086b05c87998870ace2c8",
+      "size": 25263
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-0-2.png",
+      "relative_path": "coord-0-2.png",
+      "sha256": "1c2363644be2f5064628c8c6fa88ede92bc614dd37ce6c4ffa6683c7c7794303",
+      "size": 25307
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-0-3.png",
+      "relative_path": "coord-0-3.png",
+      "sha256": "70c910347038e87fefa50357ef3562fdfc12976bc408afd43c10d4a3559f155f",
+      "size": 22937
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-0.json",
+      "relative_path": "coord-0.json",
+      "sha256": "3c0e2b6692127f70e1f252f5813eba668006f278f392f61ba4ae6e69a39b68a7",
+      "size": 420
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-1-0.png",
+      "relative_path": "coord-1-0.png",
+      "sha256": "faa93495cacee257f1cc14628253b0f3b0af9bd4c391a009a581258731d0b0c0",
+      "size": 69334
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-1-1.png",
+      "relative_path": "coord-1-1.png",
+      "sha256": "85d820089aeabac51c05b8763c5a63c1d667a1a549f9783da562fc7c976cfb91",
+      "size": 25150
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-1-2.png",
+      "relative_path": "coord-1-2.png",
+      "sha256": "48bc0429ed77c9b6790aa333a52c400ae08d8f17ce0a97404192643110a94e86",
+      "size": 25215
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-1-3.png",
+      "relative_path": "coord-1-3.png",
+      "sha256": "94b1cbd009f4cd72d2d1a35afa43b302fbfc4d4c50a1251e23bcc837dd6f9b88",
+      "size": 22877
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-1.json",
+      "relative_path": "coord-1.json",
+      "sha256": "dbd25bc0abf28b44cf84662c57e0ee2fdc39766265328f5f9cfcf1ecbeeb4a85",
+      "size": 423
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-10-0.png",
+      "relative_path": "coord-10-0.png",
+      "sha256": "bbf1904c7f48d72af267625e72a5d3adf34f7cf1996931db931aa7e5f1d2a7ee",
+      "size": 50023
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-10-1.png",
+      "relative_path": "coord-10-1.png",
+      "sha256": "76040787b7e63a568dc5beba2f84a4a735c2b472a78abc1dd2082ccbc6c303a2",
+      "size": 19974
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-10-2.png",
+      "relative_path": "coord-10-2.png",
+      "sha256": "fa6146ba1d1ab67321ba5aa352f28ccc237e4d22b55aad779da1c9ce62094791",
+      "size": 20032
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-10-3.png",
+      "relative_path": "coord-10-3.png",
+      "sha256": "49d80f48025c957fce1dec15e6f3703d1a854bb5b75b93ad74db611f7f44f6d1",
+      "size": 18070
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-10.json",
+      "relative_path": "coord-10.json",
+      "sha256": "c7577089ff096ef3d842c07b7911de6d7c564f89c754ff436af0201be8b7d274",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-11-0.png",
+      "relative_path": "coord-11-0.png",
+      "sha256": "6a8773e348f2b92b6715adca5b10827e6e4c1ccbfbffc19b5d373ef98f2e2d70",
+      "size": 50774
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-11-1.png",
+      "relative_path": "coord-11-1.png",
+      "sha256": "9cce6aa0c952cd4f8f260b7f72f92c9466edd834cb05f947aeea80d3e34a3c43",
+      "size": 20057
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-11-2.png",
+      "relative_path": "coord-11-2.png",
+      "sha256": "3e4b47d57794716cd7440b26f79b391dbd842baf994c46af48360cc35c7cec5e",
+      "size": 20151
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-11-3.png",
+      "relative_path": "coord-11-3.png",
+      "sha256": "31241bcde7fd30ad7cbc0fb885866ed38bd08e8403bcd2375569fb678659ede9",
+      "size": 18189
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-11.json",
+      "relative_path": "coord-11.json",
+      "sha256": "b8cfbc7265e69c27443dc330b5463f2d8ebf70bf08f2b155f369133e34ec2a56",
+      "size": 302
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-12-0.png",
+      "relative_path": "coord-12-0.png",
+      "sha256": "a17c64eda46b74b73ba59cd153adba8b4b2a89644e82a0c6ad3ff58f2d10a707",
+      "size": 49262
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-12-1.png",
+      "relative_path": "coord-12-1.png",
+      "sha256": "d92277081c5ceaf212ccc0dd5636895a9c6a60719124679444ded7aae683d9e7",
+      "size": 19085
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-12-2.png",
+      "relative_path": "coord-12-2.png",
+      "sha256": "549d1d642b252d654d23238fbd8efdea6b9bb605191eeba1ebbba1245a215366",
+      "size": 19433
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-12-3.png",
+      "relative_path": "coord-12-3.png",
+      "sha256": "673611cacd66f4c4fbe1dfc0b8b1b50b24bffe21bcd10515493a679facb37934",
+      "size": 17682
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-12.json",
+      "relative_path": "coord-12.json",
+      "sha256": "1d7f367cbdbda8b428202be47df50b8f9854f861dca778111665bf6e368f2c98",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-13-0.png",
+      "relative_path": "coord-13-0.png",
+      "sha256": "11afa957ab27b179e554df88533a4e9ed486a841c8a296f79a0652f6cba067c3",
+      "size": 49949
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-13-1.png",
+      "relative_path": "coord-13-1.png",
+      "sha256": "27808ce07ab78ceb1cd5d12c04aaae485186a9a875943140f60ab736cf293a40",
+      "size": 19190
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-13-2.png",
+      "relative_path": "coord-13-2.png",
+      "sha256": "9f7806277ff792b25c36cfb9fbac55075ae67bc05bd3a2d7aa1dec173a258d9a",
+      "size": 19631
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-13-3.png",
+      "relative_path": "coord-13-3.png",
+      "sha256": "b874d2c7176084f70b4ff604e4ae36b59dbae91b74967ec27b478196bee209cd",
+      "size": 17821
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-13.json",
+      "relative_path": "coord-13.json",
+      "sha256": "4b75b5fa841963f5befca1fc97b18692bba10b1f12d1e4d828c7e0c37694cc3e",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-14-0.png",
+      "relative_path": "coord-14-0.png",
+      "sha256": "a48dbb8170e77d2b0ea7bc7f29940576da416b40c3d5f6a9041136b2618e5953",
+      "size": 48225
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-14-1.png",
+      "relative_path": "coord-14-1.png",
+      "sha256": "858e9ce4990b2b5812e9e12ca5e17042952c68c394794034e0b134ce4934590e",
+      "size": 18599
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-14-2.png",
+      "relative_path": "coord-14-2.png",
+      "sha256": "d98796557310403ad865ecbe784988edfe4f9a9c4422147015691579823d925c",
+      "size": 19139
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-14-3.png",
+      "relative_path": "coord-14-3.png",
+      "sha256": "2dea7514fba877a3ba0c11a003de3bb95d6e85e2c95041a96a790a9fa392aa03",
+      "size": 17344
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-14.json",
+      "relative_path": "coord-14.json",
+      "sha256": "9be0acc720f21970c275556c4a7c6bf718c96188a67e869e59a452f49dc87e24",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-15-0.png",
+      "relative_path": "coord-15-0.png",
+      "sha256": "ecc55db6de7b8bdafcbf42d19a4d9cf98381c9fb14aecd2c32aaeabc3ba971ef",
+      "size": 47616
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-15-1.png",
+      "relative_path": "coord-15-1.png",
+      "sha256": "678c17fe9347689e42f4e0e0d1455faaea305ddb0616c37c1538769a2fe68062",
+      "size": 18432
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-15-2.png",
+      "relative_path": "coord-15-2.png",
+      "sha256": "91ed2ed6ff32a1e483e893354581a8d496fa4729b8f61323c662948fde5de74d",
+      "size": 18779
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-15-3.png",
+      "relative_path": "coord-15-3.png",
+      "sha256": "7f4e1517dc00e7bbada9054a02ce7b7bce94ff2e38ffe24d81a3d24d2b731acc",
+      "size": 17068
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-15.json",
+      "relative_path": "coord-15.json",
+      "sha256": "bca62f9b8e452acafcece717f48f36f115f6c95e28a3a5fd3a8db12b466b1fae",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-16-0.png",
+      "relative_path": "coord-16-0.png",
+      "sha256": "2a110c9636b20fa4214533023e3a166b644c0d9b5ecb0369901fa9b52a125173",
+      "size": 49735
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-16-1.png",
+      "relative_path": "coord-16-1.png",
+      "sha256": "f18f91a709c2fe5d6fff30b71f99ac0fe290f6e2175c3578c3f105dfe6d5f68a",
+      "size": 19218
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-16-2.png",
+      "relative_path": "coord-16-2.png",
+      "sha256": "fe6bf333484a1f5a787eb08286825de760301ebc0146e4dc7cca4b58a4f76380",
+      "size": 19471
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-16-3.png",
+      "relative_path": "coord-16-3.png",
+      "sha256": "e1ba801cd67e7d6072d2dee88a9b05ca53cdbbd338ec05bd68dbe7a4810b67a5",
+      "size": 17818
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-16.json",
+      "relative_path": "coord-16.json",
+      "sha256": "f4de9089ca6e8ec9d33b228c86c8c2568d8e0737e6f2d260104d210ed30ab699",
+      "size": 298
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-17-0.png",
+      "relative_path": "coord-17-0.png",
+      "sha256": "3c1ea4858586a9e0521b73c6679f5fc9ea0241e08fd3c5f11a871ca5cd48f2b0",
+      "size": 49329
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-17-1.png",
+      "relative_path": "coord-17-1.png",
+      "sha256": "bb5fa08159a06c30ae9d2387e17284333c560d1c0692d4077b4d502b2ead8f88",
+      "size": 18999
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-17-2.png",
+      "relative_path": "coord-17-2.png",
+      "sha256": "f5cb013252d60ab4c7f51b27827322098e87b848d1b6db0dcf9c5c6b7f0f3fa7",
+      "size": 19313
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-17-3.png",
+      "relative_path": "coord-17-3.png",
+      "sha256": "c0de18a3c8da7d4c63d3d686a19e84a4ad65dd8136ca4ee78c8b1db5e87dce45",
+      "size": 17657
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-17.json",
+      "relative_path": "coord-17.json",
+      "sha256": "7d5a9de5331a3a6a4a1b46725bc127345e004fae3218fbbc4cc5b562e6fd9eb8",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-18-0.png",
+      "relative_path": "coord-18-0.png",
+      "sha256": "b2c28fea7e373832ee3b40fcbeb0530253ac89658194fa6a6032cfa8feda1b40",
+      "size": 51738
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-18-1.png",
+      "relative_path": "coord-18-1.png",
+      "sha256": "295247699df37ccbae1e70cf3b9444f680658651b8800e9ef16bf50205b4c1ea",
+      "size": 19657
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-18-2.png",
+      "relative_path": "coord-18-2.png",
+      "sha256": "96273a06a03539497a038bb1772216073c7289ec71520f304b24e861b5b1fa1b",
+      "size": 19838
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-18-3.png",
+      "relative_path": "coord-18-3.png",
+      "sha256": "f878b4a1d5566342f062132a54549e5c87dfd74729daee994ffa9f31982872f5",
+      "size": 17761
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-18.json",
+      "relative_path": "coord-18.json",
+      "sha256": "e16516eebd7df43ce64e57ad49ffeb358cbdd622b1a52cc04f9a5793146f8dc9",
+      "size": 423
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-19-0.png",
+      "relative_path": "coord-19-0.png",
+      "sha256": "4985fd6c88cd471b20f395c7911e2470b72b6d4dae99e1df5b8f86574f602e4d",
+      "size": 51710
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-19-1.png",
+      "relative_path": "coord-19-1.png",
+      "sha256": "c1813b8c95f8e4e3908dd71b46160b766b27df2eaafd50aa4b61cb3072a0b19f",
+      "size": 19582
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-19-2.png",
+      "relative_path": "coord-19-2.png",
+      "sha256": "4f7faf35861d6f23c866590c7095f7492f7c3dde1691af5ee5362c5e232f7d6e",
+      "size": 19757
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-19-3.png",
+      "relative_path": "coord-19-3.png",
+      "sha256": "8016a212f0cb5db09d02a52afa4ea5a79a69979b8a21476d44e6602794ff3776",
+      "size": 17693
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-19.json",
+      "relative_path": "coord-19.json",
+      "sha256": "f0a4b8b1f759f68e6b268b31143c5a02c378272745cba6e763236ce051c72870",
+      "size": 421
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-2-0.png",
+      "relative_path": "coord-2-0.png",
+      "sha256": "3c66aa3063bfc40fbb871a1e101cb264752d42ecc969f29ded1dbd03cadb04ad",
+      "size": 60952
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-2-1.png",
+      "relative_path": "coord-2-1.png",
+      "sha256": "54ddf683c09da323a111ad7543bfe1e54369691fcfd45431e997fc49e642b58a",
+      "size": 22755
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-2-2.png",
+      "relative_path": "coord-2-2.png",
+      "sha256": "3b68898c777cf898fab2078fc87b776b84e5c076b7114e46e8c0cc8e82ea91d7",
+      "size": 22953
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-2-3.png",
+      "relative_path": "coord-2-3.png",
+      "sha256": "38884621b65cd40794b0caa8640c0fd8d677b2bce748c58f25134d68b0c27470",
+      "size": 20771
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-2.json",
+      "relative_path": "coord-2.json",
+      "sha256": "4815bff8a79a36714662b0bffe47cafcc59045eb7a7f55600c738aac8373a42f",
+      "size": 365
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-20-0.png",
+      "relative_path": "coord-20-0.png",
+      "sha256": "73fb53cc4cb79e4609e4758caf55620bfd026237708993f9a922d9048fa19760",
+      "size": 47342
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-20-1.png",
+      "relative_path": "coord-20-1.png",
+      "sha256": "62486e0d2df4803f8c73828ea4006681db6f99cf6efddb9487a7eabf503d5e2d",
+      "size": 17740
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-20-2.png",
+      "relative_path": "coord-20-2.png",
+      "sha256": "05cc65b0863878e100c79e53e092f8ddd3c14a3ed84df9c3a416995f4da8439a",
+      "size": 17701
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-20-3.png",
+      "relative_path": "coord-20-3.png",
+      "sha256": "6a8c706848ea9be6ace91f31ba7c556c9d2e2d0649e86b7f9846637d01c5b4b2",
+      "size": 16393
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-20.json",
+      "relative_path": "coord-20.json",
+      "sha256": "3eec414eb761871ae6165334a7a6206585215b2a9c857f2becea65c8f805f6eb",
+      "size": 333
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-21-0.png",
+      "relative_path": "coord-21-0.png",
+      "sha256": "a30d8d863bbb1040802866bce51f7fb1cd68e33ba02a6d70edd15f859d2ef65d",
+      "size": 47147
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-21-1.png",
+      "relative_path": "coord-21-1.png",
+      "sha256": "4df09c837035a35c0e03c76b21df38314753c31fe7adf8189de09593b6ba5e92",
+      "size": 17740
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-21-2.png",
+      "relative_path": "coord-21-2.png",
+      "sha256": "9c50c4c22d75c2136e6edf4a7263a9e83b373c865034264ad0a0732a5e16913a",
+      "size": 17656
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-21-3.png",
+      "relative_path": "coord-21-3.png",
+      "sha256": "e4b5f899f8a6b88c18ce51ef033d43a9df7491a373c2ffd3dec2a5cc84389c10",
+      "size": 16284
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-21.json",
+      "relative_path": "coord-21.json",
+      "sha256": "7681f02d2e518e424b312431367ba1732dc439cc81ba7433eb75fb540e2a77b0",
+      "size": 331
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-22-0.png",
+      "relative_path": "coord-22-0.png",
+      "sha256": "11b52d243f6c0101b71388b0351f3f5fa6e0f8e6b723e1d9af25ea226d979874",
+      "size": 67829
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-22-1.png",
+      "relative_path": "coord-22-1.png",
+      "sha256": "417141d38a7c7361d4745c958832e6c6d71232c3853549bd8ec526f369c40417",
+      "size": 25390
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-22-2.png",
+      "relative_path": "coord-22-2.png",
+      "sha256": "92ace332d54588319d0fa8376d29c9080dc26c967a7c399b3148c6aa714da2d9",
+      "size": 25452
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-22-3.png",
+      "relative_path": "coord-22-3.png",
+      "sha256": "bc18a9b79429ab64a9339b3161df1882914d0ddd6e945deefacf9c361eec186f",
+      "size": 23220
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-22.json",
+      "relative_path": "coord-22.json",
+      "sha256": "fedab5903258f0ab0b2b2693e5281f6919f0081677f9ff48ba33e56825736947",
+      "size": 335
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-23-0.png",
+      "relative_path": "coord-23-0.png",
+      "sha256": "6a0fad8abe45f3371e93dff0768f8cb60c062550fe90ee33100163c65c9e35f7",
+      "size": 67691
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-23-1.png",
+      "relative_path": "coord-23-1.png",
+      "sha256": "d87abe4db51bc86c19fafd75fbdaf609f4660622d05bc972386f283d6d6be33a",
+      "size": 25353
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-23-2.png",
+      "relative_path": "coord-23-2.png",
+      "sha256": "5bdc694eae6228508e555ef64c8d93409d3edf14ac84a45279cff618d53b5fea",
+      "size": 25425
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-23-3.png",
+      "relative_path": "coord-23-3.png",
+      "sha256": "eb46ced99380b1b32cf505a4430530c1d984a699de2878e6843e3fffe2735137",
+      "size": 23171
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-23.json",
+      "relative_path": "coord-23.json",
+      "sha256": "ebd42066281f5f29b4234e258b2cfd6167b253e76db9c7d9d7bec6f347e2e237",
+      "size": 335
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-24-0.png",
+      "relative_path": "coord-24-0.png",
+      "sha256": "f02fc3f9c55993cc196fdc7a0ec49027e5a31de8e99d0ff1cf78a0cfadb07512",
+      "size": 55114
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-24-1.png",
+      "relative_path": "coord-24-1.png",
+      "sha256": "e25f22219e3357da363fe343be0c7498a372c7e209613bd5f889d2267c7ccda6",
+      "size": 21381
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-24-2.png",
+      "relative_path": "coord-24-2.png",
+      "sha256": "764e03968c89ba2811ec858c8965cedcf69cbf8e1ddfc20a55556a77fb89b97f",
+      "size": 21571
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-24-3.png",
+      "relative_path": "coord-24-3.png",
+      "sha256": "32f86e0d22e3d29ea0e1580bf639cab49ab26f643126ba985f9860dd54736161",
+      "size": 19526
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-24.json",
+      "relative_path": "coord-24.json",
+      "sha256": "2d31fbcfaef2ca264146f5f30880a2aac9dd7b36909288acbd3ec64eed216430",
+      "size": 357
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-25-0.png",
+      "relative_path": "coord-25-0.png",
+      "sha256": "1df409eeab70c4803d70551438481ff284d84bbcc4d566cbda579d0c626c093d",
+      "size": 54857
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-25-1.png",
+      "relative_path": "coord-25-1.png",
+      "sha256": "5b9d4955e0744c28c4e82920eadb0239280aa5a8401e41d08252fc23e439e80d",
+      "size": 21281
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-25-2.png",
+      "relative_path": "coord-25-2.png",
+      "sha256": "d27e3d4ae831200b57734b3e8f7abd31f0cd11185dc1c2f1f35df0d6fc67dfaa",
+      "size": 21563
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-25-3.png",
+      "relative_path": "coord-25-3.png",
+      "sha256": "e367016131eef8cb5ff770803696b42b8d418248398fb6110b944fcbd7a8b257",
+      "size": 19443
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-25.json",
+      "relative_path": "coord-25.json",
+      "sha256": "8308bc04fb73db03d5094141240be125d63593af3516a0ef5ac55e91cf73af0e",
+      "size": 363
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-26-0.png",
+      "relative_path": "coord-26-0.png",
+      "sha256": "70834008faa84cdce9648e95024c7912bebb0ce11e8921431e0a2ac166becbef",
+      "size": 48257
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-26-1.png",
+      "relative_path": "coord-26-1.png",
+      "sha256": "6106529b2d927f087295355ffaf6141e0527ecb1c57d0e51aa51bbbc9e1cd76e",
+      "size": 18757
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-26-2.png",
+      "relative_path": "coord-26-2.png",
+      "sha256": "135569ecd6aae2994a77e03e3e31f418dbdf088a0249c17be8c7622d23bb73ab",
+      "size": 19245
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-26-3.png",
+      "relative_path": "coord-26-3.png",
+      "sha256": "ee98471bdb5bd735dba763d0facdc1a9f3d854f6352c88a010e4274d544b9343",
+      "size": 17327
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-26.json",
+      "relative_path": "coord-26.json",
+      "sha256": "5fadda820ee88cdef9df979c081a5031e8205504631577dc4027aababbff91e3",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-27-0.png",
+      "relative_path": "coord-27-0.png",
+      "sha256": "5d8620a7f80ab15e8a0d53994aa42d63540043249fe753b4740f5cbb971eb948",
+      "size": 47664
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-27-1.png",
+      "relative_path": "coord-27-1.png",
+      "sha256": "e6edc047b09bacc9df2bd1e1dcb4f37f1a87bc75f213d222dca0187397551211",
+      "size": 18604
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-27-2.png",
+      "relative_path": "coord-27-2.png",
+      "sha256": "2b0b7e01817da29a9c7632ea39cf78c7cecc61880a22d57c958f2e86aba774fd",
+      "size": 19133
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-27-3.png",
+      "relative_path": "coord-27-3.png",
+      "sha256": "047c54baa25fef1ee705bfcaebe212b394f7683e83d547b503590d4e5eaaf570",
+      "size": 17224
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-27.json",
+      "relative_path": "coord-27.json",
+      "sha256": "f1c38992c559057ddafd39a30ec44a8da304341d1f9e4b6a172538e4c11f2ef9",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-28-0.png",
+      "relative_path": "coord-28-0.png",
+      "sha256": "ce197b47aca5af21e04bffb498b1c0790ee5c0864b80099b2d067088cdefd403",
+      "size": 45175
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-28-1.png",
+      "relative_path": "coord-28-1.png",
+      "sha256": "c564ebc8ce2e1fce98a8d8b7a2a6d0a6e2dcb75e7c011f4e9cccf8920dbea200",
+      "size": 17547
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-28-2.png",
+      "relative_path": "coord-28-2.png",
+      "sha256": "8e69d1bc71fb736a68e21bfd01f3e91f34dcd783d3716d14e706f8831007eff8",
+      "size": 17855
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-28-3.png",
+      "relative_path": "coord-28-3.png",
+      "sha256": "b51e7129b26ca2b73703ca03e8b96943ad149b4102d4e23e17158cfb03b6563a",
+      "size": 16364
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-28.json",
+      "relative_path": "coord-28.json",
+      "sha256": "1a60c124d6bb227e07cde71701382082ca17e5dfc2933f2419d9ec0658e56759",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-29-0.png",
+      "relative_path": "coord-29-0.png",
+      "sha256": "854eefd701bcfcf9773f15286fa572beb58a72a6003fb2ec986f578dbc789a02",
+      "size": 45633
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-29-1.png",
+      "relative_path": "coord-29-1.png",
+      "sha256": "2edbd1d5043a0a711441e513ad6ca9fef48f61fe16afee0190489408c6a72226",
+      "size": 17677
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-29-2.png",
+      "relative_path": "coord-29-2.png",
+      "sha256": "f0c1c0d0d88435445e2d5abcf9e714ccbf47e1b4cf5c893b2fcad33deb063340",
+      "size": 17885
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-29-3.png",
+      "relative_path": "coord-29-3.png",
+      "sha256": "2579f315e26cb85f6f8d2b2456e93cb0b94648c32d3815fcf85e13a019872459",
+      "size": 16417
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-29.json",
+      "relative_path": "coord-29.json",
+      "sha256": "ce4ec9b6fed67536b06dfea0ce3c1790621db822845a2e3f0b976f6d75409970",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-3-0.png",
+      "relative_path": "coord-3-0.png",
+      "sha256": "47806db74a9a41dd879c7b78e74c5594f7b5b7e76f25599af2c6297baf2e938a",
+      "size": 61438
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-3-1.png",
+      "relative_path": "coord-3-1.png",
+      "sha256": "75d802bf75fee7b02cb3f7541b338b0336493a84385a23f0fa1b1546f8503eda",
+      "size": 22817
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-3-2.png",
+      "relative_path": "coord-3-2.png",
+      "sha256": "b8103f95c9e30917a53fbf93057944f59029737e3040d5b6fa85a422cacbb7d7",
+      "size": 23011
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-3-3.png",
+      "relative_path": "coord-3-3.png",
+      "sha256": "a1e80c380825539959802e36fc94b6a6ef37e00d16b9b2723b7fec1e19a2b2e0",
+      "size": 20836
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-3.json",
+      "relative_path": "coord-3.json",
+      "sha256": "36cfe352b9e836f77bbcd0505f9d1642dd7e16343acfeb0eb3ed94d437617c48",
+      "size": 335
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-30-0.png",
+      "relative_path": "coord-30-0.png",
+      "sha256": "acedc98ef07e9338cf3bd97c7cd2ed484db18e8495234c52ed2ca34747b637be",
+      "size": 51821
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-30-1.png",
+      "relative_path": "coord-30-1.png",
+      "sha256": "5f0b3d363141573b0f55a18fb74e6c7a7558470e20dce54bfb4ca74bafe69c82",
+      "size": 19479
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-30-2.png",
+      "relative_path": "coord-30-2.png",
+      "sha256": "e3de83e0e4dd2d0a3997bafa3831f72be04d9ca14248de0a0c270ea07dd99be1",
+      "size": 19619
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-30-3.png",
+      "relative_path": "coord-30-3.png",
+      "sha256": "e93df64e477bd2b10490b6b69ad321be4600bde1a1eac160fd28bc303a10c8e6",
+      "size": 18148
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-30.json",
+      "relative_path": "coord-30.json",
+      "sha256": "65947bb0fa8cceea9c0104f3a265e81efc8693df6565a86a29f6c53ea9e94d50",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-31-0.png",
+      "relative_path": "coord-31-0.png",
+      "sha256": "fc23424a15c62c545f8d6423108aa62c51540b7bc459e168201538b001793ed2",
+      "size": 51913
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-31-1.png",
+      "relative_path": "coord-31-1.png",
+      "sha256": "7bda726a2b4cec8753ab68127cc043e1229f5976ec222ac97c6abef105c090e7",
+      "size": 19347
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-31-2.png",
+      "relative_path": "coord-31-2.png",
+      "sha256": "4522b15c8237977ec83e9525d1470e201492fa6bd7d49e68175b4d2180e1a05e",
+      "size": 19569
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-31-3.png",
+      "relative_path": "coord-31-3.png",
+      "sha256": "ecfb83a59c95e2ab487fa60a366efa6eb6371ec2830039577e336e3728ab372c",
+      "size": 18104
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-31.json",
+      "relative_path": "coord-31.json",
+      "sha256": "2f36ac526cfcdf69dfed8671b381ff3748a690fe2f7a4f43b7a963a11da05439",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-32-0.png",
+      "relative_path": "coord-32-0.png",
+      "sha256": "6e39712ea847cc24724877093baf26ed2478673fecfdf9f7c31ca1968448fefe",
+      "size": 49946
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-32-1.png",
+      "relative_path": "coord-32-1.png",
+      "sha256": "e502ef4c12e01b2e990b7990a5e38036e03802345084ba7af04f0a84fd132571",
+      "size": 19477
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-32-2.png",
+      "relative_path": "coord-32-2.png",
+      "sha256": "08e14f5d736eb40402ac73b3ee95233f944f2fd99cbf619e0cd7170f23617265",
+      "size": 19544
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-32-3.png",
+      "relative_path": "coord-32-3.png",
+      "sha256": "a7517be0b1f1a5c24c8f4614997660953ade4cd957350cd5974bcf19eb8290a2",
+      "size": 17664
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-32.json",
+      "relative_path": "coord-32.json",
+      "sha256": "25b5d743e66ff90f118c288736e7cb4e510c3db9fb283ea64753d3b5862e54f2",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-33-0.png",
+      "relative_path": "coord-33-0.png",
+      "sha256": "3d70d1b5af821590abd109633feebaf91fc5b939f88de7dc9c8681c7f49879fc",
+      "size": 50394
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-33-1.png",
+      "relative_path": "coord-33-1.png",
+      "sha256": "1763137405666347e69e012cd5758aa204f0d42f8f30666e1375df354b63987e",
+      "size": 19662
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-33-2.png",
+      "relative_path": "coord-33-2.png",
+      "sha256": "973a6e558fb7475fdedb2157a646956ea0932d71ca74a871b3096d97bddf5c91",
+      "size": 19711
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-33-3.png",
+      "relative_path": "coord-33-3.png",
+      "sha256": "56a578a00b64f858a9752a645b1e5bf3def2ef9da2c2410aaec98c4812e55b14",
+      "size": 17823
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-33.json",
+      "relative_path": "coord-33.json",
+      "sha256": "4033c4d91d8a68917d6fec5c2fdf85895ced1f290d5d5da48f826bf54a0a723e",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-34-0.png",
+      "relative_path": "coord-34-0.png",
+      "sha256": "ef5e1937700c2373675db18ee2dd4cf85d5561f8e7b11e890269316b1eb4430d",
+      "size": 57031
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-34-1.png",
+      "relative_path": "coord-34-1.png",
+      "sha256": "fdfc67c3d490b6378201ada172221e07af9afe1a8449c5bd02499b7e0e6d1348",
+      "size": 21214
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-34-2.png",
+      "relative_path": "coord-34-2.png",
+      "sha256": "ee37dbc09798cd871f09c93938b528065345f0abc5e64add106799931c400be6",
+      "size": 21302
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-34-3.png",
+      "relative_path": "coord-34-3.png",
+      "sha256": "58a42ad0fb2a9c202ae49de06d1a64dddfb13525bf29422433587c69f11745f2",
+      "size": 19383
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-34.json",
+      "relative_path": "coord-34.json",
+      "sha256": "972ebcc20de3e13abfa9feccb969bb6bd32bd9651111bdd24624db258d1f04c4",
+      "size": 335
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-35-0.png",
+      "relative_path": "coord-35-0.png",
+      "sha256": "c93a1dfd5170781f36e3235817025ae79a69e78bc5141b3e474a181c63423e54",
+      "size": 56581
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-35-1.png",
+      "relative_path": "coord-35-1.png",
+      "sha256": "37a76a7f75560711af7f5c6d89358bd2488a3c43d3937b1e07c29688e8007e45",
+      "size": 21240
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-35-2.png",
+      "relative_path": "coord-35-2.png",
+      "sha256": "309d6aa280dff3eb0e38d79ea675420cc40eb83bb55612c16ff7c746869495ae",
+      "size": 21345
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-35-3.png",
+      "relative_path": "coord-35-3.png",
+      "sha256": "4e644e420f228929f3f31783f28dea2ca276becc6b9bb1cf469a4b1b3db308e8",
+      "size": 19438
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-35.json",
+      "relative_path": "coord-35.json",
+      "sha256": "f104dae9cc699b15844c3e29a87fd60f9c017723bd892a6034205f44fd9320f3",
+      "size": 394
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-36-0.png",
+      "relative_path": "coord-36-0.png",
+      "sha256": "b1553a08b1b05f328ecb63752adc186ba02be56b8ba77ffdffe08cd3aa66d716",
+      "size": 68528
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-36-1.png",
+      "relative_path": "coord-36-1.png",
+      "sha256": "0a24b0105c358cf0170154b358beabf6f0809261e85f35a8cb684b48cb65f47e",
+      "size": 25863
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-36-2.png",
+      "relative_path": "coord-36-2.png",
+      "sha256": "ea8213578ddf4919cfc50de1f1ba5767a1c3fa3e2301b25dff95ae89bd0a4d3f",
+      "size": 25918
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-36-3.png",
+      "relative_path": "coord-36-3.png",
+      "sha256": "ea27971ce5558a3c445bfa5db19d254bbc20f0b2140e75fd4f391de3b3b8c40e",
+      "size": 23448
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-36.json",
+      "relative_path": "coord-36.json",
+      "sha256": "393b0ff9386b0a068bbbb7a2d63963ee1ac5c5190f5c219f5b7164f7850555f3",
+      "size": 298
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-37-0.png",
+      "relative_path": "coord-37-0.png",
+      "sha256": "119d5cccf29465450e0998254d209dc1cfac279dc93ec8ea8563c373b061950f",
+      "size": 68485
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-37-1.png",
+      "relative_path": "coord-37-1.png",
+      "sha256": "0217b54eea1a8994eaa2abb1d8539c23144356a54377788ee4fbda3bcba38dcf",
+      "size": 25868
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-37-2.png",
+      "relative_path": "coord-37-2.png",
+      "sha256": "552974c894ef56800e9f7ddf89a803880e357d6e2e58db7f44316c3c9f050bae",
+      "size": 25964
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-37-3.png",
+      "relative_path": "coord-37-3.png",
+      "sha256": "981b82c3d983079230e1eee419bac45c52fc47d49617db0496666031fd2b36c6",
+      "size": 23447
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-37.json",
+      "relative_path": "coord-37.json",
+      "sha256": "c2b73dbf1c010e3ba81e28e45298d2d7219fb21bb49a3139b891d3f0d0ed49cb",
+      "size": 298
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-38-0.png",
+      "relative_path": "coord-38-0.png",
+      "sha256": "b052eef0d53fb01aa2d5c0c05e52b70981d8139299287f154bf6394b2826a5dc",
+      "size": 67486
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-38-1.png",
+      "relative_path": "coord-38-1.png",
+      "sha256": "9e9d71624cd7461d242f0fe633cfccf36b1441faf93ac5df575e9fe66dc22043",
+      "size": 24736
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-38-2.png",
+      "relative_path": "coord-38-2.png",
+      "sha256": "81b67c45eaeb6d2a8f96096a74ab1f0836014a53ec6b023a16fd06cfc64f0b1d",
+      "size": 24805
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-38-3.png",
+      "relative_path": "coord-38-3.png",
+      "sha256": "ede82a54128eb54bdbe7ff28465dfa5ea18b019f01bc472fd13b287c0c2df110",
+      "size": 22693
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-38.json",
+      "relative_path": "coord-38.json",
+      "sha256": "de0b935f30054420280b4bb021fbb80418a6e7b3b6bbc9d966c1557aa0a179bf",
+      "size": 332
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-39-0.png",
+      "relative_path": "coord-39-0.png",
+      "sha256": "60056dcb2d308c0b6406ed28502337495e901f1d789811131148c1086f9a2302",
+      "size": 67373
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-39-1.png",
+      "relative_path": "coord-39-1.png",
+      "sha256": "f83827aba21c9c1a559ecf9e31b419e776d61077b33c107ee589713fa7308b7c",
+      "size": 24795
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-39-2.png",
+      "relative_path": "coord-39-2.png",
+      "sha256": "ba5e870ae54b7331e5048d3455b309f4c1f9745bc09459019a273f6954f9246a",
+      "size": 24799
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-39-3.png",
+      "relative_path": "coord-39-3.png",
+      "sha256": "bea460ceda44a2de64f764d5f6e40c8f0b07d5a07fc77e080dcc12c0bd9fbb13",
+      "size": 22657
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-39.json",
+      "relative_path": "coord-39.json",
+      "sha256": "450cc4356535a33e79f615d5ec24da7e6f7b24ca56c55e00c369ab6758a89b71",
+      "size": 327
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-4-0.png",
+      "relative_path": "coord-4-0.png",
+      "sha256": "e66965cd0c692fad4a4312e8a9e78bd94907679f761e3d7bcf588e6f402cd5c1",
+      "size": 61501
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-4-1.png",
+      "relative_path": "coord-4-1.png",
+      "sha256": "d86572f53ff09c8b9db9eb75d1f814cbf8a59ebc7e94d47530c5d2f59545cae3",
+      "size": 23262
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-4-2.png",
+      "relative_path": "coord-4-2.png",
+      "sha256": "389949f3662f464c7902b21a6fe69b9e9695ef90fe882cc36a62242ec81215f5",
+      "size": 23274
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-4-3.png",
+      "relative_path": "coord-4-3.png",
+      "sha256": "0a59de55da6c8b9c6d3594caeb9cacd9ff181d094ca2b108ced902c758c08792",
+      "size": 21193
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-4.json",
+      "relative_path": "coord-4.json",
+      "sha256": "c8ac8b0a8851ab11794ab173327bd5fed298ae227bee0b21419f141f38e3bd76",
+      "size": 395
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-40-0.png",
+      "relative_path": "coord-40-0.png",
+      "sha256": "421a9fae1a8093c5e10663580784a015991b5d0b11b1393a13a332806784528b",
+      "size": 63608
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-40-1.png",
+      "relative_path": "coord-40-1.png",
+      "sha256": "6649472066a726bb2e5cec69481300a2f4d9f550c910fed848a0e78e74995af2",
+      "size": 24486
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-40-2.png",
+      "relative_path": "coord-40-2.png",
+      "sha256": "234a639c621b7e7fd6e8565fd3eadae8128cfc0e0edc727759a959e178147537",
+      "size": 24514
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-40-3.png",
+      "relative_path": "coord-40-3.png",
+      "sha256": "c078b1f2266d8e5aa81b0d777c1e45201591dc828434882c0cf5c2c13e402bde",
+      "size": 22170
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-40.json",
+      "relative_path": "coord-40.json",
+      "sha256": "5d496b736b1e86d7784cde9401b94a16c1c1d8c04d4f5b5966034904b42d36d0",
+      "size": 302
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-41-0.png",
+      "relative_path": "coord-41-0.png",
+      "sha256": "16d3fe18ea19a61b35686eca196432d59713d0101bd2d52c54ada76dbdf9cdcb",
+      "size": 63424
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-41-1.png",
+      "relative_path": "coord-41-1.png",
+      "sha256": "60f9c6d24335f2a8432c90ca99db51d4e363835446d085ec45ba22dce22caacf",
+      "size": 24457
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-41-2.png",
+      "relative_path": "coord-41-2.png",
+      "sha256": "468bbe4ae382814545c36a4de1461e1b74caa91fc300f8f27366d5d9a42e4322",
+      "size": 24508
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-41-3.png",
+      "relative_path": "coord-41-3.png",
+      "sha256": "bf85b4741875a9ebb1f2a37903709d3f8357c68a63af0fb3c2957e54a25cfc79",
+      "size": 22164
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-41.json",
+      "relative_path": "coord-41.json",
+      "sha256": "159a417530ddc4a119de990256f0c78d51dc386d6c5cdb638d0437446d05a838",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-42-0.png",
+      "relative_path": "coord-42-0.png",
+      "sha256": "d526dc47aac72fe97fdab502271a3b2553aa0da792ff1f31c41539c0b1506950",
+      "size": 65867
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-42-1.png",
+      "relative_path": "coord-42-1.png",
+      "sha256": "9cbe572e62ca5d3c192f9fa7e027d71fcca370de2b032df8e4e1708e27aa5759",
+      "size": 25792
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-42-2.png",
+      "relative_path": "coord-42-2.png",
+      "sha256": "14aa48505aa1a946e208296735aecb75a3fc937dc7f616b0021b38c22a7ca22b",
+      "size": 25791
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-42-3.png",
+      "relative_path": "coord-42-3.png",
+      "sha256": "b3bacbd789e54661c5c2dc361ab7345fdfa082579b4484999f71e4fc116fa1bc",
+      "size": 23038
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-42.json",
+      "relative_path": "coord-42.json",
+      "sha256": "3e2f3e83b9108f5832f6f31c7c7e58528a749fccee9cd85746f94818746a8ad6",
+      "size": 307
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-43-0.png",
+      "relative_path": "coord-43-0.png",
+      "sha256": "b879e65810cd96d5b157c4440dfe415fc3910ee566fd1567536240c5b02c33d8",
+      "size": 66197
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-43-1.png",
+      "relative_path": "coord-43-1.png",
+      "sha256": "826139127960e130e399adb33244860f1a61874f1064e0c962a1e4ae1e19f573",
+      "size": 25868
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-43-2.png",
+      "relative_path": "coord-43-2.png",
+      "sha256": "53e20edff1f79db7ec8b58f25561b9f8ee46effe7410a5e71349366ff1f1d6d0",
+      "size": 25896
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-43-3.png",
+      "relative_path": "coord-43-3.png",
+      "sha256": "743f0f742b45117e87f5448323ee3ff22e6e12d9525f39dc7776f0678418efb6",
+      "size": 23163
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-43.json",
+      "relative_path": "coord-43.json",
+      "sha256": "0c508da343e6e185780be1c4c2cbd4b40dedc54119a5a99a44b5ddc0429d989b",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-44-0.png",
+      "relative_path": "coord-44-0.png",
+      "sha256": "db923bb5f1c665401dec473a85d905b634f1e9d370becb4704ff19efb9730347",
+      "size": 58022
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-44-1.png",
+      "relative_path": "coord-44-1.png",
+      "sha256": "3f9f47ab3f266db168659665bc29670df4e3432ace245485005d89b8dc738e23",
+      "size": 22234
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-44-2.png",
+      "relative_path": "coord-44-2.png",
+      "sha256": "94b6b1fce40e78aaa307ce70b0dd3a0b020e0c8682b064659ed313ba71bc4f74",
+      "size": 22258
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-44-3.png",
+      "relative_path": "coord-44-3.png",
+      "sha256": "ae73e4c4f5a6663bc1ad8ae94d5ac5230aaa59e333f179afd3a1a662779ae01b",
+      "size": 20498
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-44.json",
+      "relative_path": "coord-44.json",
+      "sha256": "35a8e1a736c70008dcfcfff785762d17466fca326206477101ede9834237c949",
+      "size": 363
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-45-0.png",
+      "relative_path": "coord-45-0.png",
+      "sha256": "ee69826525ccd237f22a65dbaa818d41e08d6f691e20962b8391e3c7289c8ff2",
+      "size": 58425
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-45-1.png",
+      "relative_path": "coord-45-1.png",
+      "sha256": "26f784389c2b256aa3e50459ce27f896ffee08f17b37b17d9eebe0f0f9d7d644",
+      "size": 22303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-45-2.png",
+      "relative_path": "coord-45-2.png",
+      "sha256": "16ebad8c8f7cd580c6b428dfa1104f6c4b6ff8f47d4ea5b5da7452cc4277949d",
+      "size": 22305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-45-3.png",
+      "relative_path": "coord-45-3.png",
+      "sha256": "58ec4a4a6b06b6365edde4eae1357359440a59df19fe299a2818e609b338d27c",
+      "size": 20599
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-45.json",
+      "relative_path": "coord-45.json",
+      "sha256": "32563a9a58dff8338f62d17dca1a129bf2489b4f83130d8d28b4c8f1fd1bc983",
+      "size": 362
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-46-0.png",
+      "relative_path": "coord-46-0.png",
+      "sha256": "4a95e0b4f32eac4e3b6b17df528f1766feceedc56c324e36c6f65f9f679cfc25",
+      "size": 56642
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-46-1.png",
+      "relative_path": "coord-46-1.png",
+      "sha256": "b569d6579e1b0d070e0459df53969379400935674406c2c7776cb7dd65a170ff",
+      "size": 21669
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-46-2.png",
+      "relative_path": "coord-46-2.png",
+      "sha256": "2478aba7df25a954a5caa748504a69e7149c8320d6ecae5ccf92e7f7d3d95798",
+      "size": 21688
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-46-3.png",
+      "relative_path": "coord-46-3.png",
+      "sha256": "1d5d9877cce9a678a117d27d2e52d5ed4994e7efba4cfdf1faee496d92e1d303",
+      "size": 19817
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-46.json",
+      "relative_path": "coord-46.json",
+      "sha256": "6f8b61426dcae792024c800af837c8d3538cb1c118be8b537f187f2752bc55ad",
+      "size": 334
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-47-0.png",
+      "relative_path": "coord-47-0.png",
+      "sha256": "b2f083ccfe921576f22129275303841f2e8784a3d14320b567fa2a89b59383f3",
+      "size": 55880
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-47-1.png",
+      "relative_path": "coord-47-1.png",
+      "sha256": "0a81a3967795e411970b72dc504911f3655508f214d8104fe119c9ef8bedc5d7",
+      "size": 21526
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-47-2.png",
+      "relative_path": "coord-47-2.png",
+      "sha256": "289c78dcdfa63708f9d385d2bf37786cddd086a3e430c665cbbfffa81765c8a9",
+      "size": 21573
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-47-3.png",
+      "relative_path": "coord-47-3.png",
+      "sha256": "c42bf3739df13a2ab2d33de00222e18d058464194523adb3363c250587c6a53b",
+      "size": 19635
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-47.json",
+      "relative_path": "coord-47.json",
+      "sha256": "8bf3d8501a9a53fe4e52d9305275c6accc815701b3e637ab13a3a839c1cd6e54",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-48-0.png",
+      "relative_path": "coord-48-0.png",
+      "sha256": "82c8485603d85cfc10efcf723442a242a848e524f006086f4cb5340903ebeae1",
+      "size": 50445
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-48-1.png",
+      "relative_path": "coord-48-1.png",
+      "sha256": "6fe840155dc65565001c0e1be82031f56cb8c5e0ded17c34dbe46831000e336c",
+      "size": 20293
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-48-2.png",
+      "relative_path": "coord-48-2.png",
+      "sha256": "f843f7dbabe4f7d6c81579510dd9bb7ff90564fd5f66744797819a5632150eb0",
+      "size": 20372
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-48-3.png",
+      "relative_path": "coord-48-3.png",
+      "sha256": "7a2c8468864d70c77bab3d7f60d7a52ca2d5fac95fba0a110e8a2dff61e48db8",
+      "size": 18256
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-48.json",
+      "relative_path": "coord-48.json",
+      "sha256": "14dc23eaabe11c8f2bbd7de95e7e4d406a934bc6c43683bffdf2386ec5aa4e3a",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-49-0.png",
+      "relative_path": "coord-49-0.png",
+      "sha256": "12969219fccb28ec5cc9c7e148ffde6c27ea8020336ba99acdc42a57e82aaec7",
+      "size": 50142
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-49-1.png",
+      "relative_path": "coord-49-1.png",
+      "sha256": "499f3cdde6b5b0b5b88c65d177085acf131988e45a6df11be956fc953ad7d25f",
+      "size": 20202
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-49-2.png",
+      "relative_path": "coord-49-2.png",
+      "sha256": "1462d28aa54996620b1452d70c5b8c3dfe559cda35d372999ff08a70a7198d78",
+      "size": 20238
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-49-3.png",
+      "relative_path": "coord-49-3.png",
+      "sha256": "b8b17bc42873fb77a83ec98d511d0eb5aea1fb3c01dabc27e225922ac01b51be",
+      "size": 18127
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-49.json",
+      "relative_path": "coord-49.json",
+      "sha256": "e072c57ff4613243c415c553cee437794f33d715071cf94da1e2fb7fe9e762af",
+      "size": 301
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-5-0.png",
+      "relative_path": "coord-5-0.png",
+      "sha256": "c7677b1de93cfd3467a35048dcb6fe400ca5e0ad7be16378d44ee013bbfdbb0e",
+      "size": 61593
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-5-1.png",
+      "relative_path": "coord-5-1.png",
+      "sha256": "7f5e7d849efbd8490ecb93cb3374e8e10cf9c5550df805ed7ee368cfc4afe83c",
+      "size": 23300
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-5-2.png",
+      "relative_path": "coord-5-2.png",
+      "sha256": "72485cf304ea566afb39a0dc6e3d068172952ee185cf0b499893357962f5ec41",
+      "size": 23340
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-5-3.png",
+      "relative_path": "coord-5-3.png",
+      "sha256": "5892b4c9b2fca06290dd6d87bc35d0ab37f91be70c7f6761f7bf007d9d4ed9bf",
+      "size": 21201
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-5.json",
+      "relative_path": "coord-5.json",
+      "sha256": "e30bd1df35c2e882d2b97959857b6a85a6fb14b05407bc77c7920d435183c443",
+      "size": 394
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-50-0.png",
+      "relative_path": "coord-50-0.png",
+      "sha256": "6a04e08bf0431cf7c77610f0a0bb09e076b64344d246c8eb6e65a6d65bc4d575",
+      "size": 48303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-50-1.png",
+      "relative_path": "coord-50-1.png",
+      "sha256": "507301396447e6f19381216e48261bbf850a4b7685861348ec813aeb4dbfc448",
+      "size": 19378
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-50-2.png",
+      "relative_path": "coord-50-2.png",
+      "sha256": "96f3d7117fe42516f4838106f7b2df45eb2f9808164673fabfaa74ffb6e251ad",
+      "size": 19540
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-50-3.png",
+      "relative_path": "coord-50-3.png",
+      "sha256": "a6e8fe47994d0d8b6126f320fab14c1497eecf9409b52c857747b7d5ae35247e",
+      "size": 17502
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-50.json",
+      "relative_path": "coord-50.json",
+      "sha256": "d7d626551e6dc8ae00991e9ad064cb3c37e77be3dc922ce4a624b44212eff1c8",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-51-0.png",
+      "relative_path": "coord-51-0.png",
+      "sha256": "5d6819aa0dfc16087fb9a58fec17d02f099f00f54ac3d17fe29bb80e9838c60c",
+      "size": 48664
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-51-1.png",
+      "relative_path": "coord-51-1.png",
+      "sha256": "a9efb08a92849adcf52336ab7028e9e2a7426c0c936619dbc4e47f1e324b4d7b",
+      "size": 19524
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-51-2.png",
+      "relative_path": "coord-51-2.png",
+      "sha256": "511c7ded8897c2b7b1fc60d24a110c7a77332b9f777d303a0231910d666bea9c",
+      "size": 19583
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-51-3.png",
+      "relative_path": "coord-51-3.png",
+      "sha256": "e2152cd8a93d6241ee0604ed6a7df073489786e170ed2677359463b5b6f35cf7",
+      "size": 17649
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-51.json",
+      "relative_path": "coord-51.json",
+      "sha256": "dd450c88f112a6951ccec24ce6fde5839130cc094b563ff946a8c42982cc1930",
+      "size": 302
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-52-0.png",
+      "relative_path": "coord-52-0.png",
+      "sha256": "3a366c7512f035851463128c40f7c929a4affd6d3fe4bd647be4484380ed2bea",
+      "size": 60675
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-52-1.png",
+      "relative_path": "coord-52-1.png",
+      "sha256": "1d1b6b1aafb0bb5eacb91b9921ee9cd02583b7502ea5ceb182597c9558b24b62",
+      "size": 23051
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-52-2.png",
+      "relative_path": "coord-52-2.png",
+      "sha256": "505b946dc7801336c1a23d3be1305a02ef0468687ea8b6f091e2a7fd9b014134",
+      "size": 23087
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-52-3.png",
+      "relative_path": "coord-52-3.png",
+      "sha256": "1f4d4c561f2684305b3f7dc88941d3a599283de3ee592f900f664036d901aaad",
+      "size": 20931
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-52.json",
+      "relative_path": "coord-52.json",
+      "sha256": "7d50849d332fd18b1b29bfff1f57c3cddb521cfd57238d81eb7c9c66658583de",
+      "size": 363
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-53-0.png",
+      "relative_path": "coord-53-0.png",
+      "sha256": "6d7aa6708caf6cc0044b8875ff74bab8642ba5d52ca0afafaf0cd846c08e5a7c",
+      "size": 60319
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-53-1.png",
+      "relative_path": "coord-53-1.png",
+      "sha256": "86ecc828431622b3cd3260bcb76033d699b26070c2341c239a44a9a82fcb1c29",
+      "size": 22955
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-53-2.png",
+      "relative_path": "coord-53-2.png",
+      "sha256": "2f37454ce7531c62ed98924724a19e4f4a588c4be72703a0449b22f8b7e3a8fc",
+      "size": 22972
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-53-3.png",
+      "relative_path": "coord-53-3.png",
+      "sha256": "d0979d465f52c211a4a8e9037c6e9c4f8a93139d91a3dcf0f24917764432901e",
+      "size": 20842
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-53.json",
+      "relative_path": "coord-53.json",
+      "sha256": "e660ae70f50a230b3cd59a7ceee330c6ef0ebb93f8d0d411a8dff9ad28261d96",
+      "size": 301
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-54-0.png",
+      "relative_path": "coord-54-0.png",
+      "sha256": "4d8dac97780ef5fb5dfc7c556d18f0e4accefb0834c2418e4eef1bdbb32d4203",
+      "size": 41042
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-54-1.png",
+      "relative_path": "coord-54-1.png",
+      "sha256": "3d2c03f8391cc6ea4368ad4afd0af36d265b1db757c4ed5bb4a001018c5c42c7",
+      "size": 14988
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-54-2.png",
+      "relative_path": "coord-54-2.png",
+      "sha256": "708485ee1693ace85da96e50d4fc89e865ba6fd12bb51a6a20171283888c9147",
+      "size": 15205
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-54-3.png",
+      "relative_path": "coord-54-3.png",
+      "sha256": "1092f7eb48787409507d71f2649fb53a5dad19d8182fafdcdcdc7017a4aef4da",
+      "size": 14046
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-54.json",
+      "relative_path": "coord-54.json",
+      "sha256": "5bd125d855a8c6630078cbd03b5f6c83d4747daa70409cd33c39a04712087ef2",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-55-0.png",
+      "relative_path": "coord-55-0.png",
+      "sha256": "94e31472b81dcf1a6277086140fd12bfafc75732a488362882400cface034f73",
+      "size": 41426
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-55-1.png",
+      "relative_path": "coord-55-1.png",
+      "sha256": "950b79f0db31157cfd040bdf5ae58e6db1cd9d9863f3a384a2190ad234cd205d",
+      "size": 14972
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-55-2.png",
+      "relative_path": "coord-55-2.png",
+      "sha256": "6dd2335159eb245ab727008e892c635cd07565b60532b2b1e9ade4bd1a71b007",
+      "size": 15252
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-55-3.png",
+      "relative_path": "coord-55-3.png",
+      "sha256": "6d47bb5c6e7f24f7fe46076f13cca7a9901dede11bb734191547483ad64a695b",
+      "size": 14228
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-55.json",
+      "relative_path": "coord-55.json",
+      "sha256": "f7f0b76af4f2819f970fcc84794b3f89f667d4aae12ca108a4cd4c48ae498bfd",
+      "size": 334
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-56-0.png",
+      "relative_path": "coord-56-0.png",
+      "sha256": "1927fde590c4c44727a0a663e3e5851da1ec4511fcf5b546d223980fb0d35961",
+      "size": 55355
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-56-1.png",
+      "relative_path": "coord-56-1.png",
+      "sha256": "b20ac2d2cfe94549abedac46cf35ee92beb211327f5b0bdad61049fc88f2dcfc",
+      "size": 20999
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-56-2.png",
+      "relative_path": "coord-56-2.png",
+      "sha256": "21cf7b0cc9353b3e7379e56f4aeb55c538f9214ed7523d9568ebcb5b40df5df9",
+      "size": 20872
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-56-3.png",
+      "relative_path": "coord-56-3.png",
+      "sha256": "6bb278ec0265872c1492b8295cc5501f7a8417e24849a65a68afae26194e4bc0",
+      "size": 19329
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-56.json",
+      "relative_path": "coord-56.json",
+      "sha256": "2408cbbc2d9c32cec0db6f7c50aa460691482c866bacf568cfe968a85e2535bf",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-57-0.png",
+      "relative_path": "coord-57-0.png",
+      "sha256": "74a247796a46cf16f2fc5a4508bffaa935fe25d1f76c9da589d21116c641591c",
+      "size": 55211
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-57-1.png",
+      "relative_path": "coord-57-1.png",
+      "sha256": "ecc1c02cc7af19b1b8d11388d3bcae08bfb7401421e3298530242025c29c45ff",
+      "size": 21010
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-57-2.png",
+      "relative_path": "coord-57-2.png",
+      "sha256": "57f536725b2ebe1829d428a1aa693024e2f76bb47840aa5ac4d929cc99de24e9",
+      "size": 20912
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-57-3.png",
+      "relative_path": "coord-57-3.png",
+      "sha256": "4446784f162bc507a2ae06e748be169054f09a62fb3a55d215fcb9bbe8b335f7",
+      "size": 19317
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-57.json",
+      "relative_path": "coord-57.json",
+      "sha256": "264d711cd823359c6077cfb95daa670bd6ec41b753f15e277507d8d45544bcc6",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-58-0.png",
+      "relative_path": "coord-58-0.png",
+      "sha256": "bcb3b857e818a6bb4f334bcc744b56f6b7bbc9302fc6fa4fcd95c98c599423f8",
+      "size": 48748
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-58-1.png",
+      "relative_path": "coord-58-1.png",
+      "sha256": "bf51b393a5439f69d90b58998069f37783618c6e24e4c2298bdc81ab5dcaf8fa",
+      "size": 19404
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-58-2.png",
+      "relative_path": "coord-58-2.png",
+      "sha256": "0431007ae726289530623dca1e5771f21cf48e6aacb4a5c1f29089ca9e50aabf",
+      "size": 19574
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-58-3.png",
+      "relative_path": "coord-58-3.png",
+      "sha256": "bc659bc6a4dc2a2e6e267fd39123dcfc3403b7a390df4c0142f1269361ac3269",
+      "size": 17590
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-58.json",
+      "relative_path": "coord-58.json",
+      "sha256": "4146e2b1892868a575a5f3938ad52be550396a51dadc70cdbade6eaeba974a7b",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-59-0.png",
+      "relative_path": "coord-59-0.png",
+      "sha256": "d0595a47c56118e979065fe9742029a0847632e96240a4e4732467138ea1aca0",
+      "size": 48714
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-59-1.png",
+      "relative_path": "coord-59-1.png",
+      "sha256": "ab9f327a8c8aad3becc87f2f2aabbbed283acf2432c5ae9a7280b61852dc0f1c",
+      "size": 19531
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-59-2.png",
+      "relative_path": "coord-59-2.png",
+      "sha256": "2a67f59d636520fa5cbfa51663bf9dae4061052d0cca43f109e79cdb5a6cca60",
+      "size": 19715
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-59-3.png",
+      "relative_path": "coord-59-3.png",
+      "sha256": "316afb96aa041086cca51f9974780d4518164a64b7cc2ad8022b90fd9451d455",
+      "size": 17637
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-59.json",
+      "relative_path": "coord-59.json",
+      "sha256": "46d8458710e220824bf538a14981aaa57d960b15b1f29150de0a24d8309eadd0",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-6-0.png",
+      "relative_path": "coord-6-0.png",
+      "sha256": "7d4447139ec85f0f245e02b87286f8047157bca02559ba08c9a7976f8062fa93",
+      "size": 63809
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-6-1.png",
+      "relative_path": "coord-6-1.png",
+      "sha256": "4a92ac569d01e59fcdca3c57f7a36a7784bc26d750832c69fbe71df347749144",
+      "size": 24000
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-6-2.png",
+      "relative_path": "coord-6-2.png",
+      "sha256": "4e1ea7d0eb8d3f53f33df31e53246d3e98d7bc8ecc06b38f420a204d8fe437f8",
+      "size": 24060
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-6-3.png",
+      "relative_path": "coord-6-3.png",
+      "sha256": "cb675c3bb5132f2a1a0087ddaa5da5866103136a73eafc80841fbbee3bb37498",
+      "size": 21936
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-6.json",
+      "relative_path": "coord-6.json",
+      "sha256": "205dc31c45e9da1b81bf5f41c7d418450fba3744a96a27035118892e9d81cc18",
+      "size": 452
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-60-0.png",
+      "relative_path": "coord-60-0.png",
+      "sha256": "d86d2cbe2fcae70eef5d6dac1d262cab0230862e6a426927c730baf7547b29f8",
+      "size": 51345
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-60-1.png",
+      "relative_path": "coord-60-1.png",
+      "sha256": "03dccf33e66360b58998e74e5ceb5e102b2c07091277839f6ef01ebeeef3d9b5",
+      "size": 20619
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-60-2.png",
+      "relative_path": "coord-60-2.png",
+      "sha256": "bcf44bd5e221ddba8ec1eb84d334d20676d051fdd98ba6951b09900ffbae68ba",
+      "size": 20670
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-60-3.png",
+      "relative_path": "coord-60-3.png",
+      "sha256": "0ed804dfc1db5210cc0f6ad02a820fca1c95cbfcc292449f99d6f82f46bd2cce",
+      "size": 18347
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-60.json",
+      "relative_path": "coord-60.json",
+      "sha256": "b8a26347d8072090446cd7e493505f4be9546b64bc0ab689fc7099a599d79fc9",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-61-0.png",
+      "relative_path": "coord-61-0.png",
+      "sha256": "9379a99130b823f2e4011c8671b65e4badf878f7abbf748f33ed3516eb8454f4",
+      "size": 51626
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-61-1.png",
+      "relative_path": "coord-61-1.png",
+      "sha256": "cd3b7051c1a8790f756529c9bf914ede3c1bba4ea1328d2b7734fe26867cbe12",
+      "size": 20592
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-61-2.png",
+      "relative_path": "coord-61-2.png",
+      "sha256": "2d8d139de27186a35501047248afd3e59e447612a0ebe8e784a561c7363a8d38",
+      "size": 20685
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-61-3.png",
+      "relative_path": "coord-61-3.png",
+      "sha256": "0af183c796d3b8877064cf521950ec891c0a8438c4d385fbbd182cd69b6c5f60",
+      "size": 18364
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-61.json",
+      "relative_path": "coord-61.json",
+      "sha256": "cdecbf997001f9435ba50e3ca06623c1180fe8ddf88f97a5894bc1a1d232ef24",
+      "size": 301
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-62-0.png",
+      "relative_path": "coord-62-0.png",
+      "sha256": "07b88aa3655447abb73a965ce4ba49b34c3f5b5d0f20b8dc4ba498200abd7a8f",
+      "size": 60312
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-62-1.png",
+      "relative_path": "coord-62-1.png",
+      "sha256": "d0f64b7d30bbeda259684b1fe24489eef2e98b483300b8ec6fce05db79dac8b6",
+      "size": 23291
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-62-2.png",
+      "relative_path": "coord-62-2.png",
+      "sha256": "6a8133ed0e7c40ec4bd6bdb70558e8e4aff0970bfe09a67b17299d361de4e48e",
+      "size": 23277
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-62-3.png",
+      "relative_path": "coord-62-3.png",
+      "sha256": "8b9e3fcffe7bb13fee05580e8cdbd3d53cb7afea41da7a6564fe4f1220fce915",
+      "size": 21420
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-62.json",
+      "relative_path": "coord-62.json",
+      "sha256": "6d2ef13f43c4c0067ec39bf06386216fb6197813559b43664a6efd7958be8cab",
+      "size": 301
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-63-0.png",
+      "relative_path": "coord-63-0.png",
+      "sha256": "0809598cd14a508c8f9ec86251977a153a2e19445d969915cc0ed3d7af49f409",
+      "size": 60715
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-63-1.png",
+      "relative_path": "coord-63-1.png",
+      "sha256": "d46eac8c9d884a484b42df1703256fc115c39303da175c5415f39e47303be2aa",
+      "size": 23234
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-63-2.png",
+      "relative_path": "coord-63-2.png",
+      "sha256": "6ae3d44ff312c9744d5c851a24eaf6d657711a2782a8a50bd870dbf6c36fc3f7",
+      "size": 23288
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-63-3.png",
+      "relative_path": "coord-63-3.png",
+      "sha256": "6def27c1e29a7b82962554ad6b1b9e1f6c5f3d948cb7e1a03a63560cc17ef974",
+      "size": 21367
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-63.json",
+      "relative_path": "coord-63.json",
+      "sha256": "7a6c365061a4ef3b74c1710688b213df474e6a8ae742fd1b4ebaa68560cc0e3c",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-64-0.png",
+      "relative_path": "coord-64-0.png",
+      "sha256": "4790f82ce8cea7fee649220c71350a581cd7672d25ba8433d0b44a96128a0131",
+      "size": 47776
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-64-1.png",
+      "relative_path": "coord-64-1.png",
+      "sha256": "3ef96443087f03a7d51fc4bb533b2c41a23272d22d81b3f03eac05ff0bb81817",
+      "size": 19488
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-64-2.png",
+      "relative_path": "coord-64-2.png",
+      "sha256": "ac581a9aabb59a75c8dd869aee2e5a6b4acfac187de060d6b0c2cab63c2440a8",
+      "size": 19757
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-64-3.png",
+      "relative_path": "coord-64-3.png",
+      "sha256": "53454b7bb65411f8a8c9682347812698e318eb8f70b4c4566d9bf0ece5247987",
+      "size": 17580
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-64.json",
+      "relative_path": "coord-64.json",
+      "sha256": "3a3451d1201dc0f9606490dfcedc31d923468780dfa48ffcf61abd9f9e3414be",
+      "size": 394
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-65-0.png",
+      "relative_path": "coord-65-0.png",
+      "sha256": "f77c974834f79dcb745dab4245524eebdad836f55f47b7bfbbc0ce7d1a01feaf",
+      "size": 48034
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-65-1.png",
+      "relative_path": "coord-65-1.png",
+      "sha256": "166b7581f4b89006e6fa4970072d8e7793988eacad447a7b05ac5204a56bb1fb",
+      "size": 19664
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-65-2.png",
+      "relative_path": "coord-65-2.png",
+      "sha256": "f69d3a83f0951ace903a559fc56b35c2bc78106ab45748e3752ad4d930ce591d",
+      "size": 19847
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-65-3.png",
+      "relative_path": "coord-65-3.png",
+      "sha256": "4bbcc865e2fdb0c82a8061625f5ac76ad34d0577838cf6bc6df464c1711608a5",
+      "size": 17510
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-65.json",
+      "relative_path": "coord-65.json",
+      "sha256": "2f3280eec81d944d1e3c0ab3911347fcd16cd50c2d97df0007db90b09f71a56d",
+      "size": 363
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-66-0.png",
+      "relative_path": "coord-66-0.png",
+      "sha256": "705fe412148e94c7f5e1a35d3dc7306722cd34b5b64bb9973f7202d352a7d0de",
+      "size": 49331
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-66-1.png",
+      "relative_path": "coord-66-1.png",
+      "sha256": "ff5d7888fc3e93ac71f5d62750a46f6a879118a5d40e5e71b1a8e3697d0abe52",
+      "size": 19594
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-66-2.png",
+      "relative_path": "coord-66-2.png",
+      "sha256": "0bd100f82299d916e6f81fb7266abf02d92173dad36537cc956d16a5b93cd8f2",
+      "size": 19827
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-66-3.png",
+      "relative_path": "coord-66-3.png",
+      "sha256": "d5aff47c22c8de30d3818e1abd1562112ae783f59479c2c4338322f568901d4d",
+      "size": 17757
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-66.json",
+      "relative_path": "coord-66.json",
+      "sha256": "351f7310867af6c0f71701250064173ab41fcf953e5840b3904d62e8a6437dea",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-67-0.png",
+      "relative_path": "coord-67-0.png",
+      "sha256": "a97227529b1cf037ad21e5f8ccfddaf85dbda40a9ba57577a9782ea5d338116a",
+      "size": 48969
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-67-1.png",
+      "relative_path": "coord-67-1.png",
+      "sha256": "994fc8c75d603564ddbe5e17411b2c0a9b3d2399f917345c65abf1b211e69d74",
+      "size": 19429
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-67-2.png",
+      "relative_path": "coord-67-2.png",
+      "sha256": "9938ddd1038d2dea1ef8017eb6ff4b0626526524b8adaa4c9332975c52e56109",
+      "size": 19628
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-67-3.png",
+      "relative_path": "coord-67-3.png",
+      "sha256": "db1beb1aaf641cc9edc9733f7f4ba2010ff2f1f524952431023bbbfde34f23c0",
+      "size": 17388
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-67.json",
+      "relative_path": "coord-67.json",
+      "sha256": "c0851ba5f175f97fef0cdcdd7be892d00a782e2f8dab89fbe9c7baf0aa0cc530",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-68-0.png",
+      "relative_path": "coord-68-0.png",
+      "sha256": "328ef83aa754320f22dab4ccf36315e0d26df759332d634df3ec1b7edd872b41",
+      "size": 56680
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-68-1.png",
+      "relative_path": "coord-68-1.png",
+      "sha256": "b7352a985eddbbac6ee7c4319d6776e3d68a1086c3f63722f54bfaefc2aa7e15",
+      "size": 21018
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-68-2.png",
+      "relative_path": "coord-68-2.png",
+      "sha256": "fdd52f3752ac9a397d222b31b3c4a3fa1d70b4669f797de8fac0bb3de2c1c64e",
+      "size": 21147
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-68-3.png",
+      "relative_path": "coord-68-3.png",
+      "sha256": "18f8c98e9211251370ead2dfadc18631954374a09d4157799f5164cf2869c6d7",
+      "size": 19735
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-68.json",
+      "relative_path": "coord-68.json",
+      "sha256": "3b711433f2b8ac8013dca840803d2dc06327c1c33b36c4ded111d7aada52fb0d",
+      "size": 334
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-69-0.png",
+      "relative_path": "coord-69-0.png",
+      "sha256": "e7572b637cc46eeff454b6208c3d89d7229ea23990ebbd367f035968d76e7374",
+      "size": 56231
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-69-1.png",
+      "relative_path": "coord-69-1.png",
+      "sha256": "843f08de37cbd64049abca48d6170d66cd8466098a267eccba9a437b1319ff01",
+      "size": 20959
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-69-2.png",
+      "relative_path": "coord-69-2.png",
+      "sha256": "acf2dfbb64a44cee930c899608aecebb103d5bb8fccb03424d5260ba411fcbb5",
+      "size": 21055
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-69-3.png",
+      "relative_path": "coord-69-3.png",
+      "sha256": "0120ded224901c6e9b72ea0d4e1294deb716dfe5a1048fa170df81b20d145a63",
+      "size": 19811
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-69.json",
+      "relative_path": "coord-69.json",
+      "sha256": "678e515d1f53c290223253822701d47e70295e02d7e9d7fdb999e6993e7057ac",
+      "size": 390
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-7-0.png",
+      "relative_path": "coord-7-0.png",
+      "sha256": "e6f701070a25d928862a92c8a21dd6825bac6abbd3085e1cc80de9247d2b006a",
+      "size": 64019
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-7-1.png",
+      "relative_path": "coord-7-1.png",
+      "sha256": "72206c0d956f7434ce0224c9826c8db259ac7df0050d2d9902b0f4169cb77964",
+      "size": 23932
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-7-2.png",
+      "relative_path": "coord-7-2.png",
+      "sha256": "f6c408374e0f94fbf0bb64cc42bdab74176959a1156b18c31919ee02985f793d",
+      "size": 24017
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-7-3.png",
+      "relative_path": "coord-7-3.png",
+      "sha256": "8f21d98c8621812a27b0f867ed060b74ba3be8bcbc9df55c1d1229fe009ea56b",
+      "size": 21910
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-7.json",
+      "relative_path": "coord-7.json",
+      "sha256": "6fe4e16f0fe5b933a70fb2addda0c3c1b877c0ceb662ce5ab2adb732337f2bb7",
+      "size": 425
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-70-0.png",
+      "relative_path": "coord-70-0.png",
+      "sha256": "ddb291047d603188debc97e8426ea8f7f80ef0f6e420e87e1cf0e0857dc96f0f",
+      "size": 48724
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-70-1.png",
+      "relative_path": "coord-70-1.png",
+      "sha256": "b4ccd724a0af98985af44383814d4f2a8b7727c93932b644d73e1ccd83c0d214",
+      "size": 19252
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-70-2.png",
+      "relative_path": "coord-70-2.png",
+      "sha256": "7067d9ae3ae3d7435e70b6c09e07d2e84dc400f237644df07a163a4ce841d859",
+      "size": 19322
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-70-3.png",
+      "relative_path": "coord-70-3.png",
+      "sha256": "2bbcd1c01b8cdaa78e33515176302dfc035f44b574d5a857ab5e15ccbd5f9ffd",
+      "size": 17657
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-70.json",
+      "relative_path": "coord-70.json",
+      "sha256": "81e2ed006045347127888ee93818f57b037602c3d8a9e787865793e9bc9674d9",
+      "size": 334
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-71-0.png",
+      "relative_path": "coord-71-0.png",
+      "sha256": "eba4795c4b522f3ac83231b6a82edc93aeb79440665de8e8c5262b9e68bbef9a",
+      "size": 49391
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-71-1.png",
+      "relative_path": "coord-71-1.png",
+      "sha256": "8b663f01d2d8f25bf9e83cf040e27d6fe1f767cacc5d0402c631b470abf56703",
+      "size": 19454
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-71-2.png",
+      "relative_path": "coord-71-2.png",
+      "sha256": "48b50c3e69d2a2a1e994c64618bb4454ec51ed9d88816471b71f2a0f0ddf165c",
+      "size": 19545
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-71-3.png",
+      "relative_path": "coord-71-3.png",
+      "sha256": "3b159fd6b32b675eb2335181e3bc4038385aa7cb92f803b420a80aa7993ea458",
+      "size": 17814
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-71.json",
+      "relative_path": "coord-71.json",
+      "sha256": "1e313494c830d5a611cd19de3fb34c29c6e9790595c8a4c4197a4073324612e7",
+      "size": 365
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-72-0.png",
+      "relative_path": "coord-72-0.png",
+      "sha256": "64ef292081c3e948400acfc0c353682d59279d690c162f7b33bad8d470a59018",
+      "size": 49018
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-72-1.png",
+      "relative_path": "coord-72-1.png",
+      "sha256": "77fa81126e782bd0da5c3784c77d1c1000e51f2b0eb42829ab373b4f5fd7df65",
+      "size": 19444
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-72-2.png",
+      "relative_path": "coord-72-2.png",
+      "sha256": "73f2022ad9f57a8b16da1bbdc4d1b64f80afa10822f70391dca7da69e4e54fe7",
+      "size": 19612
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-72-3.png",
+      "relative_path": "coord-72-3.png",
+      "sha256": "2357d266455e68200489c9b5200054d47ca6d10c7fcb60c47821bb9f5dc1d7f7",
+      "size": 17585
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-72.json",
+      "relative_path": "coord-72.json",
+      "sha256": "dc8aa4a7725f0b257fa4dd48ebce803d5761fb8032a8140f473665efc9684bb1",
+      "size": 364
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-73-0.png",
+      "relative_path": "coord-73-0.png",
+      "sha256": "905047cf61601abee6e402fcb527ad21001fafd368451ab8050fabad511593f8",
+      "size": 48165
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-73-1.png",
+      "relative_path": "coord-73-1.png",
+      "sha256": "c84e7297a8b15bb446f9fe59115fabd7b740ddf53142378d1a598d44f637cdbd",
+      "size": 19060
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-73-2.png",
+      "relative_path": "coord-73-2.png",
+      "sha256": "5b72ba48f7e02c41f604a42291f6cac35c9c4403445b1b8c8e270b4e8fa3f699",
+      "size": 19415
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-73-3.png",
+      "relative_path": "coord-73-3.png",
+      "sha256": "b129a578a683cae256e33ba04646f0c10c7da82b59a1414e11e47229b6c48b16",
+      "size": 17270
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-73.json",
+      "relative_path": "coord-73.json",
+      "sha256": "1104cd95573092f70cff2dfc937676a0b255956a3d5cc48a0c11654897d63302",
+      "size": 365
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-74-0.png",
+      "relative_path": "coord-74-0.png",
+      "sha256": "f72556fb27b9f210368269a484898d3a7ba20c71cf06898e400628e238614f00",
+      "size": 49564
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-74-1.png",
+      "relative_path": "coord-74-1.png",
+      "sha256": "f1f8741f5b59c901963e2afc1b9cfb1791db6406113353a1c68c630e52feb49c",
+      "size": 19071
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-74-2.png",
+      "relative_path": "coord-74-2.png",
+      "sha256": "5a9f9efde763408725966661af2adbca58c7b0b8135da25ac021ab041af0b0f9",
+      "size": 19335
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-74-3.png",
+      "relative_path": "coord-74-3.png",
+      "sha256": "3f40a32d7af7cd66dbaba06b61eea909acda84b74edf140734fe644bb82faf8e",
+      "size": 17742
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-74.json",
+      "relative_path": "coord-74.json",
+      "sha256": "cca76e6001549039a9e95f277ca0662374c3b30d9f282251f4472a38242fb01a",
+      "size": 302
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-75-0.png",
+      "relative_path": "coord-75-0.png",
+      "sha256": "cd655949fb2ab3b326b48b80f1222e4da7ec05df79dd7f623c209278ce1763b7",
+      "size": 49873
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-75-1.png",
+      "relative_path": "coord-75-1.png",
+      "sha256": "5200b70020f268bbc3ab798497c24fbf4c4a260ac27fd4f107a35b714c94bd4a",
+      "size": 19357
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-75-2.png",
+      "relative_path": "coord-75-2.png",
+      "sha256": "edd216fb571b890fae4e1d90ef4238c7e0372bc0aee51e02f14ad67f0cd4d601",
+      "size": 19549
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-75-3.png",
+      "relative_path": "coord-75-3.png",
+      "sha256": "b7e2f3e2e855fe5d2fa954f15847f4eca0c1a673393a09cf6a9bc913117dd634",
+      "size": 17894
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-75.json",
+      "relative_path": "coord-75.json",
+      "sha256": "f3be7d318060de92936d1bcf4e04abddbff99b00fd8b50ee657517afbea52d71",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-76-0.png",
+      "relative_path": "coord-76-0.png",
+      "sha256": "ee780bbac0bb2c8d498d09cdde71df91419ece2ce8e3adc3fd9b9f47ad6a33c4",
+      "size": 48815
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-76-1.png",
+      "relative_path": "coord-76-1.png",
+      "sha256": "1b15a72f0a3cca825424627a92414797afd43f72de44c223e2d437c2b83d9deb",
+      "size": 19091
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-76-2.png",
+      "relative_path": "coord-76-2.png",
+      "sha256": "abb8a3052653b36863eaedcd3b0f23c34a6731b568f7048f8ac8ebd2ece4ca1d",
+      "size": 19462
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-76-3.png",
+      "relative_path": "coord-76-3.png",
+      "sha256": "a74dca5f7266863080efb0df5f5c0882808a0eab6bcf1fcca18ec0cea0241024",
+      "size": 17573
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-76.json",
+      "relative_path": "coord-76.json",
+      "sha256": "8131316d0c29bd5c199a8edb1474eb76663b76c79f9ef5e5f919632a3ac9067c",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-77-0.png",
+      "relative_path": "coord-77-0.png",
+      "sha256": "94ce1c30a2cba3dd463d9cbcc5a3315421456ea25ad7294b0b837e5610d0c8c9",
+      "size": 48603
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-77-1.png",
+      "relative_path": "coord-77-1.png",
+      "sha256": "a5ca9a57d391caa3f6535edd98f7e5595eca2db77e0583c5efc331227dfad5f3",
+      "size": 18943
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-77-2.png",
+      "relative_path": "coord-77-2.png",
+      "sha256": "cd9765033072342db0eba32d6556514bc9917eb261c435a871da7e5114810758",
+      "size": 19246
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-77-3.png",
+      "relative_path": "coord-77-3.png",
+      "sha256": "0a594dd706ef7893b77450d69a7c4313dada27183bfb5c4227a6a7d64387c997",
+      "size": 17519
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-77.json",
+      "relative_path": "coord-77.json",
+      "sha256": "896d2b56dee5b2d8cd51959e0f39b8e2276f17106aa9969389076626b387aee9",
+      "size": 302
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-78-0.png",
+      "relative_path": "coord-78-0.png",
+      "sha256": "5bcd5afedd87f039d4a82ac351d254a8ecb8be53b57abeee95f83c0538319df8",
+      "size": 46727
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-78-1.png",
+      "relative_path": "coord-78-1.png",
+      "sha256": "1b4f30f940395f864b88f6157d6ba96a4708eca885cf150ebfd2b246a9504aca",
+      "size": 18712
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-78-2.png",
+      "relative_path": "coord-78-2.png",
+      "sha256": "aed212c885e913de81039811cc366f5545c0ddb3e6c3f19e8b299f9d5e45a1a1",
+      "size": 18891
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-78-3.png",
+      "relative_path": "coord-78-3.png",
+      "sha256": "fe1bac7e5df5d9ddfc61da7e64ec82703419d3107eaf365554608aa2aa1bc0e9",
+      "size": 16974
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-78.json",
+      "relative_path": "coord-78.json",
+      "sha256": "b712e241ac9b9b9fd0d773804a8aa2ca3060decf65f20f8e5a2a5f6243c333e1",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-79-0.png",
+      "relative_path": "coord-79-0.png",
+      "sha256": "30991593f748531a5cbf5ce8fff547d5a665f0dd861e3db0e9676ab986bb2351",
+      "size": 47627
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-79-1.png",
+      "relative_path": "coord-79-1.png",
+      "sha256": "74925b61912c639cf9eebfef5e870b5695a11bdfee64c59a841bba664c8681e1",
+      "size": 19029
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-79-2.png",
+      "relative_path": "coord-79-2.png",
+      "sha256": "ca39eb8f0ba58d2e158a55c3e687576b784effabac42a6f82bc731ce7967f3fe",
+      "size": 19211
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-79-3.png",
+      "relative_path": "coord-79-3.png",
+      "sha256": "ade1cdadee103dc43497c29de7f3d3979b3ca61f389918ab4e9359516c35b00b",
+      "size": 17264
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-79.json",
+      "relative_path": "coord-79.json",
+      "sha256": "592aa37d2a112f8eaad72c77c1ab491fa80010ef13a56c001e2b103b5caf6b83",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-8-0.png",
+      "relative_path": "coord-8-0.png",
+      "sha256": "cdd9762c9cf47538414b992206d1c4def17b666559ab3b9e27cfca5d421503c7",
+      "size": 47335
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-8-1.png",
+      "relative_path": "coord-8-1.png",
+      "sha256": "1a5126094c45fa596f78986923f70133cf85587c71511531875f534212801d65",
+      "size": 18074
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-8-2.png",
+      "relative_path": "coord-8-2.png",
+      "sha256": "bce75df94ddccbda473d7e0e6324b799ebf8baa2b0f630e24493e11d112f7491",
+      "size": 18800
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-8-3.png",
+      "relative_path": "coord-8-3.png",
+      "sha256": "b4af294f2c0bd6568fb6ef50bed1a3955271d509fb06657abdd32d65e4ea4000",
+      "size": 17026
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-8.json",
+      "relative_path": "coord-8.json",
+      "sha256": "ab9500e48c75b1100199c85e0f4ad6ce5469ff53b847d86341764a65984e35e1",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-80-0.png",
+      "relative_path": "coord-80-0.png",
+      "sha256": "d27e56c3da4a1007337fce091d04679153b9b4dc3bfb284ec9ebfad9debc7bd3",
+      "size": 59275
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-80-1.png",
+      "relative_path": "coord-80-1.png",
+      "sha256": "6a36a04e37ae723ce45cf578df489ccdd37f898aedde5f09e19f99769b125e34",
+      "size": 22045
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-80-2.png",
+      "relative_path": "coord-80-2.png",
+      "sha256": "177150cf5070f010751be4576ed2c8974dc795e4054ee6f37e75d720ca7d4020",
+      "size": 22144
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-80-3.png",
+      "relative_path": "coord-80-3.png",
+      "sha256": "be2838703d2e4a894639a9f91a01b2ead15f668e224a07cc6865c658273ff427",
+      "size": 20605
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-80.json",
+      "relative_path": "coord-80.json",
+      "sha256": "cd351a101262aee10afaba12392bd050ce05a1dcc863efa6d786a205a5971598",
+      "size": 301
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-81-0.png",
+      "relative_path": "coord-81-0.png",
+      "sha256": "e824871ca303bb0b5f948fc879e154ab26db4e7d586240db2f6c1c5c98df873b",
+      "size": 59322
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-81-1.png",
+      "relative_path": "coord-81-1.png",
+      "sha256": "012c35590b92ed6d43a94c4a6dd82c3d2fca7e2e6b1d6dff086c3f2274bec33a",
+      "size": 22068
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-81-2.png",
+      "relative_path": "coord-81-2.png",
+      "sha256": "4a25011f7f18b83ad8ad78cd08e7de1058f1e67ff09b7ea32ee4e1c86bfa807e",
+      "size": 22145
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-81-3.png",
+      "relative_path": "coord-81-3.png",
+      "sha256": "7cdc55d46041b2b6d2c4223199a96f1bd63664cf5bd6579f574f318f9aa98560",
+      "size": 20639
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-81.json",
+      "relative_path": "coord-81.json",
+      "sha256": "79f167b958b49955dad578fc74d1617e5122ca885759b7dad907f75d781cd5ac",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-82-0.png",
+      "relative_path": "coord-82-0.png",
+      "sha256": "3439a5b5f68e557e10265501e09bf8fa1a6047b34c3317b4772cdc6d1150a8df",
+      "size": 47988
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-82-1.png",
+      "relative_path": "coord-82-1.png",
+      "sha256": "f1b925c8066e65a576af96f6405d2fed0699766edb4ea8068375ab63d2b1aeda",
+      "size": 19157
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-82-2.png",
+      "relative_path": "coord-82-2.png",
+      "sha256": "2a960da398a4c869bc22b65240f69bd953a9b750035bbcd29939b9859b505a28",
+      "size": 19327
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-82-3.png",
+      "relative_path": "coord-82-3.png",
+      "sha256": "d04d848bc9045a935bb82ad83c36a13ebb039d680b4c10778b0a512aa19e4cc3",
+      "size": 17411
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-82.json",
+      "relative_path": "coord-82.json",
+      "sha256": "b3bd04dab6e4ef90654740a6a9706d0705f4827476c0bff24b59857b52147856",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-83-0.png",
+      "relative_path": "coord-83-0.png",
+      "sha256": "4b574205d7f7483712891c7c7b63bf4ad95aa96a965453e1a0b8d89d7060d6b4",
+      "size": 48074
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-83-1.png",
+      "relative_path": "coord-83-1.png",
+      "sha256": "7e8ab6854a29386176eb71d15b0c75215390e53dff3a883161473df094c3819c",
+      "size": 19325
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-83-2.png",
+      "relative_path": "coord-83-2.png",
+      "sha256": "0b73d29917f28a03d5b4a8f0b2e8a8539ee85aaaca49928c76977e9d38ed63fd",
+      "size": 19654
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-83-3.png",
+      "relative_path": "coord-83-3.png",
+      "sha256": "afd07acf76e2d7299e5dc5075a83fdece8f28aec20669f1fe0b38f008d971eb2",
+      "size": 17563
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-83.json",
+      "relative_path": "coord-83.json",
+      "sha256": "01c67c7d47a7ab0b80c8a253fdf5bca4c64174973cf378b55e7a38f7d1db63d3",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-84-0.png",
+      "relative_path": "coord-84-0.png",
+      "sha256": "fcb4de8b610c75fd050bc4c88335dffbe0f3fc61a83a8253b686c339fa3a8cd4",
+      "size": 60991
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-84-1.png",
+      "relative_path": "coord-84-1.png",
+      "sha256": "bd0f38d8dd96e8746273edac306bf8a8d3b2274bb77ac6a84910507048f5e343",
+      "size": 22441
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-84-2.png",
+      "relative_path": "coord-84-2.png",
+      "sha256": "95d734c9ed4bbab7edf6ee5045932728e9ade7024661e9d75c93c146c5f38428",
+      "size": 22468
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-84-3.png",
+      "relative_path": "coord-84-3.png",
+      "sha256": "e5eea89351f1fa7445e473cb1f68377ed4ab9dfaf5475a8a72ce7b090e381dd5",
+      "size": 21140
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-84.json",
+      "relative_path": "coord-84.json",
+      "sha256": "02f7c932d3bc7bf5c54df536a50245792959e38a81361f6b242bed6e4a6baf40",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-85-0.png",
+      "relative_path": "coord-85-0.png",
+      "sha256": "b67ffafbe03a137f4fe4f7441568f8662024407dd89e56084b80787b45eace59",
+      "size": 61249
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-85-1.png",
+      "relative_path": "coord-85-1.png",
+      "sha256": "c878fe1759736071f5762a661bd5d3d8bbaa59a732ded869967cdedba6f091e7",
+      "size": 22525
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-85-2.png",
+      "relative_path": "coord-85-2.png",
+      "sha256": "a97f863e73aedf8154283ad616c917dee6d421503a821386ca32bd2a1f953128",
+      "size": 22586
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-85-3.png",
+      "relative_path": "coord-85-3.png",
+      "sha256": "488cd65676e87a3cab851676987f8aca8bc5bd877d31f95b2dd570968ce6751f",
+      "size": 21100
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-85.json",
+      "relative_path": "coord-85.json",
+      "sha256": "821d54f38574b9945217f41fbbdbb9b0e0435924d77476fec723988f02202a5b",
+      "size": 332
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-86-0.png",
+      "relative_path": "coord-86-0.png",
+      "sha256": "5ff4b30f737b30982fe71576e8e1ca2a5830ae16c13a634637cae0b6b3af9515",
+      "size": 47756
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-86-1.png",
+      "relative_path": "coord-86-1.png",
+      "sha256": "03ddc985d66886316f58b1e23b3dd7f0206f97e92d92a98f56d547f86e8bf8f3",
+      "size": 19112
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-86-2.png",
+      "relative_path": "coord-86-2.png",
+      "sha256": "aff0d1ecec5950568893fcd2f12825f5d04ba912dc3b0692c70d74b9d1046b00",
+      "size": 19259
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-86-3.png",
+      "relative_path": "coord-86-3.png",
+      "sha256": "b38afbd0431428dce2ff8dda287879652c037ba9330b94729da5da3ee200704b",
+      "size": 17409
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-86.json",
+      "relative_path": "coord-86.json",
+      "sha256": "7281bfef1d12300c5f3c56d2fa6309a048555051ebd189b3c14874323fcce983",
+      "size": 303
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-87-0.png",
+      "relative_path": "coord-87-0.png",
+      "sha256": "b1b26baf25a3ad49cbddbc5103e639c58744602bf2635ee5dd5f4d5db8e3ddda",
+      "size": 47340
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-87-1.png",
+      "relative_path": "coord-87-1.png",
+      "sha256": "2b93765382dd3411392080bbf88067991ab276bcf6be861f1dc112809e1deb1c",
+      "size": 18954
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-87-2.png",
+      "relative_path": "coord-87-2.png",
+      "sha256": "2819d2bc1d60947852f4c94fac262f29dec1819191b107f330cb6ce06b25dc7c",
+      "size": 19109
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-87-3.png",
+      "relative_path": "coord-87-3.png",
+      "sha256": "8974ecf5a4b9031692ed9048cf9b575fb8169600be1318d0bde55caf47f680bf",
+      "size": 17214
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-87.json",
+      "relative_path": "coord-87.json",
+      "sha256": "29c42020292513eff365bb7a5817b96365e71311207ca244a1c76c60f422cf8e",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-88-0.png",
+      "relative_path": "coord-88-0.png",
+      "sha256": "9c6f413646e9645e2eec5ce5a20903503ffbf2a60c950501f9fa5d9fde9332fc",
+      "size": 62600
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-88-1.png",
+      "relative_path": "coord-88-1.png",
+      "sha256": "779c438289f7cae44819c4e6c7496d748b84e99af1828dbfff53f2e8011cb62b",
+      "size": 23042
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-88-2.png",
+      "relative_path": "coord-88-2.png",
+      "sha256": "a2c2bcb978c1ba07a2e44c2a29bc8390ee1623689c301b1c27f0a1b069795a65",
+      "size": 23045
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-88-3.png",
+      "relative_path": "coord-88-3.png",
+      "sha256": "209101e8a9fbf88bae8ae5e1324d44fd2d039a1a0cd2a0fe20b93a2165c1109f",
+      "size": 21541
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-88.json",
+      "relative_path": "coord-88.json",
+      "sha256": "d971e04ba32e26aa67b4816e4fd4568b8e33fe63803b8f7f7d160fb8a28d5bd9",
+      "size": 396
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-89-0.png",
+      "relative_path": "coord-89-0.png",
+      "sha256": "5ac2ef9e908a8f94b4be49cc333215d2935fbd15c5dbfc05cc676f07e743144b",
+      "size": 62560
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-89-1.png",
+      "relative_path": "coord-89-1.png",
+      "sha256": "3619b19e043e5bc38596068b26f7d4ffcb770c6319f68ce89d6117d7484d87a6",
+      "size": 22968
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-89-2.png",
+      "relative_path": "coord-89-2.png",
+      "sha256": "06221c0f944f8309344bb5f051c54234812973c69443ac68c61c63b10133f0f0",
+      "size": 22979
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-89-3.png",
+      "relative_path": "coord-89-3.png",
+      "sha256": "67eee9cc5353daac1fdb8fa7c8cba0b0620f8d670df72bb17480173e2f7a34c3",
+      "size": 21554
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-89.json",
+      "relative_path": "coord-89.json",
+      "sha256": "fdf4e39c6e2b2cfe708647301d19568ecd2a8e9c964a7260881baca28fdd8c9e",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-9-0.png",
+      "relative_path": "coord-9-0.png",
+      "sha256": "34b77eb7ed921932175f66fefb9e698e197cd58aedec61a1894122b9d14ff579",
+      "size": 47727
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-9-1.png",
+      "relative_path": "coord-9-1.png",
+      "sha256": "37b20dd57fedd0e80fc47d43a2cc1a79b4054fd47e12282f9e8dcfa33698b1d7",
+      "size": 18202
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-9-2.png",
+      "relative_path": "coord-9-2.png",
+      "sha256": "fc9577a0b2db485062b576b9deb5c18a0a2ab78cd3d3ea8414444b0f5e1cfffa",
+      "size": 18975
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-9-3.png",
+      "relative_path": "coord-9-3.png",
+      "sha256": "40f6961c431fc9e8d70f39a957810bb8a5d5efc61c0968905d4e6f4801f93e8b",
+      "size": 17123
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-9.json",
+      "relative_path": "coord-9.json",
+      "sha256": "f2e80728a398f0250f84dabc221d08fd97ffb4ae4c45ec6586149a9eef0cda62",
+      "size": 302
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-90-0.png",
+      "relative_path": "coord-90-0.png",
+      "sha256": "a28bf49094b8f58463599a6ab65ba908f46c60ef1b174e4079ae583db52c81f8",
+      "size": 47334
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-90-1.png",
+      "relative_path": "coord-90-1.png",
+      "sha256": "298a23676dfcdf5b28826a082ae9303b980c2d44f96ee59ab48f971f0e4ec338",
+      "size": 18941
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-90-2.png",
+      "relative_path": "coord-90-2.png",
+      "sha256": "ef55bc58da0945ddc7be675f2039bd2e74e9116d2b9f022f3be1086156c135f7",
+      "size": 19140
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-90-3.png",
+      "relative_path": "coord-90-3.png",
+      "sha256": "38dce5d27b27133635219148a1bf7e3bf5df479ef273ce16ddbb55f16ce604d6",
+      "size": 17163
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-90.json",
+      "relative_path": "coord-90.json",
+      "sha256": "05c086edbbc4a6f906a0f80763da66905d2e9afab34b8928e5571d8756be5dfe",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-91-0.png",
+      "relative_path": "coord-91-0.png",
+      "sha256": "04934ecfc733724f41ba055f9aa8e1ed42b39f718931942bf25f3d0018349438",
+      "size": 47886
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-91-1.png",
+      "relative_path": "coord-91-1.png",
+      "sha256": "04de833bdd915b4a77f94624f80b9cee549aad58d1badbcb5161a3cb335aa9cd",
+      "size": 19109
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-91-2.png",
+      "relative_path": "coord-91-2.png",
+      "sha256": "350e5759da26c67ba1ab260e1b00021961eb0cfa7e676fbef63e22f951015c78",
+      "size": 19352
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-91-3.png",
+      "relative_path": "coord-91-3.png",
+      "sha256": "9f10c8b14f2b0d9e538b6c3025523f54d38b9ec8f7b4bdf425c41497dc07e670",
+      "size": 17439
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-91.json",
+      "relative_path": "coord-91.json",
+      "sha256": "444784a78391b370f714939eeaf1705ed9458553f4125aed4dfdb509ab5032b3",
+      "size": 300
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-92-0.png",
+      "relative_path": "coord-92-0.png",
+      "sha256": "b7cd46da93c8c3a4fe0e2d06307420b880a3530a39c7c5449306ef179d3d8a7c",
+      "size": 59408
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-92-1.png",
+      "relative_path": "coord-92-1.png",
+      "sha256": "f72be56f8e7b3d93a39798e2351848f87275edd8cc2512d94e0e92a2369b6210",
+      "size": 22055
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-92-2.png",
+      "relative_path": "coord-92-2.png",
+      "sha256": "ce532f54f4167dafa5ddd783a48e000bb873c0927f539b988c89b7972bc62b34",
+      "size": 22158
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-92-3.png",
+      "relative_path": "coord-92-3.png",
+      "sha256": "e1ca72dcd1afff5cfa478d59b2ee1518113f42b00836098fcf2fa1097d7aebd6",
+      "size": 20556
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-92.json",
+      "relative_path": "coord-92.json",
+      "sha256": "d494ddf75ef5a9810dab79bcbc53bb4b26d2717c6f467e9981622c065e8fc7a9",
+      "size": 335
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-93-0.png",
+      "relative_path": "coord-93-0.png",
+      "sha256": "7af8c762314575be98fb300511fc90ed8b256e3f1a0ead4dbcd974474bef06de",
+      "size": 58888
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-93-1.png",
+      "relative_path": "coord-93-1.png",
+      "sha256": "25e13d6f54713eae01e240be8023d9c3123b47426e36b3859e849a56363d2edb",
+      "size": 21952
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-93-2.png",
+      "relative_path": "coord-93-2.png",
+      "sha256": "59827c232e1f3658a53cf464d57c43f3b6114393a0f188002dccb1366ede373b",
+      "size": 21994
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-93-3.png",
+      "relative_path": "coord-93-3.png",
+      "sha256": "a6be3458d2740e81bc40063af3f401e4d0cb97ae8c2faebd14645f2ed39f18f1",
+      "size": 20455
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-93.json",
+      "relative_path": "coord-93.json",
+      "sha256": "458eacb0b46fd2e7b36ac34a2d09d1fd9f4cf97ad21216688710874fc4320a12",
+      "size": 332
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-94-0.png",
+      "relative_path": "coord-94-0.png",
+      "sha256": "b47323232283cc15272aaccba968d19667d1e791e0783c9df125251858217f20",
+      "size": 48349
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-94-1.png",
+      "relative_path": "coord-94-1.png",
+      "sha256": "f9c9a4d1ce360fbadfeea68d71215102d80335320737ed97f6ed688a92f1c5b1",
+      "size": 19345
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-94-2.png",
+      "relative_path": "coord-94-2.png",
+      "sha256": "a79544209126f03e9bf1067196a331ac57b8f5966feaf9eafb3800992145b38f",
+      "size": 19492
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-94-3.png",
+      "relative_path": "coord-94-3.png",
+      "sha256": "59d16a2c3a69156660aa8f3e08ec8400147d4f62a37865333ac9520ee9645a2a",
+      "size": 17483
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-94.json",
+      "relative_path": "coord-94.json",
+      "sha256": "2c7ca7d3916bddb7ac3499a7cd94bb2d2c85a14b371e36bcf05cd39356406e1c",
+      "size": 301
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-95-0.png",
+      "relative_path": "coord-95-0.png",
+      "sha256": "a40c4ed84bc4299802a7232d1d5a936567535594a1f8f8fbac35c4b362e79e51",
+      "size": 47887
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-95-1.png",
+      "relative_path": "coord-95-1.png",
+      "sha256": "31bf66e7ca56b20eb501c29e62c080219931ed7845df6dadf534dff55c5f77e6",
+      "size": 19174
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-95-2.png",
+      "relative_path": "coord-95-2.png",
+      "sha256": "c0b8c2f74a57692374cf3f510f88043dad929a8a3d824f80633da273b84ff596",
+      "size": 19291
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-95-3.png",
+      "relative_path": "coord-95-3.png",
+      "sha256": "a55d654cc44d1a79701c877b1eb6e83f51c83c36ef31cdce8e403aea52820295",
+      "size": 17341
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-95.json",
+      "relative_path": "coord-95.json",
+      "sha256": "9038a111e184fc611fe957b73110ec41cd405fb0f7bdb71cc1ec5ea16b93fcf1",
+      "size": 301
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-96-0.png",
+      "relative_path": "coord-96-0.png",
+      "sha256": "c2314ac4c013ff7854fe56e51bf6fe2f8921fdffb439b4c2c71f0746a1afacba",
+      "size": 60411
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-96-1.png",
+      "relative_path": "coord-96-1.png",
+      "sha256": "d3c87aa9cf17591854d40bbe1de4271f9f5e89f0f474595f44e92ec6413ebbc8",
+      "size": 22359
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-96-2.png",
+      "relative_path": "coord-96-2.png",
+      "sha256": "bf63d2e66efee7df798679d6354dbdece2d9e9967b7e60cc1a5a0f4acaf69f6f",
+      "size": 22419
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-96-3.png",
+      "relative_path": "coord-96-3.png",
+      "sha256": "9aed639ee75b71a6eb431c781c31ba277a0292c4ee92fba935adf60c427d8b41",
+      "size": 20898
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-96.json",
+      "relative_path": "coord-96.json",
+      "sha256": "ebdf1326da9282502af74ab3d209363c8c977466bfc7ba503b6272a1e1932b9f",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-97-0.png",
+      "relative_path": "coord-97-0.png",
+      "sha256": "2eb9ed8b0d964bb2fe09c41ea01234b89dc6ed77d17edb8fdb99afffdf8d160d",
+      "size": 60117
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-97-1.png",
+      "relative_path": "coord-97-1.png",
+      "sha256": "e3a6d4d377602a0e16e2bbcb232198187bc8601229d55ca0f7754db5fd751d3e",
+      "size": 22225
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-97-2.png",
+      "relative_path": "coord-97-2.png",
+      "sha256": "4d7aeab8e77a5720cc1570ecf7c9bf77d6b2ac0a4a6d71aa6081da293f16c1bd",
+      "size": 22282
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-97-3.png",
+      "relative_path": "coord-97-3.png",
+      "sha256": "3738f6c125b1f5f8980e42721b9ad33bf76ad6ac1d22380d652074dd4048a559",
+      "size": 20834
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-97.json",
+      "relative_path": "coord-97.json",
+      "sha256": "3911a883c15a1d2340abc4220ec8309fb335dc9bcf1e395235d504560c865de5",
+      "size": 305
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-98-0.png",
+      "relative_path": "coord-98-0.png",
+      "sha256": "b833e2750403163ac25f189f20af06960c148d80829e7037d81c3a7d47ab5b05",
+      "size": 46666
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-98-1.png",
+      "relative_path": "coord-98-1.png",
+      "sha256": "7c2145b0bb5a8ceec58aed8ac3b73d29e87d229449de1eaf018410953ec0eeca",
+      "size": 18606
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-98-2.png",
+      "relative_path": "coord-98-2.png",
+      "sha256": "759b45fd5967652ecf50459c5e490295674e989f018140756f24772c9445af6f",
+      "size": 18786
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-98-3.png",
+      "relative_path": "coord-98-3.png",
+      "sha256": "ab71aa146d9a487fb9f8336463a003ab491ee52ef307a29dffb6005096847d5e",
+      "size": 17035
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-98.json",
+      "relative_path": "coord-98.json",
+      "sha256": "7ed668f5685e24758322e5e9a98b799d79b3e2b64be8795ca1607b91e2491883",
+      "size": 301
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-99-0.png",
+      "relative_path": "coord-99-0.png",
+      "sha256": "2a37c6d0a299b86ddf701d8e18be79ede4f80454c2a879e38b1c7af035e65d82",
+      "size": 46931
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-99-1.png",
+      "relative_path": "coord-99-1.png",
+      "sha256": "681b0f6084784fb0c41a2b84810cdbfdf220ff11de5eec62fcc82cbfdbd0f858",
+      "size": 18771
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-99-2.png",
+      "relative_path": "coord-99-2.png",
+      "sha256": "b9ebf69500359211eba678e438e1b545c54166c0d7d89ae860abedc12ef29bc6",
+      "size": 18989
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-99-3.png",
+      "relative_path": "coord-99-3.png",
+      "sha256": "4063c04d6ff510aeebdfadedd721338b2795db67e6e8d60428c475a7a4f88e4c",
+      "size": 17153
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/coord-99.json",
+      "relative_path": "coord-99.json",
+      "sha256": "d401551796399696f3baacc1185ff0151b1da1034c15bacb420269c56c49baa0",
+      "size": 304
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/events.jsonl",
+      "relative_path": "events.jsonl",
+      "sha256": "04e9b83e2384d22e46de705b040bbc937325630a5941f0d103cd8b5f6ff75d55",
+      "size": 9580
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/result.json",
+      "relative_path": "result.json",
+      "sha256": "ef43873d32f29234d528ab719140cc03daeb0a95be35c023edab87c5a1a8019e",
+      "size": 163
+    }
+  ],
+  "history_may_be_rotated": false,
+  "recording": null,
+  "evidence_gaps": [
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/recording.json",
+      "reason": "missing"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/config.json",
+      "reason": "missing"
+    },
+    {
+      "path": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/runs/revive-return-01/run.json",
+      "reason": "missing"
+    }
+  ],
+  "complete": false,
+  "timeline": "/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research/reviews/20260928-audit/navigation/timeline.jsonl",
+  "source_storage": "referenced_originals_with_hashes"
+}

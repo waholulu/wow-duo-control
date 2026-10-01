@@ -1,0 +1,7 @@
+{
+  "dataset": "synthetic-fault-regression",
+  "frames": [
+    {"at": 0, "age_seconds": 1, "observation": {"valid": true, "player_hp": 1, "player_mana": 1}}
+  ],
+  "expected": {"reason": "invalid_or_stale_perception", "actions": []}
+}

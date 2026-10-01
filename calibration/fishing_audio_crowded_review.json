@@ -1,0 +1,47 @@
+{
+  "status": "record_only_not_validated_for_trigger",
+  "source": "runs/fishing-crowded-audio-audit.json",
+  "own_count": 21,
+  "other_count": 7,
+  "own_range": [
+    0.002955567177634247,
+    0.020433334600350912
+  ],
+  "own_median": 0.008878144579267111,
+  "other_range": [
+    0.0007756066645934143,
+    0.0035847671275069715
+  ],
+  "other_median": 0.0010265343962702475,
+  "overlap": true,
+  "threshold_enabled": false,
+  "threshold_trials": [
+    {
+      "threshold": 0.0029,
+      "own_detected": 21,
+      "other_above": 1
+    },
+    {
+      "threshold": 0.003,
+      "own_detected": 20,
+      "other_above": 1
+    },
+    {
+      "threshold": 0.0035,
+      "own_detected": 20,
+      "other_above": 1
+    },
+    {
+      "threshold": 0.004,
+      "own_detected": 19,
+      "other_above": 0
+    },
+    {
+      "threshold": 0.005,
+      "own_detected": 18,
+      "other_above": 0
+    }
+  ],
+  "negative_scope": "40 seconds no own casting; seven locally saved visible neighboring splash patches reviewed",
+  "record_only": true
+}

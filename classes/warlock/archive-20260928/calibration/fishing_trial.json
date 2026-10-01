@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "name": "涌冰湖岸边-当前角色",
+  "casts": 10,
+  "target_streak": 10,
+  "max_seconds": 500,
+  "cast_key": "8",
+  "key_duration_ms": 80,
+  "serial_port": "/dev/cu.usbserial-120",
+  "obs_source": "Video Capture Device",
+  "frame_size": [
+    1920,
+    1080
+  ],
+  "frame_max_age": 0.5,
+  "player_roi": [
+    280,
+    94,
+    110,
+    11
+  ],
+  "player_green_min": 70,
+  "world_roi": [
+    880,
+    295,
+    220,
+    185
+  ],
+  "cursor_roi": [
+    180,
+    32,
+    1555,
+    990
+  ],
+  "tooltip_roi": [
+    1665,
+    883,
+    75,
+    60
+  ],
+  "receipt_roi": [
+    211,
+    678,
+    482,
+    197
+  ],
+  "bobber_templates": [
+    "calibration/fishing_bobber_trial.png",
+    "calibration/fishing_bobber_near.png",
+    "calibration/fishing_bobber_mid.png",
+    "calibration/fishing_bobber_far.png"
+  ],
+  "tooltip_template": "calibration/fishing_hover_tooltip.png",
+  "gear_template": "calibration/fishing_gear.png",
+  "template_scales": [
+    0.75,
+    0.85,
+    1.0,
+    1.1
+  ],
+  "candidate_min": 0.55,
+  "old_candidate_max": 0.55,
+  "new_candidate_margin": 0.12,
+  "tooltip_min": 0.94,
+  "gear_min": 0.9,
+  "cast_settle_seconds": 2.0,
+  "wait_seconds": 34.0,
+  "minimum_bite_seconds": 5.0,
+  "drop_pixels": 5,
+  "ring_min": 0.5,
+  "submerged_pixels": 15,
+  "cursor_clear_delta": [
+    80,
+    70
+  ],
+  "cursor_clear_seconds": 0.25,
+  "cursor_target_offset": [
+    2,
+    6
+  ],
+  "cursor_gain": 2.5,
+  "cursor_step_limit": 100,
+  "position_attempts": 15,
+  "position_tolerance": 3,
+  "position_wait_seconds": 0.17,
+  "alignment_attempts": 4,
+  "alignment_wait_seconds": 0.18,
+  "gear_hotspot_offset": [
+    5,
+    7
+  ],
+  "patch_offset": [
+    -30,
+    -37,
+    60,
+    40
+  ],
+  "ring_roi": [
+    25,
+    20,
+    11,
+    11
+  ],
+  "ring_search_roi": [
+    17,
+    0,
+    27,
+    40
+  ],
+  "submerged_roi": [
+    20,
+    25,
+    20,
+    15
+  ],
+  "baseline_frames": 10,
+  "reference_frame": 6,
+  "median_frames": 5,
+  "bright_delta": 18,
+  "dark_delta": 12,
+  "watch_seconds": 0.035,
+  "receipt_frames": 16,
+  "receipt_wait_seconds": 0.15,
+  "between_cast_seconds": 0.5,
+  "ocr_scale": 2,
+  "ocr_confidence": 0.3,
+  "ocr_timeout": 5
+}

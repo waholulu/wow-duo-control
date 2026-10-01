@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "core": {"offline_passed": false, "live_passed": false},
+  "navigation": {"offline_passed": false, "live_passed": false},
+  "mining": {"offline_passed": false, "live_passed": false},
+  "vendor": {"offline_passed": false, "live_passed": false},
+  "fishing": {"offline_passed": false, "live_passed": false}
+}

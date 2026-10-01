@@ -1,0 +1,16 @@
+{
+  "status": "awaiting_review",
+  "hypotheses": [
+    "当前画面或候选不满足已有标定；这不能证明目标不存在。"
+  ],
+  "changes": [
+    {
+      "type": "calibration_candidate",
+      "proposal": "保存当前正负例，复核 ROI／模板；不得直接降低全局确认门槛。",
+      "activation": "review_required"
+    }
+  ],
+  "regression_results": [],
+  "live_validation": [],
+  "activate": false
+}

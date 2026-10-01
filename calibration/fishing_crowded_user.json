@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "name": "多人洞穴钓鱼有界测试",
+  "casts": 1500,
+  "target_streak": 10,
+  "max_seconds": 43200,
+  "cast_key": "8",
+  "key_duration_ms": 80,
+  "serial_port": "/dev/cu.usbserial-120",
+  "obs_source": "Video Capture Device",
+  "frame_size": [
+    1920,
+    1080
+  ],
+  "frame_max_age": 0.5,
+  "player_roi": [
+    280,
+    94,
+    110,
+    11
+  ],
+  "player_green_min": 70,
+  "world_roi": [
+    810,
+    240,
+    390,
+    245
+  ],
+  "cursor_roi": [
+    180,
+    32,
+    1555,
+    990
+  ],
+  "tooltip_roi": [
+    1665,
+    883,
+    75,
+    60
+  ],
+  "receipt_roi": [
+    211,
+    678,
+    482,
+    197
+  ],
+  "bobber_templates": [
+    "calibration/fishing_crowded_duck.png",
+    "calibration/fishing_crowded_duck_near.png"
+  ],
+  "tooltip_template": "calibration/fishing_crowded_tooltip.png",
+  "gear_template": "calibration/fishing_gear.png",
+  "template_scales": [
+    0.85,
+    1.0,
+    1.1
+  ],
+  "candidate_min": 0.55,
+  "old_candidate_max": 0.65,
+  "new_candidate_margin": 0.15,
+  "tooltip_min": 0.94,
+  "gear_min": 0.9,
+  "cast_settle_seconds": 2.0,
+  "wait_seconds": 34.0,
+  "minimum_bite_seconds": 5.0,
+  "drop_pixels": 5,
+  "ring_min": 0.5,
+  "submerged_pixels": 45,
+  "cursor_clear_delta": [
+    80,
+    70
+  ],
+  "cursor_clear_seconds": 0.25,
+  "cursor_target_offset": [
+    2,
+    6
+  ],
+  "cursor_gain": 2.5,
+  "cursor_step_limit": 100,
+  "position_attempts": 15,
+  "position_tolerance": 3,
+  "position_wait_seconds": 0.17,
+  "alignment_attempts": 4,
+  "alignment_wait_seconds": 0.18,
+  "gear_hotspot_offset": [
+    5,
+    7
+  ],
+  "patch_offset": [
+    -45,
+    -45,
+    100,
+    85
+  ],
+  "ring_roi": [
+    25,
+    29,
+    32,
+    23
+  ],
+  "ring_search_roi": [
+    20,
+    27,
+    45,
+    45
+  ],
+  "submerged_roi": [
+    25,
+    35,
+    33,
+    25
+  ],
+  "baseline_frames": 10,
+  "reference_frame": 6,
+  "median_frames": 5,
+  "bright_delta": 18,
+  "dark_delta": 12,
+  "watch_seconds": 0.035,
+  "receipt_frames": 5,
+  "receipt_wait_seconds": 0.12,
+  "between_cast_seconds": 0.2,
+  "ocr_scale": 2,
+  "ocr_confidence": 0.3,
+  "ocr_timeout": 5,
+  "stop_mode": "bag_full",
+  "bag_layout": "calibration/fishing_crowded_evening_bag_layout.json",
+  "bag_hid": 5,
+  "bag_settle_seconds": 0.3,
+  "evidence_stride": 3,
+  "strong_drop_pixels": 7,
+  "strong_ring_min": 0.4,
+  "strong_submerged_pixels": 45,
+  "ring_value_min": 80,
+  "ring_saturation_max": 65,
+  "ring_horizontal_tolerance": 5,
+  "reel_delay_ms_range": [
+    50,
+    150
+  ],
+  "cycle_delay_ms_range": [
+    0,
+    500
+  ],
+  "blurred_ring_min": 0.35,
+  "blurred_splash_min": 150,
+  "max_consecutive_misses": 3,
+  "ocr_tail_roi": [
+    155,
+    168,
+    200,
+    25
+  ],
+  "candidate_peaks": 14,
+  "reject_ambiguous_candidates": 1,
+  "candidate_cluster_pixels": 35,
+  "hover_scan": 1,
+  "hover_candidate_limit": 6,
+  "clear_pointer_for_watch": 1,
+  "watch_cursor_delta": [
+    25,
+    20
+  ],
+  "splash_roi": [
+    18,
+    28,
+    50,
+    32
+  ],
+  "hover_accept_radius": 18,
+  "candidate_nms_radius": 10,
+  "candidate_merge_radius": 12,
+  "audio_record": 1,
+  "strong_splash_min": 150,
+  "splash_drop_pixels": 7,
+  "splash_ring_min": 0.4,
+  "splash_pixels": 150,
+  "occlusion_previous_min": 0.65,
+  "occlusion_ring_max": 0.35,
+  "occlusion_splash_min": 220
+}

@@ -1,0 +1,16 @@
+{
+  "status": "awaiting_review",
+  "hypotheses": [
+    "位置反馈未取得进展；障碍、转向误差或坐标识别误差仍需通过连续证据区分。"
+  ],
+  "changes": [
+    {
+      "type": "route_candidate",
+      "proposal": "复核失败路段并录制替代途经点；未经往返验证不加入已验证路线。",
+      "activation": "review_required"
+    }
+  ],
+  "regression_results": [],
+  "live_validation": [],
+  "activate": false
+}
