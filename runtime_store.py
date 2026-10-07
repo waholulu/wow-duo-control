@@ -74,6 +74,10 @@ class Store:
         self.event_rotations = 0
         self.max_bytes = max_bytes
         self.recorded_bytes = 0
+        self.audit_actions = bool(config.get('audit_actions', False))
+        self.audit_frames_recorded = 0
+        if self.audit_actions:
+            (self.folder/'action-frames').mkdir()
         self.next_budget_check = 0
         self.worker = threading.Thread(target=self._run, name='evidence', daemon=True)
         self.worker.start()
@@ -175,6 +179,12 @@ class Store:
                         ok, encoded = cv2.imencode('.jpg', value.frame, [cv2.IMWRITE_JPEG_QUALITY, 75])
                         if ok:
                             row = (value.sequence, value.captured_at, encoded.tobytes())
+                            if self.audit_actions and not self.error:
+                                try:
+                                    (self.folder/'action-frames'/f'{value.sequence:08d}.jpg').write_bytes(row[2])
+                                    self.audit_frames_recorded += 1
+                                except OSError as exc:
+                                    self.error='action_frame_write_failed: '+str(exc)
                             self.frames.append(row)
                             for clip in self.pending:
                                 clip['frames'].append(row)
@@ -228,6 +238,7 @@ class Store:
         self.worker.join(timeout=5)
         self._check_budget()
         atomic_json(self.folder/'recording.json', dict(dropped_records=self.dropped,
+            audit_frames_recorded=self.audit_frames_recorded,
             skipped_clip_requests=self.skipped_clips,evicted_clips=self.evicted_clips,
             event_rotations=self.event_rotations,max_bytes=self.max_bytes,recorded_bytes=self.recorded_bytes,
             error=self.error, worker_stopped=not self.worker.is_alive()))

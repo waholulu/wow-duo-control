@@ -1,6 +1,7 @@
 """Persistent KMBox serial session with bounded, device-timed key presses."""
 import argparse
 import fcntl
+import glob
 import os
 import select
 import termios
@@ -11,6 +12,12 @@ from contextlib import nullcontext
 
 class KMBox:
     def __init__(self, port='/dev/cu.usbserial-120'):
+        if not os.path.exists(port) and port == '/dev/cu.usbserial-120':
+            candidates = glob.glob('/dev/cu.usbserial-*')
+            if len(candidates) != 1:
+                raise FileNotFoundError(
+                    f'Configured KM Box port is missing; found {len(candidates)} USB serial candidates')
+            port = candidates[0]
         self.fd = os.open(port, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
         self.old = None
         self.lock = threading.RLock()

@@ -6,7 +6,7 @@ from types import SimpleNamespace
 import numpy as np
 from runtime_types import Context, Observe, Wait, Work, Intent, Snapshot, Result, GuardFailed
 from vision_state import Observation
-from runtime_skills import backpack, loot, navigate, move_pointer
+from runtime_skills import backpack, loot, navigate, move_pointer, probe_absolute_loot_point
 from runtime_audio import fishing
 from runtime_interactions import sell_junk
 from runtime_main import Controller, parser
@@ -16,6 +16,24 @@ from test_support import Driver, immediate, make_controller
 
 
 class SkillReplayTests(unittest.TestCase):
+    def test_absolute_corpse_probe_requires_pointer_at_requested_point(self):
+        for destination,effect in [((1000,600),(1002,599)),((1000,600),(1060,600))]:
+            d=Driver();d.ctx.vision_profile={'absolute_cursor_reacquire':{'screen_size':[1920,1080]}}
+            vision=SimpleNamespace(cursor=lambda _,roi:dict(x=effect[0],y=effect[1],kind='hand'))
+            result=d.run(probe_absolute_loot_point(d.ctx,vision,*destination))
+            self.assertEqual(result,abs(effect[0]-destination[0])<=20)
+            self.assertEqual([(a.kind,a.reason) for a in d.actions],
+                             [('move_to','probe_corpse_absolute')])
+
+    def test_absolute_corpse_probe_waits_for_delayed_cursor_frame(self):
+        driver=Driver();driver.ctx.vision_profile={'absolute_cursor_reacquire':{'screen_size':[1920,1080]}}
+        readings=iter((dict(x=1060,y=600,kind='hand'),
+                       dict(x=1001,y=600,kind='loot')))
+        vision=SimpleNamespace(cursor=lambda _,roi:next(readings))
+        self.assertTrue(driver.run(probe_absolute_loot_point(driver.ctx,vision,1000,600)))
+        self.assertEqual([(a.kind,a.reason) for a in driver.actions],
+                         [('move_to','probe_corpse_absolute')])
+
     def test_pointer_missing_can_use_calibrated_absolute_reacquisition(self):
         driver=Driver();driver.ctx.vision_profile={'absolute_cursor_reacquire':{'screen_size':[1920,1080]}}
         def cursor(_):

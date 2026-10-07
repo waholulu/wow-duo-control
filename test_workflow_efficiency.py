@@ -5,6 +5,15 @@ from test_support import make_controller,Driver
 from runtime_types import Result
 from runtime_skills import recover,select_chat
 class WorkflowEfficiencyTests(unittest.TestCase):
+ def test_weak_sparkles_follow_nearby_grid_but_strong_corpse_template_leads(self):
+  from runtime_skills import loot_search_order
+  weak=[dict(x=1016,y=484,score=.64),dict(x=958,y=480,score=.64)]
+  ordered=loot_search_order(weak)
+  self.assertEqual(ordered[0],dict(x=1005,y=580))
+  self.assertEqual(ordered[-2:],weak)
+  strong=dict(x=1040,y=560,score=.72)
+  self.assertEqual(loot_search_order(weak+[strong])[0],strong)
+
  def test_inventory_cache_expires_and_invalidates_by_identity_or_transaction(self):
   from workflow_state import InventoryCache
   cache=InventoryCache();r=Result('completed','bag',{'empty':2})
@@ -54,7 +63,8 @@ class WorkflowEfficiencyTests(unittest.TestCase):
   from dataclasses import replace
   from workflow_state import CorpseHint
   d=Driver();d.frame_image=np.zeros((1080,1920,3),np.uint8);s=d.frame();hint=CorpseHint(s,(1000,470))
-  self.assertEqual(hint.points(s,1),[(1000,530),(1000,570),(1000,610)])
+  self.assertEqual(hint.points(s,1)[:3],[(1000,530),(1030,530),(970,530)])
+  self.assertEqual(len(hint.points(s,1)),9)
   for changed,now in [(s,13),(s,-1),(replace(s,calibration_generation=1),1),
                        (replace(s,frame=np.full_like(d.frame_image,80)),1)]:
    self.assertEqual(hint.points(changed,now),[])
@@ -90,6 +100,21 @@ class WorkflowEfficiencyTests(unittest.TestCase):
    frame=cv2.imread(str(path));self.assertTrue(selected(frame,spec))
   shifted=np.roll(frame,20,axis=1)
   self.assertFalse(selected(shifted,spec))
+ def test_compact_general_receipt_channel_is_detected_without_ui_click(self):
+  import cv2,json,numpy as np
+  from pathlib import Path
+  from chat_tabs import selected
+  profile=json.loads(Path('classes/paladin/vision/profile.json').read_text())
+  spec=profile['chat_tabs']['general']
+  patch_image=cv2.imread('tests/fixtures/paladin/chat-compact-current.png')
+  frame=np.zeros((1080,1920,3),np.uint8)
+  frame[635:840,350:470]=patch_image
+  self.assertFalse(selected(frame,spec))
+  self.assertTrue(selected(frame,spec['compact']))
+  d=Driver();d.frame_image=frame;d.ctx.vision_profile={'chat_tabs':{'general':spec}}
+  result=d.run(select_chat(d.ctx,'general'))
+  self.assertEqual(result.reason,'chat_compact_receipt_channel')
+  self.assertEqual(d.actions,[])
  def test_loot_invalidates_roomy_bag_but_does_not_force_roam(self):
   c=make_controller(['--kills','2']);c.workflow={'roam_after_kill':False};calls=[]
   def run(name,*a,**kw):

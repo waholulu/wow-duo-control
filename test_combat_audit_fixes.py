@@ -103,6 +103,18 @@ class CombatAuditPolicyTests(unittest.TestCase):
         self.assertEqual(p.step(obs(target_hp=.7,player_mana_lower_bound=True),11,0).reason,'interact_target')
         self.assertEqual(p.last_opener_effect[2],'personal_spell_log')
 
+    def test_unanchored_personal_spell_needs_correlated_live_target_damage(self):
+        p=Policy(opener_key=33,attack_once=True,interact_key=65,opener_log_names=['正义审判'])
+        p.step(obs(player_mana_lower_bound=True),10,0)
+        weak=dict(kind='damage_text',text='你的正义审判命中狗头人歹徒20神圣',
+                  captured_at=10.7,transition_confirmed=False)
+        p.observe_offensive_log([weak],11)
+        p.step(obs(player_mana_lower_bound=True,in_combat=True),11,0)
+        self.assertFalse(p.opener_confirmed)
+        self.assertEqual(p.step(obs(target_hp=.25,player_mana_lower_bound=True,in_combat=True),11.2,0).reason,
+                         'interact_target')
+        self.assertEqual(p.last_opener_effect[2],'personal_spell_log_and_target_damage')
+
     def test_repeat_judgement_has_the_same_effect_check(self):
         p=Policy(opener_key=33,attack_once=True,interact_key=65)
         p.step(obs(),0,0);p.step(obs(target_hp=.8,player_mana=.95),1,0)
@@ -180,6 +192,23 @@ class LogOccurrenceTests(unittest.TestCase):
     def test_unanchored_text_cannot_authorize_offensive_confirmation(self):
         reader=self.reader([['旧记录'],['你的正义审判命中狼5神圣']])
         self.assertEqual(reader.latest(1,1,['狼']),[])
+        rows=reader.latest(1,1,['狼'],include_unanchored_damage=True)
+        self.assertEqual(len(rows),1)
+        self.assertFalse(rows[0]['transition_confirmed'])
+
+    def test_new_judgement_survives_old_log_overlap_with_ocr_wobble(self):
+        reader=self.reader([
+            ['你的 正义圣印 命中 森林狼 Dawnguard 6 神圣',
+             '你的 近战攻击命中 森林狼Imiolly 13 物理 （1过量',
+             '你 杀死了森林狼 Imjolly','深林狼死亡～你3得66点经验值'],
+            ['你的正又全前中新作限Dawnguard◎神全',
+             '你的近战攻击 命中森林狼 Imjolly 13物理 （过量',
+             '你 杀死工森林狼Imjolly','深杯狼死 你东得86点经验值',
+             '你的 正义审判命中 狗头人歹徒19神圣']])
+        rows=reader.latest(1,1,['狗头人歹徒'],include_unanchored_damage=True)
+        self.assertEqual(len(rows),1)
+        self.assertFalse(rows[0]['transition_confirmed'])
+        self.assertEqual(reader.latest(1,1,['狗头人歹徒']),[])
 
     def test_stale_tab_worker_cannot_restore_old_evidence(self):
         reader=CombatLogReader([0,0,1,1],lambda *a,**kw:None);self.addCleanup(reader.close)
@@ -253,9 +282,11 @@ class PermissionTests(unittest.TestCase):
         (self.root/'runs/run-permissions/paladin.json').unlink()
         self.assertTrue(any('missing' in v for v in self.issues()))
 
-    def test_existing_paladin_pause_is_migrated_without_releasing_it(self):
-        root=Path(__file__).resolve().parent
-        self.assertTrue(permission_issues(root,'paladin','patrol',self.limits,required=True))
+    def test_new_pause_after_input_proof_blocks_combat_again(self):
+        self.proof();self.write('progress.json',dict(resume_allowed=True))
+        self.assertEqual(self.issues(),[])
+        self.write('progress.json',dict(resume_allowed=False))
+        self.assertIn('run_resume_blocked: progress.json',self.issues())
 
     def test_scheduler_rechecks_permission_before_combat_factory(self):
         source=Source();box=Box();store=Store(self.root);executor=Executor(box,source,store.emit)

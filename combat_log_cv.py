@@ -89,15 +89,23 @@ class CombatLogReader:
     baseline=self.initial
     added,aligned=appended_lines(self.previous_lines,lines) if not baseline and lines else ([],False)
     new=[dict(e,frame=sequence,captured_at=captured_at,transition_confirmed=aligned) for e in evidence(added)]
+    # OCR wobble can break the ordered overlap while an actually new personal
+    # spell line appears beneath old kill lines. Expose only novel damage text
+    # as unanchored evidence; the policy still requires live HP loss and combat.
+    if not baseline and not aligned and not added and lines:
+     novel=[line for line in lines if not any(same_line(line,old) for old in self.previous_lines)]
+     new.extend(dict(e,frame=sequence,captured_at=captured_at,transition_confirmed=False)
+                for e in evidence(novel) if e['kind']=='damage_text')
     # Blank OCR is not evidence that an old line disappeared.
     if lines:self.initial=False;self.previous_lines=lines
     if not baseline:self.recent=(self.recent+new)[-40:]
    self.emit('combat_log_ocr',frame=sequence,captured_at=captured_at,baseline=baseline,lines=lines,new_evidence=[] if baseline else new,auxiliary_only=True)
   except Exception as e:self.emit('combat_log_ocr_error',error=type(e).__name__)
- def latest(self,now,since,names):
+ def latest(self,now,since,names,include_unanchored_damage=False):
   with self.lock:rows=list(self.recent)
   return [e for e in rows if since<=e['captured_at']<=now and now-e['captured_at']<=3
-          and (e['kind'] in ('death_text','incoming_damage_text') or e.get('transition_confirmed',True))
+          and (e['kind'] in ('death_text','incoming_damage_text') or e.get('transition_confirmed',True)
+               or include_unanchored_damage and e['kind']=='damage_text')
           and (e['kind'] in ('death_text','incoming_damage_text') or any(normalized(n) in normalized(e['text']) for n in names))]
  def close(self):self.pool.shutdown(wait=True,cancel_futures=True)
 

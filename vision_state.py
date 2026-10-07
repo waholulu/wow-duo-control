@@ -35,6 +35,9 @@ class Vision:
         self.templates = {}
         self.target_label = None
         self.previous_experience = None
+        self.previous_level = None
+        self.pending_level_wrap = 0
+        self.level_templates = {}
         self.percent_readers = {}
         self.status_text_unknown = False
         for name, spec in self.profile['templates'].items():
@@ -48,6 +51,43 @@ class Vision:
         for required in ('player_hp', 'player_mana', 'target_hp'):
             if required not in self.profile['bars']:
                 raise ValueError(f'Missing calibrated bar: {required}')
+        for level, filename in self.profile.get('level_digits', {}).get('templates', {}).items():
+            image=cv2.imread(str(path.parent / filename))
+            if image is None:
+                raise ValueError(f'Missing level template: {filename}')
+            self.level_templates[int(level)]=self.level_mask(image)
+
+    @staticmethod
+    def level_mask(image):
+        hsv=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
+        return ((hsv[:,:,1]<110)&(hsv[:,:,2]>85)).astype(np.uint8)
+
+    def player_level(self, frame):
+        spec=self.profile.get('level_digits')
+        if not spec or not self.level_templates:return None
+        mask=self.level_mask(self.crop(frame,spec['roi']))
+        scores={level:1-np.count_nonzero(mask!=reference)/mask.size
+                for level,reference in self.level_templates.items() if reference.shape==mask.shape}
+        if not scores:return None
+        ranked=sorted(scores,key=scores.get,reverse=True)
+        if scores[ranked[0]]<spec.get('threshold',.94):return None
+        if len(ranked)>1 and scores[ranked[0]]-scores[ranked[1]]<spec.get('margin',.04):return None
+        return ranked[0]
+
+    def experience_event(self, frame):
+        experience=self.bar(frame,'experience')
+        level=self.player_level(frame)
+        previous=self.previous_experience
+        growth=previous is not None and .004<experience-previous<.15
+        if previous is not None and previous>.9 and experience<.1:
+            self.pending_level_wrap=5
+        wrap=(self.pending_level_wrap>0 and self.previous_level is not None
+              and level==self.previous_level+1)
+        if not self.status_text_unknown:
+            self.previous_experience=experience
+            if level is not None:self.previous_level=level
+            self.pending_level_wrap=0 if wrap else max(0,self.pending_level_wrap-1)
+        return growth or wrap
 
     def crop(self, frame, rect):
         x, y, w, h = map(int, rect)
@@ -232,13 +272,9 @@ class Vision:
             target=bool(named and red.mean()>=.35 and (red.mean(axis=1)>.6).sum()>=3)
         xp_visible=self.matches(frame,'xp')
         if 'experience' in self.profile['bars']:
-            experience=self.bar(frame,'experience')
-            # Only small positive changes count; initialization and level wraps
-            # cannot fabricate experience. Policy still requires recent damage.
-            xp_visible=(self.previous_experience is not None and
-                        .004 < experience-self.previous_experience < .15)
-            if not self.status_text_unknown:
-                self.previous_experience=experience
+            # Ordinary small growth or a calibrated level rise on an XP wrap.
+            # Policy also requires recent damage to the selected target.
+            xp_visible=self.experience_event(frame)
         target_point=self.world_target_point(frame) if target else None
         return Observation(valid=not self.status_text_unknown,
             reason='status_text_unreadable' if self.status_text_unknown else 'ok', player_hp=hp,

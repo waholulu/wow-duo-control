@@ -12,6 +12,20 @@ from vision_state import Observation
 
 
 class SerialBoundaryTests(unittest.TestCase):
+    def test_missing_default_uses_only_unambiguous_usb_serial_port(self):
+        attrs=[0,0,0,0,0,0,[0]*32]
+        with patch('kmbox_tap.os.path.exists',return_value=False), \
+                patch('kmbox_tap.glob.glob',return_value=['/dev/cu.usbserial-1120']), \
+                patch('kmbox_tap.os.open',return_value=123) as opened, \
+                patch('kmbox_tap.fcntl.flock'),patch('kmbox_tap.termios.tcgetattr',return_value=attrs), \
+                patch('kmbox_tap.termios.tcsetattr'),patch('kmbox_tap.termios.tcflush'), \
+                patch.object(KMBox,'command',return_value='>>> '):
+            KMBox()
+        opened.assert_called_once_with('/dev/cu.usbserial-1120',unittest.mock.ANY)
+        with patch('kmbox_tap.os.path.exists',return_value=False), \
+                patch('kmbox_tap.glob.glob',return_value=['/dev/cu.usbserial-1120','/dev/cu.usbserial-120']):
+            with self.assertRaises(FileNotFoundError):KMBox()
+
     def box(self):
         box=KMBox.__new__(KMBox)
         box.fd=123

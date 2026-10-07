@@ -1,13 +1,42 @@
 import copy
 import unittest
+from pathlib import Path
+import cv2
+import numpy as np
 from unittest.mock import patch
 from class_profiles import load_class, policy_options
 from control_policy import Policy
-from vision_state import Observation
+from vision_state import Observation, Vision
 from runtime_main import parser, preflight
 from runtime_world import load_profile, ROOT
 
 class ClassProfilesTest(unittest.TestCase):
+    def test_paladin_experience_bar_detects_confirmed_kill_growth(self):
+        vision=Vision('classes/paladin/vision/profile.json')
+        fixture=Path('tests/fixtures/paladin')
+        values=[]
+        for label in ('before','after'):
+            patch=cv2.imread(str(fixture/f'experience-{label}.png'))
+            frame=np.zeros((1080,1920,3),dtype=np.uint8)
+            frame[889:898,486:1575]=patch
+            values.append(vision.bar(frame,'experience'))
+        self.assertAlmostEqual(values[0],.8264,places=3)
+        self.assertAlmostEqual(values[1],.8558,places=3)
+        self.assertTrue(.004<values[1]-values[0]<.15)
+
+    def test_paladin_level_up_wrap_requires_calibrated_level_rise(self):
+        vision=Vision('classes/paladin/vision/profile.json')
+        fixture=Path('tests/fixtures/paladin')
+        def frame(stage,level_stage=None):
+            image=np.zeros((1080,1920,3),dtype=np.uint8)
+            image[889:898,486:1575]=cv2.imread(str(fixture/f'levelup-{stage}-xp.png'))
+            image[206:223,1074:1093]=cv2.imread(str(fixture/f'levelup-{level_stage or stage}-level.png'))
+            return image
+        self.assertFalse(vision.experience_event(frame('before')))
+        self.assertFalse(vision.experience_event(frame('after','before')))
+        self.assertTrue(vision.experience_event(frame('after')))
+        self.assertFalse(vision.experience_event(frame('after')))
+
     def test_warlock_legacy_attack_preserved(self):
         obs=Observation(valid=True,player_hp=1,player_mana=1,target=True,target_hp=1,target_allowed=True)
         original=Policy(skip_unknown=True)

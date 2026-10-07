@@ -195,4 +195,8 @@ class BagVision:
                 state='empty' if score>=.72 else 'occupied' if score<.55 else 'unknown'
                 slots.append(dict(row=row,col=col,state=state,empty_score=score))
         counts={state:sum(s['state']==state for s in slots) for state in ('empty','occupied','unknown')}
-        return dict(open=True,valid=counts['unknown']==0,scope='calibrated_combined_backpack',slots=slots,capacity=len(slots),**counts)
+        unknown_slots=[[s['row'],s['col']] for s in slots if s['state']=='unknown']
+        return dict(open=True,valid=not unknown_slots,
+                    reason='backpack_slots_unreadable' if unknown_slots else 'ok',
+                    unknown_slots=unknown_slots,scope='calibrated_combined_backpack',
+                    slots=slots,capacity=len(slots),**counts)

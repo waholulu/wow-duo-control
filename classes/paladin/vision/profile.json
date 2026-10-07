@@ -133,6 +133,16 @@
         11
       ],
       "threshold": 0.96
+    },
+    "allowed_name_kobold_vermin_current": {
+      "file": "allowed_name_kobold_vermin_current.png",
+      "roi": [
+        1289,
+        660,
+        96,
+        17
+      ],
+      "threshold": 0.9
     }
   },
   "bars": {
@@ -265,20 +275,26 @@
         486,
         889,
         1089,
-        3
+        9
       ],
       "hsv_low": [
-        130,
+        105,
         60,
         30
       ],
       "hsv_high": [
-        179,
+        130,
         255,
         255
       ],
       "column_fraction": 0.33
     }
+  },
+  "level_digits": {
+    "roi": [1074, 206, 19, 17],
+    "templates": {"4": "level_4.png", "5": "level_5.png"},
+    "threshold": 0.94,
+    "margin": 0.04
   },
   "blocking_templates": [
     "game_menu"
@@ -373,11 +389,19 @@
     ],
     "allowed_name_kobold_vermin": [
       "狗头人歹徒"
+    ],
+    "allowed_name_kobold_vermin_current": [
+      "狗头人歹徒"
     ]
   },
   "chat_tabs": {
     "general": {
       "persistent": true,
+      "compact": {
+        "roi": [369, 794, 24, 24],
+        "file": "classes/paladin/vision/chat_general_compact_icon.png",
+        "threshold": 0.9
+      },
       "roi": [
         398,
         654,
@@ -390,7 +414,23 @@
     },
     "combat": {
       "persistent": true,
-      "active_contrast": {"rois": [[410,495,66,10],[493,495,135,10]], "ratio": 1.1},
+      "active_contrast": {
+        "rois": [
+          [
+            410,
+            495,
+            66,
+            10
+          ],
+          [
+            493,
+            495,
+            135,
+            10
+          ]
+        ],
+        "ratio": 1.1
+      },
       "anchors": [
         {
           "roi": [
@@ -400,7 +440,7 @@
             17
           ],
           "file": "classes/paladin/vision/chat_combat_persistent.png",
-        "threshold": 0.2,
+          "threshold": 0.2,
           "edge_threshold": 0.03
         },
         {
@@ -411,13 +451,20 @@
             14
           ],
           "file": "classes/paladin/vision/chat_self_filter.png",
-        "threshold": 0.45,
+          "threshold": 0.45,
           "edge_threshold": 0.12
         }
       ]
     }
   },
-  "interaction_exclude_rois": [[370,467,420,160]],
+  "interaction_exclude_rois": [
+    [
+      370,
+      467,
+      420,
+      160
+    ]
+  ],
   "cursor_control": {
     "max_step": 45,
     "settle_seconds": 0.2

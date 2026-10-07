@@ -73,4 +73,13 @@ class DeathRegressionTests(unittest.TestCase):
   self.assertGreaterEqual(d.now,3)
   self.assertEqual(result.facts['xp_events'],1)
   self.assertNotIn(43,[a.values[0] for a in d.actions])
+ def test_post_kill_full_health_portrait_waits_for_incoming_log_to_clear(self):
+  d=Driver();d.observation.target=True;d.observation.target_hp=1
+  d.ctx.threat_log=SimpleNamespace(latest=lambda now,*_: [{'kind':'incoming_damage_text','captured_at':now}] if now<2 else [])
+  p=Policy();p.xp_events=1
+  scheduler=SimpleNamespace(combat_options={},note_engagement=lambda _:None)
+  with patch('runtime_skills.Policy',return_value=p):result=d.run(combat(d.ctx,scheduler))
+  self.assertEqual(result.reason,'xp_limit_out_of_combat')
+  self.assertGreaterEqual(d.now,5)
+  self.assertNotIn(43,[a.values[0] for a in d.actions])
 if __name__=='__main__':unittest.main()

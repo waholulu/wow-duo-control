@@ -219,6 +219,8 @@ cd '/Users/chenqizhu/Documents/Codex/untitled folder/wow-control-research'
 
 两条截图命令只连接 OBS；导航命令会真实移动。导航默认/最大 120 步，内部约 240 秒期限、到目标距离 ≤0.2 地图坐标单位判到达。它不是地图寻路器，也不保证能绕开树木或其他障碍。
 
+需要逐动作离线核验的有界运行可加 `--audit-actions`。运行器在后台证据线程保存每个本地 CV 帧到该次运行的 `action-frames/`，以事件日志中的帧号配对动作前后画面；它不改变控制决策，也不要求模型逐帧看图。记录受现有磁盘预算约束，结束后检查 `recording.json` 的 `audit_frames_recorded`、`dropped_records` 和 `error`。
+
 前台运行可用 Ctrl+C 中断。设备计时短按到期释放；停止脚本不意味着角色已经脱战。总入口没有覆盖 `KeyboardInterrupt` 的最终汇总保证，中断时 `status.json` 可能停留在执行中阶段。
 
 ## 7. 状态转换和关键阈值

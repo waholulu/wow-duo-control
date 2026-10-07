@@ -3,7 +3,23 @@ from combat_exit_watch import ExitWatch
 from vision_state import Observation
 from runtime_types import Snapshot
 from types import SimpleNamespace
+from runtime_types import GuardFailed
 class CombatExitWatchTests(unittest.TestCase):
+ def test_safety_waits_for_brief_calibration_reacquisition(self):
+  from runtime_safety import resolve_threat
+  now=[0.0];rows=[];attempts=[0]
+  obs=self.o(in_combat=False)
+  def peek():
+   attempts[0]+=1
+   if attempts[0]<=30:raise GuardFailed('window_transform_invalidated')
+   return Snapshot(attempts[0],now[0]-.1,(1,0,0),obs,None,combat_known=True)
+  scheduler=SimpleNamespace(clock=lambda:now[0],source=SimpleNamespace(death_review_pending=False,
+      combat_log=SimpleNamespace(latest=lambda *a:[]),peek=peek),
+      stop_event=SimpleNamespace(wait=lambda seconds:now.__setitem__(0,now[0]+seconds)),
+      _stopped=lambda:False,store=SimpleNamespace(emit=lambda kind,**kw:rows.append(kind)))
+  self.assertEqual(resolve_threat(scheduler,10).reason,'peace_confirmed')
+  self.assertEqual(rows.count('safety_calibration_reacquiring'),1)
+
  def test_live_resolver_records_inputs_for_each_new_frame(self):
   from runtime_safety import resolve_threat
   now=[0.0];rows=[]

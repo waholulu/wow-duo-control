@@ -19,7 +19,8 @@ class Policy(ResourceReadiness, TimedEffects, MeleeRotation, OffensiveEffects, C
         'opener_confirmed', 'opener_approaches', 'ctm_started_at',
         'ctm_active', 'melee_scans', 'near_zero_since', 'finish_started',
         'opener_pending_mana','opener_pending_mana_exact','opener_pending_kind',
-        'opener_damage_seen','opener_mana_seen','opener_log_confirmed','opener_effect_status',
+        'opener_damage_seen','opener_mana_seen','opener_log_confirmed',
+        'opener_correlated_log_seen','opener_effect_status',
         'cast_pending_at','cast_pending_hp','cast_pending_mana','cast_pending_mana_exact',
         'cast_seen','cast_damage_seen','cast_mana_seen','cast_effect_status',
     )
@@ -58,6 +59,7 @@ class Policy(ResourceReadiness, TimedEffects, MeleeRotation, OffensiveEffects, C
         self.opener_pending_mana_exact=False
         self.opener_pending_kind=None
         self.opener_damage_seen=self.opener_mana_seen=self.opener_log_confirmed=False
+        self.opener_correlated_log_seen=False
         self.opener_effect_status=None
         self.defensive=False
         self.opener_last_at=None

@@ -5,6 +5,8 @@ import tempfile
 import time
 import unittest
 from unittest.mock import patch
+from types import SimpleNamespace
+import numpy as np
 
 from runtime_store import Store, window_covered
 from runtime_world import Capabilities, MineralTracker, Places, profile_digest
@@ -13,6 +15,17 @@ from vision_state import Observation
 
 
 class RecordingIntegrityTests(unittest.TestCase):
+    def test_action_audit_saves_each_local_frame(self):
+        with tempfile.TemporaryDirectory() as folder:
+            store=Store(Path(folder)/'run',{'audit_actions':True})
+            for number in (1,2):
+                store.frame(SimpleNamespace(sequence=number,captured_at=float(number),
+                    frame=np.full((20,20,3),number*40,dtype=np.uint8)))
+            store.close()
+            self.assertTrue((store.folder/'action-frames/00000001.jpg').is_file())
+            self.assertTrue((store.folder/'action-frames/00000002.jpg').is_file())
+            self.assertEqual(json.loads((store.folder/'recording.json').read_text())['audit_frames_recorded'],2)
+
     def test_elapsed_wall_time_does_not_claim_missing_post_recording(self):
         with tempfile.TemporaryDirectory() as folder:
             store=Store(Path(folder)/'run',{})

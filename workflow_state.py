@@ -45,5 +45,6 @@ class CorpseHint:
             np.abs(self.scene(snapshot.frame).astype(float)-self.background).mean()>8):
             return []
         x,y=self.point
-        return [(int(x),int(y+d)) for d in (60,100,140)
-                if 790<int(x)<1390 and 450<int(y+d)<875]
+        return [(int(x+dx),int(y+dy)) for dy in (60,100,140)
+                for dx in (0,30,-30)
+                if 790<int(x+dx)<1390 and 450<int(y+dy)<875]

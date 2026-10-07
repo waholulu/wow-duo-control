@@ -1,6 +1,6 @@
 """One owner for bounded threat response and terminal safety verification."""
 from dataclasses import asdict
-from runtime_types import Result
+from runtime_types import GuardFailed, Result
 from combat_exit_watch import ExitWatch
 from threat_state import observe_threat
 
@@ -36,13 +36,27 @@ def resolve_threat(scheduler, deadline, *, interrupted=False):
     watch=ExitWatch(scheduler.clock())
     action='observe'
     last_recorded_sequence=None
+    calibration_lost_at=None
     while scheduler.clock()<deadline and not scheduler._stopped():
         if getattr(scheduler.source,'death_review_pending',False):
             action='death_review_required';break
         try:snapshot=scheduler.source.peek()
+        except GuardFailed as exc:
+            if str(exc)=='window_transform_invalidated':
+                if calibration_lost_at is None:
+                    calibration_lost_at=scheduler.clock()
+                    scheduler.store.emit('safety_calibration_reacquiring')
+                # Feed.frame may spend up to eight seconds reacquiring its
+                # landmarks; observe without input through that same window.
+                if scheduler.clock()-calibration_lost_at<8:
+                    scheduler.stop_event.wait(.1)
+                    continue
+            scheduler.store.emit('safety_observation_unavailable',error=type(exc).__name__)
+            action='observation_unavailable';break
         except Exception as exc:
             scheduler.store.emit('safety_observation_unavailable',error=type(exc).__name__)
             action='observation_unavailable';break
+        calibration_lost_at=None
         if snapshot is not None:
             now=scheduler.clock();log=getattr(scheduler.source,'combat_log',None)
             recent=log.latest(now,watch.started-3,[]) if log else []

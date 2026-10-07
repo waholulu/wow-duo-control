@@ -28,6 +28,7 @@ def parser():
     p.add_argument('--resource',choices=['mining','herbalism'],help='Resource for --task gather-station')
     p.add_argument('--station-confirmed',action='store_true',help='Operator has placed the character at a verified stationary gathering position')
     p.add_argument('--trial',action='store_true',help='Bounded validation run; never marks acceptance passed')
+    p.add_argument('--audit-actions',action='store_true',help='Save every local CV frame for before/after action review')
     p.add_argument('--output',type=Path,required=True)
     p.add_argument('--rounds',type=int,default=0)
     p.add_argument('--kills','--count',type=int,default=0)

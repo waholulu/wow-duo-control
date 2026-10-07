@@ -143,6 +143,41 @@ def move_pointer(ctx, vision, x, y, bounds=(375,150,1625,885), expected=None, to
     raise GuardFailed('pointer_convergence_limit')
 
 
+def probe_absolute_loot_point(ctx, vision, x, y):
+    """Jump to one corpse proposal, then verify the actual cursor locally."""
+    spec=getattr(ctx,'vision_profile',{}).get('absolute_cursor_reacquire')
+    if not spec:return True  # Older profiles retain the bounded relative path.
+    width,height=spec.get('screen_size',[1920,1080])
+    if not all(type(v) is int and 320<=v<=8192 for v in (width,height)):
+        raise GuardFailed('invalid_absolute_cursor_calibration')
+    s=yield from fresh(ctx,.8,True)
+    transform=s.calibration
+    if len(transform)==3:
+        sx,tx,ty=transform;sy=sx
+    elif len(transform)==4:
+        sx,sy,tx,ty=transform
+    else:
+        raise GuardFailed('invalid_absolute_cursor_calibration')
+    raw_x,raw_y=round(x*sx+tx),round(y*sy+ty)
+    if not 0<=raw_x<width or not 0<=raw_y<height:
+        raise GuardFailed('absolute_cursor_destination_outside_screen')
+    yield from ctx.act(s,'move_to',(raw_x,raw_y,width,height),
+                       'probe_corpse_absolute',.8,True)
+    yield from ctx.pause(.2)
+    left,top=max(375,x-80),max(150,y-80)
+    right,bottom=min(1625,x+80),min(885,y+80)
+    for attempt in range(3):
+        current=yield from fresh(ctx,.8,True)
+        cursor=yield from ctx.work(vision.cursor,current.frame,
+                                   (left,top,right-left,bottom-top))
+        near=bool(cursor and abs(cursor['x']-x)<=20 and abs(cursor['y']-y)<=20)
+        ctx.record('corpse_absolute_probe',task=ctx.task,frame=current.sequence,
+                   destination=[x,y],cursor=cursor,near=near,attempt=attempt+1)
+        if near:return True
+        if attempt<2:yield from ctx.pause(.15)
+    return False
+
+
 def select_chat(ctx,name):
     spec=getattr(ctx,'vision_profile',{}).get('chat_tabs',{}).get(name)
     if not spec:return Result('completed','chat_tab_not_configured')
@@ -152,8 +187,11 @@ def select_chat(ctx,name):
         # below require full health and peace.
         s=yield from fresh(ctx)
         visible=yield from ctx.work(selected,s.frame,spec)
-        return Result('completed' if visible else 'failed',
-                      'chat_panel_visible' if visible else 'chat_panel_layout_unconfirmed')
+        if visible:return Result('completed','chat_panel_visible')
+        compact=spec.get('compact') if name=='general' else None
+        if compact and (yield from ctx.work(selected,s.frame,compact)):
+            return Result('completed','chat_compact_receipt_channel')
+        return Result('failed','chat_panel_layout_unconfirmed')
     s=yield from fresh(ctx,.95,True)
     if (yield from ctx.work(selected,s.frame,spec)):return Result('completed','chat_tab_selected')
     vision=LootVision(getattr(ctx,'vision_profile',{}).get('cursor_templates'))
@@ -204,9 +242,6 @@ def combat(ctx, scheduler, seconds=90, xp_limit=1):
             return Result('failed',threat_failure,
                           dict(xp_events=confirmed,review_required=True,
                                attacker_hints=list(threat.sources)),(s.sequence,))
-        if o.target_allowed and o.target_point and o.in_combat and policy.damaged_target and 0<=now-s.captured_at<=.5:
-            from workflow_state import CorpseHint
-            scheduler.corpse_hint=CorpseHint(s,o.target_point)
         if (s.target_track is not None and target_track is not None
                 and s.target_track!=target_track and attack_track is not None and o.in_combat):
             ctx.record('evidence_request',reason='target_changed_under_threat',frame=s.sequence,
@@ -218,6 +253,11 @@ def combat(ctx, scheduler, seconds=90, xp_limit=1):
             target_track=s.target_track
             attack_track=None
             policy.reset_for_target_change(now)
+        if (o.target and o.target_allowed and o.target_point
+                and (not xp_limit or policy.xp_events<xp_limit)
+                and 0<=now-s.captured_at<=.5):
+            from workflow_state import CorpseHint
+            scheduler.corpse_hint=CorpseHint(s,o.target_point)
         log_reader=getattr(getattr(scheduler,'source',None),'combat_log',None)
         if o.target and o.target_allowed:
             aliases=getattr(ctx,'vision_profile',{}).get('combat_log_target_names',{})
@@ -254,9 +294,9 @@ def combat(ctx, scheduler, seconds=90, xp_limit=1):
                             source.death_review_pending=True
                             callback('fresh_visual_log_death_text')
                     return Result('failed',decision,dict(xp_events=policy.xp_events,review_required=True),(s.sequence,))
-        # Once a kill is confirmed, never Tab-pull another target just because
-        # the attack portrait has not cleared. Existing live targets may finish.
-        if finishing and (not o.target or o.target_hp<=.02 or policy.defensive):
+        # A cleanup self-selection or a new full-health portrait must not skip
+        # post-kill threat settlement and report peace while incoming text is fresh.
+        if finishing:
             # Defense is complete: subsequent actions only cancel movement and
             # clear attack. Binding them to the vanished enemy would reject cleanup.
             ctx.required_target=None
@@ -295,7 +335,9 @@ def combat(ctx, scheduler, seconds=90, xp_limit=1):
         effect_before=getattr(policy,'last_opener_effect',None)
         cast_before=getattr(policy,'last_cast_effect',None)
         if log_reader and getattr(policy,'opener_pending_at',None) is not None:
-            policy.observe_offensive_log(log_reader.latest(now,policy.opener_pending_at,log_target_names),now)
+            policy.observe_offensive_log(log_reader.latest(
+                now,policy.opener_pending_at,log_target_names,
+                include_unanchored_damage=True),now)
         action = policy.step(o,now,now-s.captured_at)
         effect_after=getattr(policy,'last_opener_effect',None)
         if effect_after!=effect_before:
@@ -560,6 +602,19 @@ def backpack(ctx):
     return Result('completed','backpack_confirmed',dict(reading,closed_verified=True), (observed_at,s.sequence))
 
 
+def loot_search_order(candidates):
+    """Try calibrated corpse templates first, then nearby grid, then weak sparkles.
+
+    A sparkle only proposes a cursor check; it never authorizes a click.
+    """
+    distance=lambda p:abs(p['x']-1005)+abs(p['y']-590)
+    strong=sorted((p for p in candidates if p.get('score',0)>=.65),key=distance)
+    weak=sorted((p for p in candidates if p.get('score',0)<.65),key=distance)
+    grid=[dict(x=x,y=y) for y in (580,530,620,660,710,800,850)
+          for x in (1005,955,1055,895,1115)]
+    return strong+grid+weak
+
+
 def loot(ctx, folder, interaction='loot', point=None):
     chat=yield from select_chat(ctx,'general')
     if chat.status!='completed':return chat
@@ -571,7 +626,10 @@ def loot(ctx, folder, interaction='loot', point=None):
     return result
 
 
-def loot_contents(ctx, folder, interaction='loot', point=None):
+def loot_contents(ctx, folder, interaction='loot', point=None, vision=None):
+    profile=getattr(ctx,'vision_profile',{})
+    if vision is None:
+        vision=LootVision(profile.get('cursor_templates'),profile.get('loot_message_template'))
     hint=getattr(ctx,'corpse_hint',None)
     if interaction=='loot' and point is None and hint is not None:
         ctx.corpse_hint=None  # Consume once; a failed hint falls back to normal CV search.
@@ -583,12 +641,10 @@ def loot_contents(ctx, folder, interaction='loot', point=None):
             if (x,y) not in hint.points(current,ctx.clock()):break
             if any(left<=x<left+w and top<=y<top+h for left,top,w,h in excluded):continue
             ctx.record('corpse_hint_probe',task=ctx.task,point=[x,y],hint_at=hint.at)
-            result=yield from loot_contents(ctx,folder,interaction,point=(x,y))
+            result=yield from loot_contents(ctx,folder,interaction,point=(x,y),vision=vision)
             if result.status!='skipped':return result
     folder=Path(folder)/ctx.task
     folder.mkdir(parents=True,exist_ok=True)
-    profile=getattr(ctx,'vision_profile',{})
-    vision=LootVision(profile.get('cursor_templates'),profile.get('loot_message_template'))
     ctx.phase=interaction
     if point:
         points=[dict(x=point[0],y=point[1])]
@@ -611,9 +667,10 @@ def loot_contents(ctx, folder, interaction='loot', point=None):
                 if all(abs(p['x']-q['x'])+abs(p['y']-q['y'])>25 for q in points):
                     points.append(p)
             yield from ctx.pause(.15)
-        points.sort(key=lambda p:abs(p['x']-1005)+abs(p['y']-590))
-        points+= [dict(x=x,y=y) for y in (580,530,620,660,710,800,850) for x in (1005,955,1055,895,1115)]
+        points=loot_search_order(points)
     for p in points:
+        if interaction=='loot' and not (yield from probe_absolute_loot_point(ctx,vision,p['x'],p['y'])):
+            continue
         found=yield from move_pointer(ctx,vision,p['x'],p['y'],expected=interaction)
         if not found:
             continue
