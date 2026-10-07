@@ -112,6 +112,50 @@ class LootVision:
                 selected.append(item)
         return selected[:6]
 
+    def sparkle_candidates(self, frames):
+        """Temporal yellow sparkle clusters propose hover points, never clicks."""
+        if len(frames) < 3:
+            return []
+        first=cv2.resize(cv2.cvtColor(frames[0][450:875,790:1390],cv2.COLOR_BGR2GRAY),(40,28))
+        last=cv2.resize(cv2.cvtColor(frames[-1][450:875,790:1390],cv2.COLOR_BGR2GRAY),(40,28))
+        if np.mean(np.abs(first.astype(float)-last.astype(float)))>12:
+            return []  # Camera/scene movement invalidates the shared positions.
+        masks=[]
+        for frame in frames:
+            patch=frame[450:875,790:1390]
+            hsv=cv2.cvtColor(patch,cv2.COLOR_BGR2HSV)
+            bright=cv2.inRange(hsv,np.array([12,10,210]),np.array([65,255,255]))
+            count,labels,stats,_=cv2.connectedComponentsWithStats(bright)
+            mask=np.zeros(bright.shape,np.uint8)
+            for i in range(1,count):
+                if 2<=stats[i,cv2.CC_STAT_AREA]<=35:
+                    mask[labels==i]=1
+            masks.append(mask)
+        stack=np.stack(masks)
+        # Static stars, text and bright terrain cannot create a temporal proposal.
+        flicker=((stack.max(axis=0)>0)&(stack.min(axis=0)==0)).astype(np.uint8)
+        groups=cv2.dilate(flicker,np.ones((25,25),np.uint8))
+        count,labels,stats,_=cv2.connectedComponentsWithStats(groups)
+        result=[]
+        cursor=self.cursor(frames[-1])
+        for i in range(1,count):
+            x,y,w,h,_=stats[i]
+            if w>100 or h>110:
+                continue
+            region=labels==i
+            support=sum(bool(np.any(mask[region])) for mask in masks)
+            yy,xx=np.where(region & (flicker>0))
+            if support<2 or len(xx)<6:
+                continue
+            px=int(np.median(xx))+790;py=int(np.median(yy))+450+15
+            if not 450<=px<=1380 or not 260<=py<=860:
+                continue
+            if cursor and abs(px-cursor['x'])<45 and abs(py-cursor['y'])<45:
+                continue
+            result.append(dict(x=px,y=py,score=.70,source='temporal_sparkles',
+                               frames_supported=support,changing_pixels=len(xx)))
+        return sorted(result,key=lambda p:(-p['frames_supported'],-p['changing_pixels']))[:6]
+
     def loot_messages(self, frame):
         # Count matching green loot prefixes, suppress adjacent template peaks.
         patch = frame[690:827, 398:778]

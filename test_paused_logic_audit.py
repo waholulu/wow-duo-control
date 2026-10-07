@@ -30,7 +30,7 @@ class PausedAuditTests(unittest.TestCase):
   items=[dict(text=t,confidence=.9,box=[x,y,.2,.04]) for t,x,y in [('造成5点伤害',.7,.8),('狗头人苦力',.1,.8),('的攻击命中你',.4,.8),('你杀死了狗头人劳工',.1,.7)]]
   self.assertEqual([x['kind'] for x in evidence(joined_lines(items))],['incoming_damage_text','kill_text'])
  def controller(self,stopped=False):
-  c=Controller.__new__(Controller);c.a=SimpleNamespace(task='patrol');c.store=Mock()
+  c=Controller.__new__(Controller);c.a=SimpleNamespace(task='patrol');c.store=Mock();c.kills=0
   c.s=Mock();c.s.source=SimpleNamespace(death_review_pending=False,peek=Mock(side_effect=RuntimeError('offline')))
   c.s.stop_event.is_set.return_value=stopped
   import time

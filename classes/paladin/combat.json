@@ -60,6 +60,7 @@
   },
   "workflow": {
     "roam_after_kill": false,
-    "inventory_cache_seconds": 180
+    "inventory_cache_seconds": 180,
+    "minimum_pull_budget_seconds": 20
   }
 }

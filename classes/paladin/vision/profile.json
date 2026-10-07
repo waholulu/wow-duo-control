@@ -82,7 +82,7 @@
         96,
         17
       ],
-      "threshold": 0.88
+      "threshold": 0.93
     },
     "game_menu": {
       "file": "game_menu.png",
@@ -143,6 +143,16 @@
         17
       ],
       "threshold": 0.9
+    },
+    "excluded_name_kobold_laborer": {
+      "file": "excluded_name_kobold_laborer.png",
+      "roi": [
+        1289,
+        660,
+        96,
+        17
+      ],
+      "threshold": 0.92
     }
   },
   "bars": {
@@ -287,12 +297,34 @@
         255,
         255
       ],
-      "column_fraction": 0.33
+      "column_fraction": 0.33,
+      "additional_hsv_ranges": [
+        {
+          "low": [
+            145,
+            60,
+            30
+          ],
+          "high": [
+            179,
+            255,
+            255
+          ]
+        }
+      ]
     }
   },
   "level_digits": {
-    "roi": [1074, 206, 19, 17],
-    "templates": {"4": "level_4.png", "5": "level_5.png"},
+    "roi": [
+      1074,
+      206,
+      19,
+      17
+    ],
+    "templates": {
+      "4": "level_4.png",
+      "5": "level_5.png"
+    },
     "threshold": 0.94,
     "margin": 0.04
   },
@@ -365,8 +397,8 @@
     12
   ],
   "backpack_pointer_park": [
-    720,
-    400
+    420,
+    650
   ],
   "combat_log_roi": [
     390,
@@ -398,7 +430,12 @@
     "general": {
       "persistent": true,
       "compact": {
-        "roi": [369, 794, 24, 24],
+        "roi": [
+          369,
+          794,
+          24,
+          24
+        ],
         "file": "classes/paladin/vision/chat_general_compact_icon.png",
         "threshold": 0.9
       },
@@ -468,12 +505,6 @@
   "cursor_control": {
     "max_step": 45,
     "settle_seconds": 0.2
-  },
-  "absolute_cursor_reacquire": {
-    "screen_size": [
-      1920,
-      1080
-    ]
   },
   "loot_cursor_poll_frames": 8,
   "chat_layout_note": "2026-09-29 native detached combat above general; current window moved (-60,+18) and script ROIs were relocated without game input. My actions includes self source and target, kill/death. Static layout only validated; live combat pending. Do not auto-click to repair."

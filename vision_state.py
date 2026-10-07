@@ -121,6 +121,9 @@ class Vision:
         if not target:
             self.target_label = None
             return False
+        if any(self.matches(frame,name) for name in self.templates if name.startswith('excluded_name')):
+            self.target_label=None
+            return False
         scores = {name:self.score(frame,name) for name in self.templates if name.startswith('allowed_name')}
         name = max(scores,key=scores.get)
         threshold = self.profile['templates'][name].get('threshold',.92)
@@ -170,6 +173,8 @@ class Vision:
                     return value
         hsv = cv2.cvtColor(self.crop(frame, spec['roi']), cv2.COLOR_BGR2HSV)
         mask = cv2.inRange(hsv, np.array(spec['hsv_low']), np.array(spec['hsv_high']))
+        for color in spec.get('additional_hsv_ranges',[]):
+            mask=cv2.bitwise_or(mask,cv2.inRange(hsv,np.array(color['low']),np.array(color['high'])))
         columns = (mask > 0).mean(axis=0) >= spec.get('column_fraction', 0.5)
         # Bars must fill from the left. Isolated matching scenery on the right
         # cannot inflate the reading when the bar is mostly empty.

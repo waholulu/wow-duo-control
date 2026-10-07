@@ -16,7 +16,7 @@ RUNTIME_SOURCE_FILES = (
     'control_action.py', 'control_policy.py', 'resource_readiness.py',
     'timed_effects.py', 'melee_rotation.py', 'threat_settlement.py', 'threat_state.py',
     'offensive_effects.py', 'cast_cycle.py', 'run_permission.py',
-    'workflow_state.py', 'target_continuity.py', 'death_review.py',
+    'workflow_state.py', 'target_continuity.py', 'combat_evidence.py', 'death_review.py',
     'class_profiles.py', 'interaction_vision.py', 'vision_state.py',
     'vision_feed.py', 'window_calibration.py', 'combat_log_cv.py',
     'combat_exit_watch.py', 'chat_tabs.py', 'coordinate_reader.py',

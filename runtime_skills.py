@@ -1,5 +1,6 @@
 """Cooperative existing skills. No hardware, subprocess orchestration, or sleeps."""
 import math
+from dataclasses import replace
 from pathlib import Path
 import time
 from interaction_vision import BagVision
@@ -217,6 +218,7 @@ def combat(ctx, scheduler, seconds=90, xp_limit=1):
     policy.buff_cast_at=getattr(scheduler,'buff_cast_at',None)
     policy.opener_last_at=getattr(scheduler,'opener_last_at',None)
     policy.defensive=ctx.required_target is not None
+    evidence=getattr(getattr(scheduler,'source',None),'combat_evidence',None)
     started = ctx.clock()
     last_engaged = started
     target_track=attack_track=None
@@ -233,6 +235,12 @@ def combat(ctx, scheduler, seconds=90, xp_limit=1):
         if not s.combat_known:
             raise GuardFailed('combat_status_unknown')
         o,now = s.observation,ctx.clock()
+        if evidence:
+            # Runtime XP comes from the capture-side journal, never a transient
+            # boolean delivered (or skipped) by the cooperative scheduler.
+            policy.xp_events=evidence.facts(ctx.task)['xp_events']
+            ctx.checkpoint['confirmed_facts']=evidence.facts(ctx.task)
+            o=replace(o,xp_visible=False)
         threat=observe_threat(ctx,s,now)
         threat_failure=('additional_attacker_suspected' if threat.additional_suspected and threat.visual
                         else 'damage_without_combat_indicator' if threat.damaged and not o.in_combat else None)
@@ -450,9 +458,11 @@ def maintain_self_buff(ctx,scheduler):
 def disengage_unreachable(ctx):
     """Cancel a failed pull, then verify peace before returning to patrol."""
     s=yield from fresh(ctx,.8)
+    if not s.combat_known or observe_threat(ctx,s).active:
+        return Result('failed','threat_after_failed_pull')
     initial_hp=s.observation.player_hp
     if s.observation.target:
-        yield from ctx.act(s,'tap',(41,80),'clear_unreachable_target',.8)
+        yield from ctx.act(s,'tap',(41,80),'clear_unreachable_target',.8,True)
     yield from ctx.pause(.5)
     clear=0
     for _ in range(12):
@@ -603,16 +613,17 @@ def backpack(ctx):
 
 
 def loot_search_order(candidates):
-    """Try calibrated corpse templates first, then nearby grid, then weak sparkles.
+    """Try temporal sparkles and corpse templates before the fallback grid.
 
     A sparkle only proposes a cursor check; it never authorizes a click.
     """
     distance=lambda p:abs(p['x']-1005)+abs(p['y']-590)
-    strong=sorted((p for p in candidates if p.get('score',0)>=.65),key=distance)
+    temporal=sorted((p for p in candidates if p.get('source')=='temporal_sparkles'),key=distance)
+    strong=sorted((p for p in candidates if p.get('score',0)>=.65 and p.get('source')!='temporal_sparkles'),key=distance)
     weak=sorted((p for p in candidates if p.get('score',0)<.65),key=distance)
     grid=[dict(x=x,y=y) for y in (580,530,620,660,710,800,850)
           for x in (1005,955,1055,895,1115)]
-    return strong+grid+weak
+    return temporal+strong+grid+weak
 
 
 def loot(ctx, folder, interaction='loot', point=None):
@@ -656,9 +667,11 @@ def loot_contents(ctx, folder, interaction='loot', point=None, vision=None):
         points=[cursor]
     else:
         points=[]
+        sparkle_frames=[]
         # Loot sparkles blink; a single initial frame may miss the nearby corpse.
         for _ in range(4):
             s=yield from fresh(ctx,.8,True)
+            sparkle_frames.append(s.frame)
             candidates=yield from ctx.work(vision.candidates,s.frame)
             for p in candidates:
                 if any(x<=p['x']<x+w and y<=p['y']<y+h
@@ -667,7 +680,11 @@ def loot_contents(ctx, folder, interaction='loot', point=None, vision=None):
                 if all(abs(p['x']-q['x'])+abs(p['y']-q['y'])>25 for q in points):
                     points.append(p)
             yield from ctx.pause(.15)
-        points=loot_search_order(points)
+        temporal=yield from ctx.work(vision.sparkle_candidates,sparkle_frames)
+        excluded=profile.get('interaction_exclude_rois',[])
+        temporal=[p for p in temporal if not any(x<=p['x']<x+w and y<=p['y']<y+h for x,y,w,h in excluded)]
+        ctx.record('corpse_sparkle_candidates',task=ctx.task,candidates=temporal,samples=len(sparkle_frames))
+        points=loot_search_order(temporal+points)
     for p in points:
         if interaction=='loot' and not (yield from probe_absolute_loot_point(ctx,vision,p['x'],p['y'])):
             continue

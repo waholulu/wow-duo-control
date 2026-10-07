@@ -2,6 +2,8 @@
 
 默认入口：`.venv/bin/python run_tests.py`。默认选择当前圣骑士战斗流程及共用输入/死亡保护；不会操作游戏。用 `--list` 获取当前实际收集数量，避免文档计数随新增或迁移测试失效。
 
+底层事件与收尾修复的专项回归为`test_foundation_fixes.py`和`test_rate_evidence.py`，已纳入combat组；验证跳帧/晚到击杀、模板别名、输入ACK关联、全局与局部期限、终态安全和速率证据配对。参见`classes/paladin/FOUNDATION_FIXES_20261007.md`。
+
 主动受击共享模块回归在 `test_threat_state.py`，已加入combat组；包括真实圣骑士配置防御入口、跨阶段累计受伤、来源疑点与文字不授权移动。机制及完整回归证据见 [THREAT_HANDLING.md](THREAT_HANDLING.md)。
 
 术士/圣骑士本轮审核回归包含`test_combat_audit_fixes.py`，已加入combat组；完整报告见`runs/combat-audit-20260929/tests-all.json`，行为与验证边界见`COMBAT_AUDIT_FIXES_20260929.md`。它验证运行许可、资源/技能等待期间保护、输入效果和日志事件边界，不代表新的实机验收。

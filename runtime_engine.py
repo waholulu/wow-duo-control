@@ -85,6 +85,9 @@ class Perception:
         self.stopping = threading.Event()
         self.latest = None
         self.error = None
+        from combat_evidence import CombatEvidence
+        self.combat_evidence = CombatEvidence(store.emit)
+        store.emit('combat_evidence_started', version=1)
         self.death_review_pending = False
         self.minerals = []
         self.worker = threading.Thread(target=self._run, name='perception', daemon=True)
@@ -97,7 +100,7 @@ class Perception:
         next_mineral = 0
         sequence = 0
         from target_continuity import TargetContinuity
-        target_tracker=TargetContinuity()
+        target_tracker=TargetContinuity(self.vision.profile.get('combat_log_target_names',{}))
         last_invalid_reason = None
         try:
             while not self.stopping.is_set():
@@ -124,6 +127,7 @@ class Perception:
                     observation, frame, 'combat_roi' in self.vision.profile,
                     'casting' in self.vision.profile['bars'], generation,
                     target_track, getattr(self.vision,'target_label',None))
+                self.combat_evidence.observe(snapshot)
                 with self.lock:
                     self.latest = snapshot
                 self.store.frame(snapshot)
@@ -262,8 +266,9 @@ class Executor:
     def _send(self, intent):
         sent = False
         wrote = False
+        sent_at = None
         def written(count, complete):
-            nonlocal sent, wrote
+            nonlocal sent, wrote, sent_at
             wrote = True
             if intent.reason == 'interact_target' or (self.ctm_enabled and intent.reason=='loot' and intent.kind=='click'):
                 self.ctm_pending = True
@@ -271,6 +276,7 @@ class Executor:
                 self.ctm_pending = False
             if complete:
                 sent = True
+                sent_at = self.clock()
                 self.record('action_sent', task=intent.task, epoch=intent.epoch,
                     action=intent.kind, values=intent.values, reason=intent.reason,
                     frame=intent.snapshot.sequence)
@@ -328,7 +334,10 @@ class Executor:
                 raise RuntimeError('Transport did not confirm a complete command write')
             self.record('action_acknowledged', task=intent.task, reason=intent.reason,
                 frame=intent.snapshot.sequence)
-            return dict(sent=True, acknowledged=True)
+            evidence = getattr(self.source, 'combat_evidence', None)
+            if evidence and intent.reason in ('attack','interact_target','ranged_opener','cooldown_strike'):
+                evidence.acknowledge_attack(intent.snapshot, intent.task, sent_at)
+            return dict(sent=True, acknowledged=True, sent_at=sent_at)
         except Exception as exc:
             self.record('action_failed' if wrote else 'action_rejected', task=intent.task, reason=str(exc))
             if wrote and isinstance(exc,GuardFailed):raise GuardFailed('input_guard_failed_after_write') from exc
@@ -419,10 +428,12 @@ class Scheduler:
         if self._stopped():
             ctx.cancelled = True
             raise Cancelled('stop_requested')
-        if self.clock() >= ctx.deadline:
-            raise GuardFailed('skill_deadline')
         if self.store.error:
             raise GuardFailed('evidence_writer_failed: '+self.store.error)
+        if self.clock() >= ctx.deadline:
+            if getattr(ctx,'run_deadline',None) is not None and self.clock() >= ctx.run_deadline:
+                raise Cancelled('run_deadline')
+            raise GuardFailed('skill_deadline')
 
     def _drive(self, factory, ctx, watch_threat):
         generator = factory(ctx)
@@ -540,7 +551,7 @@ class Scheduler:
             generator.close()
 
     def run(self, name, factory, seconds=90, interruptible=True, resume=True,
-            *, deadline=None, required_target=None):
+            *, deadline=None, required_target=None, run_deadline=None):
         skill_started_at=self.clock()
         self.task_number += 1
         task = f'{self.task_number:04d}-{name}'
@@ -550,6 +561,7 @@ class Scheduler:
         ctx = Context(task, task_deadline, epoch=self.executor.revoke(task),
             clock=self.clock, record=self.store.emit, required_target=required_target,
             current_snapshot=self.source.peek)
+        ctx.run_deadline = run_deadline
         ctx.vision_profile=getattr(getattr(self.source,'vision',None),'profile',{})
         ctx.threat_monitor=self.threat_monitor
         ctx.threat_log=getattr(self.source,'combat_log',None)
@@ -590,6 +602,11 @@ class Scheduler:
             result = Result('cancelled', str(exc),dict(ctx.checkpoint.get('confirmed_facts',{})))
         except Exception as exc:
             result = Result('failed', str(exc),dict(ctx.checkpoint.get('confirmed_facts',{})))
+        if ctx.checkpoint.get('uncertain_transaction'):
+            result=Result(result.status,result.reason,dict(result.facts,uncertain_transaction=True),result.evidence)
+        evidence=getattr(self.source,'combat_evidence',None)
+        if evidence and name in ('combat','defend'):
+            result=Result(result.status,result.reason,dict(result.facts,**evidence.facts(task)),result.evidence)
         self.executor.revoke()
         self.store.emit('skill_finished', task=task, result=asdict(result),
                         elapsed_seconds=max(0,self.clock()-skill_started_at))

@@ -14,6 +14,11 @@ class WorkflowEfficiencyTests(unittest.TestCase):
   strong=dict(x=1040,y=560,score=.72)
   self.assertEqual(loot_search_order(weak+[strong])[0],strong)
 
+ def test_temporal_sparkle_proposal_precedes_grid_without_authorizing_click(self):
+  from runtime_skills import loot_search_order
+  point=dict(x=984,y=562,score=.70,source='temporal_sparkles')
+  self.assertEqual(loot_search_order([point])[0],point)
+
  def test_inventory_cache_expires_and_invalidates_by_identity_or_transaction(self):
   from workflow_state import InventoryCache
   cache=InventoryCache();r=Result('completed','bag',{'empty':2})

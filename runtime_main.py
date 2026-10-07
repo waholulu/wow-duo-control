@@ -257,19 +257,49 @@ class Controller:
         self.cycles=self.kills=0
         self.looting=not args.no_loot
         self.workflow=getattr(scheduler,'workflow_options',{})
+        self.pull_budget=self.workflow.get('minimum_pull_budget_seconds',20)
+        if (type(self.pull_budget) not in (int,float) or not math.isfinite(self.pull_budget)
+                or not 5<=self.pull_budget<=120):
+            raise ValueError('minimum_pull_budget_seconds must be 5..120')
         from workflow_state import InventoryCache
         self.inventory=InventoryCache(self.workflow.get('inventory_cache_seconds',30))
         self.visited_minerals=set()
         self.visited_mining_positions=[]
 
     def ensure_safe_exit(self,result):
-        if (result.status!='failed' and result.reason!='run_deadline') or self.a.task not in ('patrol','hunt','combat'):
+        if self.a.task not in ('patrol','hunt','combat'):
             return result
+        if result.status=='cancelled' and result.reason!='run_deadline':return result
         if 'safety_exit' in result.facts:return result
         from runtime_safety import resolve_threat
         safety=resolve_threat(self.s,self.s.clock()+55)
+        self.sync_kills()
         self.store.emit('failure_exit_verified',decision=safety.reason,original_reason=result.reason)
-        return Result(result.status,result.reason,dict(result.facts,**safety.facts),result.evidence+safety.evidence)
+        facts=dict(result.facts,**safety.facts,confirmed_kills=self.kills)
+        evidence=getattr(getattr(self.s,'source',None),'combat_evidence',None)
+        if evidence:
+            facts['xp_event_ids']=evidence.facts()['xp_event_ids']
+            if self.a.task=='combat':facts['xp_events']=self.kills
+        status,reason=result.status,result.reason
+        if safety.status!='completed' and (status=='completed' or reason=='run_deadline'):
+            status,reason='failed','terminal_safety_unconfirmed'
+            facts['original_reason']=result.reason
+        return Result(status,reason,facts,result.evidence+safety.evidence)
+
+    def sync_kills(self):
+        evidence=getattr(getattr(self.s,'source',None),'combat_evidence',None)
+        if evidence:self.kills=evidence.facts()['xp_events']
+
+    def wind_down(self):
+        """No new pulls. Observe through the measurement boundary, then settle."""
+        def observe(ctx):
+            from threat_state import observe_threat
+            while True:
+                s=yield from fresh(ctx)
+                if observe_threat(ctx,s).active:
+                    return Result('failed','wind_down_under_threat')
+                yield from ctx.pause(.15)
+        return self.run_skill('observe_wind_down',observe,self.a.max_seconds,False,False)
 
     def inventory_identity(self):
         source=getattr(self.s,'source',None)
@@ -287,8 +317,10 @@ class Controller:
             return Result('cancelled','run_deadline')
         self.store.status(state=name,cycle=self.cycles,confirmed_kills=self.kills,loot_enabled=self.looting)
         defense_kills=getattr(self.s,'defense_kills',0)
-        result=self.s.run(name,factory,min(seconds,remaining),interruptible,resume,deadline=self.deadline)
+        result=self.s.run(name,factory,min(seconds,remaining),interruptible,resume,
+                          deadline=self.deadline,run_deadline=self.deadline)
         self.kills+=getattr(self.s,'defense_kills',0)-defense_kills
+        self.sync_kills()
         return result
 
     def navigation(self,points,allow_mining=False):
@@ -362,8 +394,13 @@ class Controller:
         a=self.a
         precombat_retries=0
         while time.monotonic()<self.deadline:
+            self.sync_kills()
+            if a.kills and self.kills>=a.kills:
+                return Result('completed','KILL_LIMIT_COMPLETE',dict(confirmed_kills=self.kills,cycles=self.cycles))
             if a.rounds and self.cycles>=a.rounds:
                 return Result('completed','ROUND_LIMIT_COMPLETE',dict(cycles=self.cycles,confirmed_kills=self.kills))
+            if self.deadline-time.monotonic()<=self.pull_budget:
+                return self.wind_down()
             self.cycles+=1
             ready=self.run_skill('ready',lambda c:prepare(c,self.s),75,False,False)
             if ready.status!='completed':return ready
@@ -386,9 +423,13 @@ class Controller:
                             return vendor
                         continue
                     return Result('completed','NEED_VENDOR',dict(empty_slots=bag.facts['empty']))
+            if self.deadline-time.monotonic()<=self.pull_budget:
+                return self.wind_down()
             hunt=self.run_skill('combat',lambda c:combat(c,self.s,a.combat_seconds),a.combat_seconds+46,False)
             # A later failed escape cannot erase already observed XP evidence.
-            self.kills+=hunt.facts.get('xp_events',0)
+            if getattr(getattr(self.s,'source',None),'combat_evidence',None):self.sync_kills()
+            else:self.kills+=hunt.facts.get('xp_events',0)
+            if hunt.status=='cancelled':return hunt
             if hunt.status=='completed':
                 precombat_retries=0
                 if self.looting:
@@ -535,6 +576,7 @@ def main(argv=None):
         p.error(str(exc))
     store=Store(a.output,vars(a),a.keep_cycles)
     result=Result('failed','startup_incomplete')
+    combat_evidence=None
     try:
         atomic_json(a.output/'runtime-profile.json',profile)
         atomic_json(a.output/'class-profile.json',character)
@@ -565,6 +607,7 @@ def main(argv=None):
                     from death_review import require_review
                     store.death_review_callback=lambda reason:require_review(ROOT,a.character_class,a.output,reason)
                 source=Perception(Feed(),vision,store,monitor_minerals=a.mining or a.task=='mining',route=route)
+                combat_evidence=source.combat_evidence
                 stack.callback(source.close)
                 executor=Executor(KMBox() if a.execute and a.task not in ('observe','safety') else None,source,store.emit)
                 executor.ctm_enabled=character['policy'].get('interact_key') is not None
@@ -612,6 +655,12 @@ def main(argv=None):
     except Exception as exc:
         result=Result('failed',str(exc))
     finally:
+        if combat_evidence is not None and a.task in ('combat','patrol','hunt'):
+            final_evidence=combat_evidence.facts()
+            facts=dict(result.facts,confirmed_kills=final_evidence['xp_events'],
+                       xp_event_ids=final_evidence['xp_event_ids'])
+            if a.task=='combat':facts['xp_events']=final_evidence['xp_events']
+            result=Result(result.status,result.reason,facts,result.evidence)
         try:
             store.close()
             from death_review import write_review_draft

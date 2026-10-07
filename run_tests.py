@@ -8,7 +8,7 @@ import unittest
 ROOT=Path(__file__).resolve().parent
 SUITES={
  'core': 'test_runtime_engine test_core_lifecycle test_core_serial test_death_review test_controller_ownership'.split(),
- 'combat': '''test_class_profiles test_combat_audit_fixes test_combat_death_regression test_combat_escape
+ 'combat': '''test_foundation_fixes test_rate_evidence test_class_profiles test_combat_audit_fixes test_combat_death_regression test_combat_escape
  test_combat_exit_watch test_combat_log_decisions test_threat_state
  test_escape_quiet test_judgement_opener test_mana_rest test_mana_target_regression
  test_near_zero_target test_paused_logic_audit test_precombat_retry test_recent_runtime_fixes

@@ -340,5 +340,5 @@ class FailedPullRecoveryTest(unittest.TestCase):
         from runtime_skills import disengage_unreachable
         d=Driver();d.observation.in_combat=True;d.observation.target=True
         result=d.run(disengage_unreachable(d.ctx))
-        self.assertEqual(result.reason,'still_in_combat_after_clear')
-        self.assertEqual([a.reason for a in d.actions],['clear_unreachable_target'])
+        self.assertEqual(result.reason,'threat_after_failed_pull')
+        self.assertEqual(d.actions,[])
